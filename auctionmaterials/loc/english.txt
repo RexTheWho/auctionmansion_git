@@ -1,0 +1,4 @@
+{
+	"bm_melee_biggavel":"Oversized Gavel",
+	"bm_melee_biggavel_desc":"That's it! Im gettin' me mallet!"
+}

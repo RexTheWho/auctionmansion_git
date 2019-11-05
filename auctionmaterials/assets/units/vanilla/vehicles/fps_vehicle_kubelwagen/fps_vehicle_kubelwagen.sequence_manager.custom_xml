@@ -1,0 +1,156 @@
+<table>
+	<unit>
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+			<object enabled="false" name="'g_steering_wheel'"/>
+			<object enabled="true" name="'g_fps_steering_wheel'"/>
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+			<object enabled="true" name="'g_steering_wheel'"/>
+			<object enabled="false" name="'g_fps_steering_wheel'"/>
+		</sequence>
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_static_vehicle'"/>
+			<body enabled="false" name="'body_chassis'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_static_vehicle'"/>
+			<body enabled="true" name="'body_chassis'"/>
+			<graphic_group name="'g_light_on'" visibility="true"/>
+			<effect_spawner enabled="true" name="'lamp_glow_front_01'"/>
+			<effect_spawner enabled="true" name="'lamp_glow_front_02'"/>
+			<effect_spawner enabled="true" name="'lamp_glow_back_01'"/>
+			<effect_spawner enabled="true" name="'lamp_glow_back_02'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+			<run_sequence name="'state_vis_icon_entry_enabled'"/>
+			<run_sequence name="'state_vis_icon_loot_enabled'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			<run_sequence name="'state_vis_icon_entry_disabled'"/>
+			<run_sequence name="'state_vis_icon_loot_disabled'"/>
+		</sequence>
+		<sequence name="'state_vis_icon_entry_enabled'">
+			<graphic_group name="'grp_icon_entry'" visibility="true"/>
+		</sequence>
+		<sequence name="'state_vis_icon_entry_disabled'">
+			<graphic_group name="'grp_icon_entry'" visibility="false"/>
+		</sequence>
+		<sequence name="'state_vis_icon_repair_enabled'">
+			<graphic_group name="'grp_icon_repair'" visibility="true"/>
+		</sequence>
+		<sequence name="'state_vis_icon_repair_disabled'">
+			<graphic_group name="'grp_icon_repair'" visibility="false"/>
+		</sequence>
+		<variables>
+			<var_gas_tank value="0"/>
+			<var_bag value="0"/>
+			<var_slot0 value="0"/>
+			<var_slot1 value="0"/>
+			<var_slot2 value="0"/>
+			<var_slot3 value="0"/>
+			<var_slot4 value="0"/>
+			<var_slot5 value="0"/>
+			<var_slot6 value="0"/>
+			<var_slot7 value="0"/>
+		</variables>
+		<filter name="'is_gas_tank_spawned'">
+			<check value="vars.var_gas_tank == 1"/>
+		</filter>
+		<filter name="'no_gas_tank_spawned'">
+			<check value="vars.var_gas_tank == 0"/>
+		</filter>
+		<filter name="'filter_slot_0_loot'">
+			<check value="vars.var_slot0 == 0"/>
+		</filter>
+		<filter name="'filter_slot_1_loot'">
+			<check value="vars.var_slot1 == 0"/>
+		</filter>
+		<filter name="'filter_slot_2_loot'">
+			<check value="vars.var_slot2 == 0"/>
+		</filter>
+		<filter name="'filter_slot_3_loot'">
+			<check value="vars.var_slot3 == 0"/>
+		</filter>
+		<filter name="'filter_slot_4_loot'">
+			<check value="vars.var_slot4 == 0"/>
+		</filter>
+		<filter name="'filter_slot_5_loot'">
+			<check value="vars.var_slot5 == 0"/>
+		</filter>
+		<filter name="'filter_slot_6_loot'">
+			<check value="vars.var_slot6 == 0"/>
+		</filter>
+		<filter name="'filter_slot_7_loot'">
+			<check value="vars.var_slot7 == 0"/>
+		</filter>
+		<filter name="'filter_bag_0'">
+			<check value="vars.var_bag == 0"/>
+		</filter>
+		<filter name="'filter_bag_1'">
+			<check value="vars.var_bag == 1"/>
+		</filter>
+		<filter name="'filter_bag_2'">
+			<check value="vars.var_bag == 2"/>
+		</filter>
+		<filter name="'filter_bag_3'">
+			<check value="vars.var_bag == 3"/>
+		</filter>
+		<filter name="'filter_bag_4'">
+			<check value="vars.var_bag == 4"/>
+		</filter>
+		<filter name="'filter_bag_5'">
+			<check value="vars.var_bag == 5"/>
+		</filter>
+		<filter name="'filter_bag_6'">
+			<check value="vars.var_bag == 6"/>
+		</filter>
+		<filter name="'filter_bag_7'">
+			<check value="vars.var_bag == 7"/>
+		</filter>
+		<filter name="'filter_bag_8'">
+			<check value="vars.var_bag == 8"/>
+		</filter>
+		<filter name="'filter_slot_0_gold'">
+			<check value="vars.var_slot0 == 1"/>
+		</filter>
+		<filter name="'filter_slot_1_gold'">
+			<check value="vars.var_slot1 == 1"/>
+		</filter>
+		<filter name="'filter_slot_2_gold'">
+			<check value="vars.var_slot2 == 1"/>
+		</filter>
+		<filter name="'filter_slot_3_gold'">
+			<check value="vars.var_slot3 == 1"/>
+		</filter>
+		<filter name="'filter_slot_4_gold'">
+			<check value="vars.var_slot4 == 1"/>
+		</filter>
+		<filter name="'filter_slot_5_gold'">
+			<check value="vars.var_slot5 == 1"/>
+		</filter>
+		<filter name="'filter_slot_6_gold'">
+			<check value="vars.var_slot6 == 1"/>
+		</filter>
+		<filter name="'filter_slot_7_gold'">
+			<check value="vars.var_slot7 == 1"/>
+		</filter>
+		<sequence editable_state="false" name="'int_seq_repaired'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_med_damaged'" triggable="false">
+			<effect_spawner enabled="true" name="'es_smoke_med'"/>
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_full_damaged'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+			<effect_spawner enabled="true" name="'es_smoke_full'"/>
+		</sequence>
+	</unit>
+</table>

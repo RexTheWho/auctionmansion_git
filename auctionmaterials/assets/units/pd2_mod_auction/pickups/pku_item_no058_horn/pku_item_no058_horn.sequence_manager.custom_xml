@@ -1,0 +1,51 @@
+<table>
+	<unit>
+		<variables>
+			<var_hidden value="0"/>
+		</variables>
+		<filter name="'filter_visible'">
+			<check value="vars.var_hidden == 0"/>
+		</filter>
+		
+		<sequence editable_state="true" filter="'filter_visible'" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<object name="g_glass"		enabled="false" />
+			<object name="g_case"		enabled="false" />
+			<object name="g_diamond"	enabled="false" />
+			<object name="g_tag"		enabled="false" />
+			<decal_mesh name="g_glass"	enabled="false" />
+			<decal_mesh name="g_case"	enabled="false" />
+			<body name="'body_static'"	enabled="false" />
+			<set_variables var_hidden="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object name="g_glass"		enabled="true" />
+			<object name="g_case"		enabled="true" />
+			<object name="g_diamond"	enabled="true" />
+			<object name="g_tag"		enabled="true" />
+			<decal_mesh name="g_glass"	enabled="true" />
+			<decal_mesh name="g_case"	enabled="true" />
+			<body name="'body_static'"	enabled="true" />
+			<set_variables var_hidden="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_and_enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<object name="g_glass"		enabled="true" />
+			<object name="g_case"		enabled="true" />
+			<object name="g_diamond"	enabled="true" />
+			<object name="g_tag"		enabled="true" />
+			<decal_mesh name="g_glass"	enabled="true" />
+			<decal_mesh name="g_case"	enabled="true" />
+			<body name="'body_static'"	enabled="true" />
+			<set_variables var_hidden="0"/>
+		</sequence>
+		<sequence name="'interact'" />
+		<sequence name="'load'" />
+	</unit>
+</table>

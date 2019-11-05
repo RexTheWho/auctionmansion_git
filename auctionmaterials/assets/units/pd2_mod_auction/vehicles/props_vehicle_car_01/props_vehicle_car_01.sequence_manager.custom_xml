@@ -1,0 +1,16 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'drive_100m'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim'" to="214/30"/>
+			<run_sequence name="'hide'" start_time="214/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<graphic_group name="'gfx_grp'" visibility="true"/>
+			<body enabled="true" name="'static_body'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<graphic_group name="'gfx_grp'" visibility="false"/>
+			<body enabled="false" name="'static_body'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/test/material_test" orientation_object="rp_rootpoint" />
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="g_wallpaper_3"	collision_type="mesh_mopp" />
+			<object name="g_flooring_3"		collision_type="mesh_mopp" />
+			<object name="g_flooring_7"		collision_type="mesh_mopp" />
+			<object name="g_woodbeam"		collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_group" enabled="true" culling_object="co_culling">
+			<object name="g_wallpaper_3"	enabled="true"	shadow_caster="true"/>
+			<object name="g_flooring_3"		enabled="true"	shadow_caster="true"/>
+			<object name="g_flooring_7"		enabled="true"	shadow_caster="true"/>
+			<object name="g_woodbeam"		enabled="true"	shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

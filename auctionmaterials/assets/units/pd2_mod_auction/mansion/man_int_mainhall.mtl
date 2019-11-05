@@ -1,0 +1,109 @@
+# Blender MTL File: 'man_int_mainhall.blend'
+# Material Count: 10
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl _0_Flooring8
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\Users\donts\Desktop\blendergood\textures\Flooring8.jpg
+
+newmtl _0_wood1
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\Users\donts\Desktop\blendergood\textures\wood1.png
+
+newmtl _0_wood2
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\Users\donts\Desktop\blendergood\textures\wood2.png
+
+newmtl _0_wood9
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\Users\donts\Desktop\blendergood\textures\wood9.jpg
+
+newmtl mtl_flooring_11
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 0
+map_Kd C:\Users\donts\Desktop\blendergood\textures\Flooring11.jpg
+
+newmtl mtl_flooring_3
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\auctionmaterials\assets\units\pd2_mod_auction\textures\flooring_3_df.texture
+
+newmtl mtl_flooring_7
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\auctionmaterials\assets\units\pd2_mod_auction\textures\flooring_7_df.texture
+
+newmtl mtl_wallpaper_3
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\auctionmaterials\assets\units\pd2_mod_auction\textures\wallpaper_3_df.texture
+
+newmtl mtl_woodbeam
+Ns 223.529412
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\auctionmaterials\assets\units\pd2_mod_auction\textures\woodenbeam_df.texture

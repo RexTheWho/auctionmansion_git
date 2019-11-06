@@ -1,0 +1,15 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-3400 4150 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" name_id="props_vehicle_car_01_001" position="-3400 4150 0" rotation="-0 0 -0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3400 4850 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 700 0" local_rot="-0 0 0 1" mesh_variation="state_interaction_disabled" name="units/vanilla/vehicles/fps_vehicle_kubelwagen/fps_vehicle_kubelwagen" name_id="fps_vehicle_kubelwagen_001" position="-3400 4850 0" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

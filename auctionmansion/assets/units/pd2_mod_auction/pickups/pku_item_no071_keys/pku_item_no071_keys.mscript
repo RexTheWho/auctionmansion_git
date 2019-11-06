@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="interact" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="15" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <import file="pku_item_no071_keys.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+</modelscript>

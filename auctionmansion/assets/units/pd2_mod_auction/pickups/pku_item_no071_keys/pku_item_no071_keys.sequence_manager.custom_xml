@@ -1,0 +1,50 @@
+<table>
+	<unit>
+		<variables>
+			<var_in value="0"/>
+		</variables>
+		<filter name="'filter_0'">
+			<check value="vars.var_in == 0"/>
+		</filter>
+		<filter name="'filter_1'">
+			<check value="vars.var_in == 1"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_hide'" triggable="true">
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_caseglass'"/>
+			<object enabled="false" name="'g_case'"/>
+			<object enabled="false" name="'g_glass'"/>
+			<object enabled="false" name="'g_keys'"/>
+			<object enabled="false" name="'g_tag'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show_and_enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_caseglass'"/>
+			<object enabled="true" name="'g_case'"/>
+			<object enabled="true" name="'g_glass'"/>
+			<object enabled="true" name="'g_keys'"/>
+			<object enabled="true" name="'g_tag'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<function extension="'interaction'" filter="'filter_0'" function="'set_tweak_data'" param1="'take_keys'"/>
+			<interaction filter="'filter_0'" enabled="true"/>
+			<object enabled="false" name="'g_glass'"/>
+			<decal_mesh name="g_glass"	enabled="false" />
+			<run_sequence filter="'filter_1'" name="'done_keys_taken'"/>
+			<set_variables var_in="1"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'done_keys_taken'" triggable="true">
+			<object enabled="false" name="'g_keys'"/>
+		</sequence>
+	</unit>
+</table>

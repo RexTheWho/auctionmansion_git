@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/pickups/pku_item_no070_block/pku_item_no070_block" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/pickups/pku_item_no070_block/pku_item_no070_block" />
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_rootpoint" />
+			<object name="c_c"	collision_type="box" padding="-3" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_glass"	enabled="true" material="glass" />
+		<decal_mesh name="g_case"	enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="g_group" enabled="true" culling_object="co_culling">
+			<object name="g_glass"		enabled="true"/>
+			<object name="g_case"		enabled="true"/>
+			<object name="g_block"		enabled="true"/>
+			<object name="g_tag"		enabled="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<table>
+	<art_croqui file="art_croqui/art_croqui"/>
+	<editor_only file="editor_only/editor_only"/>
+	<temp file="temp/temp"/>
+	<world file="world/world"/>
+</table>

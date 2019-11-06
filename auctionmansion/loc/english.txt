@@ -1,0 +1,9 @@
+{
+	"heist_narr_auctionmansion_name":"JOB NAME",
+	"heist_narr_auctionmansion_brief":"JOB BRIEF",
+	"heist_auctionmansion_name":"LVL NAME",
+	"heist_auctionmansion_brief":"LVL BRIEF",
+	"bm_melee_biggavel":"Oversized Gavel",
+	"bm_melee_biggavel_desc":"That's it! Im gettin' me mallet!",
+	"hud_carry_auction_item":"Auction Item"
+}

@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_prop_kitchen_table_cloth" materials="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth"/>
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_res_prop_kitchen_table_cloth" />
+    </graphics>
+</dynamic_object>

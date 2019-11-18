@@ -3,7 +3,8 @@
     <object3d name="rp_rootpoint" mode="add">
         <parent root="true" />
     </object3d>
-    <import file="material_test.obj" type="obj" create_objects="true">
+    <!-- <import file="material_test.obj" type="obj" create_objects="true"> -->
+    <import file="AuctionMansion.obj" type="obj" create_objects="true">
         <rootpoint name="rp_rootpoint">
             <default/>
             <object name="co_culling" />

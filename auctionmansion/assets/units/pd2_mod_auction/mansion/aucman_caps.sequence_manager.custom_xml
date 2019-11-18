@@ -1,0 +1,250 @@
+<table>
+	<unit>
+		<!--TOGGLE ALL CAPS-->
+		<sequence editable_state="true" name="'disable_all_caps'" triggable="true">
+			<object name="'g_catwalk_cars_back'"		enabled="false" />
+			<object name="'g_catwalk_cars_back_cover'"	enabled="false" />
+			<object name="'g_catwalk_cars_front'"		enabled="false" />
+			<object name="'g_catwalk_cars_front_cover'"	enabled="false" />
+			<object name="'g_catwalk_left'"				enabled="false" />
+			<object name="'g_catwalk_left_cover'"		enabled="false" />
+			<object name="'g_catwalk_main'"				enabled="false" />
+			<object name="'g_catwalk_main_cover'"		enabled="false" />
+			<object name="'g_catwalk_right'"			enabled="false" />
+			<object name="'g_catwalk_right_cover'"		enabled="false" />
+			<object name="'g_ceiling_broken_01'"		enabled="false" />
+			<object name="'g_ceiling_broken_02'"		enabled="false" />
+			<object name="'g_ceiling_broken_03'"		enabled="false" />
+			<object name="'g_ceiling_broken_04'"		enabled="false" />
+			<object name="'g_ceiling_full_01'"			enabled="false" />
+			<object name="'g_ceiling_full_02'"			enabled="false" />
+			<object name="'g_ceiling_full_03'"			enabled="false" />
+			<object name="'g_ceiling_full_04'"			enabled="false" />
+			<object name="'g_path_high1_cover'"			enabled="false" />
+			<object name="'g_path_high2_cover'"			enabled="false" />
+			<object name="'g_path_low1_cover'"			enabled="false" />
+			<object name="'g_path_low2_cover'"			enabled="false" />
+			<object name="'g_roofdoor1_cover1'"			enabled="false" />
+			<object name="'g_roofdoor1_cover2'"			enabled="false" />
+			<object name="'g_roofdoor2_cover1'"			enabled="false" />
+			<object name="'g_roofdoor2_cover2'"			enabled="false" />
+			<object name="'g_skylight_left_cover'"		enabled="false" />
+			<object name="'g_skylight_right_cover'"		enabled="false" />
+			<object name="'g_stairway_main1'"			enabled="false" />
+			<object name="'g_stairway_main2'"			enabled="false" />
+			
+			<body name="'body_catwalk_cars_back'"			enabled="false" />
+			<body name="'body_catwalk_cars_back_cover'"		enabled="false" />
+			<body name="'body_catwalk_cars_front'"			enabled="false" />
+			<body name="'body_catwalk_cars_front_cover'"	enabled="false" />
+			<body name="'body_catwalk_left'"				enabled="false" />
+			<body name="'body_catwalk_left_cover'"			enabled="false" />
+			<body name="'body_catwalk_main'"				enabled="false" />
+			<body name="'body_catwalk_main_cover'"			enabled="false" />
+			<body name="'body_catwalk_right'"				enabled="false" />
+			<body name="'body_catwalk_right_cover'"			enabled="false" />
+			<body name="'body_ceiling_broken_01'"			enabled="false" />
+			<body name="'body_ceiling_broken_02'"			enabled="false" />
+			<body name="'body_ceiling_broken_03'"			enabled="false" />
+			<body name="'body_ceiling_broken_04'"			enabled="false" />
+			<body name="'body_ceiling_full_01'"				enabled="false" />
+			<body name="'body_ceiling_full_02'"				enabled="false" />
+			<body name="'body_ceiling_full_03'"				enabled="false" />
+			<body name="'body_ceiling_full_04'"				enabled="false" />
+			<body name="'body_path_high1_cover'"			enabled="false" />
+			<body name="'body_path_high2_cover'"			enabled="false" />
+			<body name="'body_path_low1_cover'"				enabled="false" />
+			<body name="'body_path_low2_cover'"				enabled="false" />
+			<body name="'body_roofdoor1_cover1'"			enabled="false" />
+			<body name="'body_roofdoor1_cover2'"			enabled="false" />
+			<body name="'body_roofdoor2_cover1'"			enabled="false" />
+			<body name="'body_roofdoor2_cover2'"			enabled="false" />
+			<body name="'body_skylight_left_cover'"			enabled="false" />
+			<body name="'body_skylight_right_cover'"		enabled="false" />
+			<body name="'body_stairway_main1'"				enabled="false" />
+			<body name="'body_stairway_main2'"				enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'enable_all_caps'" triggable="true">
+			<object name="'g_catwalk_cars_back'"		enabled="true" />
+			<object name="'g_catwalk_cars_back_cover'"	enabled="true" />
+			<object name="'g_catwalk_cars_front'"		enabled="true" />
+			<object name="'g_catwalk_cars_front_cover'"	enabled="true" />
+			<object name="'g_catwalk_left'"				enabled="true" />
+			<object name="'g_catwalk_left_cover'"		enabled="true" />
+			<object name="'g_catwalk_main'"				enabled="true" />
+			<object name="'g_catwalk_main_cover'"		enabled="true" />
+			<object name="'g_catwalk_right'"			enabled="true" />
+			<object name="'g_catwalk_right_cover'"		enabled="true" />
+			<object name="'g_ceiling_broken_01'"		enabled="true" />
+			<object name="'g_ceiling_broken_02'"		enabled="true" />
+			<object name="'g_ceiling_broken_03'"		enabled="true" />
+			<object name="'g_ceiling_broken_04'"		enabled="true" />
+			<object name="'g_ceiling_full_01'"			enabled="true" />
+			<object name="'g_ceiling_full_02'"			enabled="true" />
+			<object name="'g_ceiling_full_03'"			enabled="true" />
+			<object name="'g_ceiling_full_04'"			enabled="true" />
+			<object name="'g_path_high1_cover'"			enabled="true" />
+			<object name="'g_path_high2_cover'"			enabled="true" />
+			<object name="'g_path_low1_cover'"			enabled="true" />
+			<object name="'g_path_low2_cover'"			enabled="true" />
+			<object name="'g_roofdoor1_cover1'"			enabled="true" />
+			<object name="'g_roofdoor1_cover2'"			enabled="true" />
+			<object name="'g_roofdoor2_cover1'"			enabled="true" />
+			<object name="'g_roofdoor2_cover2'"			enabled="true" />
+			<object name="'g_skylight_left_cover'"		enabled="true" />
+			<object name="'g_skylight_right_cover'"		enabled="true" />
+			<object name="'g_stairway_main1'"			enabled="true" />
+			<object name="'g_stairway_main2'"			enabled="true" />
+			
+			<body name="'body_catwalk_cars_back'"			enabled="true" />
+			<body name="'body_catwalk_cars_back_cover'"		enabled="true" />
+			<body name="'body_catwalk_cars_front'"			enabled="true" />
+			<body name="'body_catwalk_cars_front_cover'"	enabled="true" />
+			<body name="'body_catwalk_left'"				enabled="true" />
+			<body name="'body_catwalk_left_cover'"			enabled="true" />
+			<body name="'body_catwalk_main'"				enabled="true" />
+			<body name="'body_catwalk_main_cover'"			enabled="true" />
+			<body name="'body_catwalk_right'"				enabled="true" />
+			<body name="'body_catwalk_right_cover'"			enabled="true" />
+			<body name="'body_ceiling_broken_01'"			enabled="true" />
+			<body name="'body_ceiling_broken_02'"			enabled="true" />
+			<body name="'body_ceiling_broken_03'"			enabled="true" />
+			<body name="'body_ceiling_broken_04'"			enabled="true" />
+			<body name="'body_ceiling_full_01'"				enabled="true" />
+			<body name="'body_ceiling_full_02'"				enabled="true" />
+			<body name="'body_ceiling_full_03'"				enabled="true" />
+			<body name="'body_ceiling_full_04'"				enabled="true" />
+			<body name="'body_path_high1_cover'"			enabled="true" />
+			<body name="'body_path_high2_cover'"			enabled="true" />
+			<body name="'body_path_low1_cover'"				enabled="true" />
+			<body name="'body_path_low2_cover'"				enabled="true" />
+			<body name="'body_roofdoor1_cover1'"			enabled="true" />
+			<body name="'body_roofdoor1_cover2'"			enabled="true" />
+			<body name="'body_roofdoor2_cover1'"			enabled="true" />
+			<body name="'body_roofdoor2_cover2'"			enabled="true" />
+			<body name="'body_skylight_left_cover'"			enabled="true" />
+			<body name="'body_skylight_right_cover'"		enabled="true" />
+			<body name="'body_stairway_main1'"				enabled="true" />
+			<body name="'body_stairway_main2'"				enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'default_open_all_paths'" triggable="true">
+			<object name="'g_catwalk_cars_back'"		enabled="true" />
+			<object name="'g_catwalk_cars_back_cover'"	enabled="false" />
+			<object name="'g_catwalk_cars_front'"		enabled="true" />
+			<object name="'g_catwalk_cars_front_cover'"	enabled="false" />
+			<object name="'g_catwalk_left'"				enabled="true" />
+			<object name="'g_catwalk_left_cover'"		enabled="false" />
+			<object name="'g_catwalk_main'"				enabled="true" />
+			<object name="'g_catwalk_main_cover'"		enabled="false" />
+			<object name="'g_catwalk_right'"			enabled="true" />
+			<object name="'g_catwalk_right_cover'"		enabled="false" />
+			<object name="'g_ceiling_broken_01'"		enabled="true" />
+			<object name="'g_ceiling_broken_02'"		enabled="true" />
+			<object name="'g_ceiling_broken_03'"		enabled="true" />
+			<object name="'g_ceiling_broken_04'"		enabled="true" />
+			<object name="'g_ceiling_full_01'"			enabled="false" />
+			<object name="'g_ceiling_full_02'"			enabled="false" />
+			<object name="'g_ceiling_full_03'"			enabled="false" />
+			<object name="'g_ceiling_full_04'"			enabled="false" />
+			<object name="'g_path_high1_cover'"			enabled="false" />
+			<object name="'g_path_high2_cover'"			enabled="false" />
+			<object name="'g_path_low1_cover'"			enabled="false" />
+			<object name="'g_path_low2_cover'"			enabled="false" />
+			<object name="'g_roofdoor1_cover1'"			enabled="false" />
+			<object name="'g_roofdoor1_cover2'"			enabled="false" />
+			<object name="'g_roofdoor2_cover1'"			enabled="false" />
+			<object name="'g_roofdoor2_cover2'"			enabled="false" />
+			<object name="'g_skylight_left_cover'"		enabled="false" />
+			<object name="'g_skylight_right_cover'"		enabled="false" />
+			<object name="'g_stairway_main1'"			enabled="false" />
+			<object name="'g_stairway_main2'"			enabled="false" />
+			
+			<body name="'body_catwalk_cars_back'"			enabled="true" />
+			<body name="'body_catwalk_cars_back_cover'"		enabled="false" />
+			<body name="'body_catwalk_cars_front'"			enabled="true" />
+			<body name="'body_catwalk_cars_front_cover'"	enabled="false" />
+			<body name="'body_catwalk_left'"				enabled="true" />
+			<body name="'body_catwalk_left_cover'"			enabled="false" />
+			<body name="'body_catwalk_main'"				enabled="true" />
+			<body name="'body_catwalk_main_cover'"			enabled="false" />
+			<body name="'body_catwalk_right'"				enabled="true" />
+			<body name="'body_catwalk_right_cover'"			enabled="false" />
+			<body name="'body_ceiling_broken_01'"			enabled="true" />
+			<body name="'body_ceiling_broken_02'"			enabled="true" />
+			<body name="'body_ceiling_broken_03'"			enabled="true" />
+			<body name="'body_ceiling_broken_04'"			enabled="true" />
+			<body name="'body_ceiling_full_01'"				enabled="false" />
+			<body name="'body_ceiling_full_02'"				enabled="false" />
+			<body name="'body_ceiling_full_03'"				enabled="false" />
+			<body name="'body_ceiling_full_04'"				enabled="false" />
+			<body name="'body_path_high1_cover'"			enabled="false" />
+			<body name="'body_path_high2_cover'"			enabled="false" />
+			<body name="'body_path_low1_cover'"				enabled="false" />
+			<body name="'body_path_low2_cover'"				enabled="false" />
+			<body name="'body_roofdoor1_cover1'"			enabled="false" />
+			<body name="'body_roofdoor1_cover2'"			enabled="false" />
+			<body name="'body_roofdoor2_cover1'"			enabled="false" />
+			<body name="'body_roofdoor2_cover2'"			enabled="false" />
+			<body name="'body_skylight_left_cover'"			enabled="false" />
+			<body name="'body_skylight_right_cover'"		enabled="false" />
+			<body name="'body_stairway_main1'"				enabled="false" />
+			<body name="'body_stairway_main2'"				enabled="false" />
+		</sequence>
+		
+		<!--SET STAIRS-->
+		<sequence editable_state="true" name="'set_stairway_main1'" triggable="true">
+			<object name="'g_stairway_main1'"	enabled="true" />
+			<body name="'body_stairway_main1'"	enabled="true" />
+			<object name="'g_stairway_main2'"	enabled="false" />
+			<body name="'body_stairway_main2'"	enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'set_stairway_main2'" triggable="true">
+			<object name="'g_stairway_main1'"	enabled="false" />
+			<body name="'body_stairway_main1'"	enabled="false" />
+			<object name="'g_stairway_main2'"	enabled="true" />
+			<body name="'body_stairway_main2'"	enabled="true" />
+		</sequence>
+		
+		<!--HIDE SKYLIGHT COVERS-->
+		<sequence editable_state="true" name="'hide_skylight_cap2'" triggable="true">
+			<object name="'g_skylight_left_cover'"		enabled="false" />
+			<body name="'body_skylight_left_cover'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_skylight_cap1'" triggable="true">
+			<object name="'g_skylight_right_cover'"		enabled="false" />
+			<body name="'body_skylight_right_cover'"	enabled="false" />
+		</sequence>
+		
+		<!--HIDE CATWALKS-->
+		<sequence editable_state="true" name="'hide_catwalk_1'" triggable="true">
+			<object name="'g_catwalk_left'"					enabled="false" />
+			<body name="'body_catwalk_left'"				enabled="false" />
+			<object name="'g_catwalk_left_cover'"			enabled="true" />
+			<body name="'body_catwalk_left_cover'"			enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_catwalk_2'" triggable="true">
+			<object name="'g_catwalk_right'"				enabled="false" />
+			<body name="'body_catwalk_right'"				enabled="false" />
+			<object name="'g_catwalk_right_cover'"			enabled="true" />
+			<body name="'body_catwalk_right_cover'"			enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_catwalk_3'" triggable="true">
+			<object name="'g_catwalk_main'"					enabled="false" />
+			<body name="'body_catwalk_main'"				enabled="false" />
+			<object name="'g_catwalk_main_cover'"			enabled="true" />
+			<body name="'body_catwalk_main_cover'"			enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_catwalk_4'" triggable="true">
+			<object name="'g_catwalk_cars_back'"			enabled="false" />
+			<body name="'body_catwalk_cars_back'"			enabled="false" />
+			<object name="'g_catwalk_cars_back_cover'"		enabled="true" />
+			<body name="'body_catwalk_cars_back_cover'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_catwalk_5'" triggable="true">
+			<object name="'g_catwalk_cars_front'"			enabled="false" />
+			<body name="'body_catwalk_cars_front'"			enabled="false" />
+			<object name="'g_catwalk_cars_front_cover'"		enabled="true" />
+			<body name="'body_catwalk_cars_front_cover'"	enabled="true" />
+		</sequence>
+	</unit>
+</table>

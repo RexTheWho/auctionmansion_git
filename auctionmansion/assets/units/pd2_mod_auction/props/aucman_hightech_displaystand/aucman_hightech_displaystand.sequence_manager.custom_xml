@@ -1,0 +1,83 @@
+<table>
+	<unit>
+		<body name="'body_glass'">
+			<endurance damage="1">
+				<run_sequence name="'glass_break'"/>
+			</endurance>
+		</body>
+		<variables>
+			<var_loot value="0"/>
+		</variables>
+		<filter name="'filter_loot1'">
+			<check value="vars.var_loot == 1"/>
+		</filter>
+		<filter name="'filter_loot2'">
+			<check value="vars.var_loot == 2"/>
+		</filter>
+		<filter name="'filter_loot3'">
+			<check value="vars.var_loot == 3"/>
+		</filter>
+		<filter name="'filter_loot4'">
+			<check value="vars.var_loot == 4"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'set_loot_1'" triggable="true">
+		</sequence>
+		
+		<sequence editable_state="true" name="'glass_break'" triggable="true">
+			<object name="'g_glass'"			enabled="false" />
+			<object name="'g_glass_cut'"		enabled="false" />
+			<object name="'g_glass_shattered'"	enabled="true" />
+			<body enabled="false" name="'body_glass'"/>
+		</sequence>
+		<sequence editable_state="true" name="'glass_cut'" triggable="true">
+			<object name="'g_glass'"			enabled="false" />
+			<object name="'g_glass_cut'"		enabled="true" />
+			<object name="'g_glass_shattered'"	enabled="false" />
+			<body enabled="true" name="'body_glass'"/>
+		</sequence>
+		<sequence editable_state="true" name="'glass_solid'" triggable="true">
+			<object name="'g_glass'"			enabled="true" />
+			<object name="'g_glass_cut'"		enabled="false" />
+			<object name="'g_glass_shattered'"	enabled="false" />
+			<body enabled="true" name="'body_glass'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction  enabled="false"/>
+			
+			<object name="'g_base'"			enabled="false"/>
+			<object name="'g_mul'"			enabled="false"/>
+			<object name="'g_gensec'"		enabled="false"/>
+			<object name="'g_glass'"		enabled="false"/>
+			<object name="'g_security'"		enabled="false"/>
+			<object name="'g_stand'"		enabled="false"/>
+			<object name="'g_panel'"		enabled="false"/>
+			<object name="'g_panel_opened'"	enabled="false"/>
+			<object name="'g_gui_lockpick'"	enabled="false"/>
+			<object name="'g_artitem_001'"	enabled="false"/>
+			<object name="'g_artitem_002'"	enabled="false"/>
+			<object name="'g_artitem_003'"	enabled="false"/>
+			<object name="'g_artitem_004'"	enabled="false"/>
+			
+			<body enabled="false" name="'body_caseglass'"/>
+			
+			<decal_mesh name="g_glass"	enabled="false" />
+			
+			<set_variables var_loot="0"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true" >
+			<object name="'g_gui_lockpick'"	enabled="false"/>
+			<object name="'g_panel'"		enabled="false"/>
+			<object name="'g_panel_opened'"	enabled="true"/>
+		</sequence>
+	</unit>
+</table>

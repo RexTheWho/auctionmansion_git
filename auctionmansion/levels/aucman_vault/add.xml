@@ -1,0 +1,148 @@
+<table directory="assets">
+	<!--Auction Items-->
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+	</add>
+	<add path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
+		<unit force="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>
+		<font force="true" path="fonts/font_digital" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" type="unit">
+		<unit force="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" unload="true"/>
+		<object force="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_cro/lockpick_interactable/lockpick_interactable" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" type="unit">
+		<unit force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+		<object force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+	</add>
+	<add path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" type="unit">
+		<unit force="true" path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" unload="true"/>
+		<object force="true" path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" unload="true"/>
+		<material_config force="true" path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" type="unit">
+		<unit force="true" path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" unload="true"/>
+		<object force="true" path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" unload="true"/>
+	</add>
+	<add path="units/world/props/hotel/vent/vent_circle" type="unit">
+		<unit force="true" path="units/world/props/hotel/vent/vent_circle" unload="true"/>
+		<object force="true" path="units/world/props/hotel/vent/vent_circle" unload="true"/>
+		<material_config force="true" path="units/world/props/hotel/vent/vents" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" type="unit">
+		<unit force="true" path="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_int_gallery_art_pedestal/com_prop_int_gallery_art_pedestal" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" type="unit">
+		<unit force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+		<object force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_red/props/red_prop_office_windows/red_prop_office_window_01" type="unit">
+		<unit force="true" path="units/pd2_dlc_red/props/red_prop_office_windows/red_prop_office_window_01" unload="true"/>
+		<object force="true" path="units/pd2_dlc_red/props/red_prop_office_windows/red_prop_office_window_01" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_red/architecture/red" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_red/props/red_prop_office_windows/red_prop_office_window_01" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7" type="unit">
+		<unit force="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7" unload="true"/>
+		<object force="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7" unload="true"/>
+		<material_config force="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7" unload="true"/>
+	</add>
+	<add path="units/world/props/statues/statue_base" type="unit">
+		<unit force="true" path="units/world/props/statues/statue_base" unload="true"/>
+		<object force="true" path="units/world/props/statues/statue_base" unload="true"/>
+		<material_config force="true" path="units/world/props/statues/statue" unload="true"/>
+	</add>
+	<add path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/mus_prop_exhibit_d_pottery_a" type="unit">
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/mus_prop_exhibit_d_pottery_a" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/mus_prop_exhibit_d_pottery_a" unload="true"/>
+		<material_config force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/mus_prop_exhibit_d_pottery_a" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/mus_prop_exhibit_d_pottery_a" unload="true"/>
+		<unit force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/spawn_pottery_a_dmg" unload="true"/>
+		<object force="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_pottery/spawn_pottery_a_dmg" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" type="unit">
+		<unit force="true" path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" unload="true"/>
+		<object force="true" path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<unit force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<object force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<font force="true" path="fonts/font_dunton_writing" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" type="unit">
+		<unit force="true" path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" unload="true"/>
+		<object force="true" path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" type="unit">
+		<unit force="true" path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" unload="true"/>
+		<object force="true" path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile" unload="true"/>
+		<font force="true" path="fonts/font_euro_stencil" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_railing/sah_int_wood_railing_pillar" type="unit">
+		<unit force="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_railing/sah_int_wood_railing_pillar" unload="true"/>
+		<object force="true" path="units/pd2_dlc_sah/architecture/sah_int/sah_int_wood_railing/sah_int_wood_railing_pillar" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_sah/architecture/sah_master" unload="true"/>
+	</add>
+	<add path="units/world/props/statues/statue_bust" type="unit">
+		<unit force="true" path="units/world/props/statues/statue_bust" unload="true"/>
+		<object force="true" path="units/world/props/statues/statue_bust" unload="true"/>
+		<material_config force="true" path="units/world/props/statues/statue" unload="true"/>
+		<sequence_manager force="true" path="units/world/props/statues/statue_bust" unload="true"/>
+		<unit force="true" path="units/world/props/statues/statue_bust_piece_break" unload="true"/>
+		<object force="true" path="units/world/props/statues/statue_bust_piece_break" unload="true"/>
+		<sequence_manager force="true" path="units/world/props/statues/gen_kill_debris" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/dest/statue_man_dest" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" type="unit">
+		<unit force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+		<object force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+	</add>
+	<add path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red" type="unit">
+		<unit force="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction_red" unload="true"/>
+		<object force="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction1" unload="true"/>
+		<material_config force="true" path="units/world/architecture/hospital/props/securitycables/securitycables" unload="true"/>
+		<sequence_manager force="true" path="units/world/architecture/hospital/props/securitycables/securitycable_interaction" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" type="unit">
+		<unit force="true" path="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" unload="true"/>
+		<object force="true" path="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_friend/architecture/int/spawn_window_white_debris" unload="true"/>
+		<object force="true" path="units/pd2_dlc_friend/architecture/int/spawn_window_white_debris" unload="true"/>
+		<effect force="true" load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<physic_effect force="true" path="physic_effects/push_sphere" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+</table>

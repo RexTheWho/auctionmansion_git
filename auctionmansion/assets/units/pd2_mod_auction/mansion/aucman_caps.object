@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/mansion/auction_mansion" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/mansion/aucman_caps" />
+	
+	<bodies>
+		<body name="body_catwalk_cars_back" enabled="true" template="static">
+			<object name="g_catwalk_cars_back"			collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_cars_back_cover" enabled="true" template="static">
+			<object name="g_catwalk_cars_back_cover"	collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_cars_front" enabled="true" template="static">
+			<object name="g_catwalk_cars_front"			collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_cars_front_cover" enabled="true" template="static">
+			<object name="g_catwalk_cars_front_cover"	collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_left" enabled="true" template="static">
+			<object name="g_catwalk_left"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_left_cover" enabled="true" template="static">
+			<object name="g_catwalk_left_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_main" enabled="true" template="static">
+			<object name="g_catwalk_main"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_main_cover" enabled="true" template="static">
+			<object name="g_catwalk_main_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_right" enabled="true" template="static">
+			<object name="g_catwalk_right"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_catwalk_right_cover" enabled="true" template="static">
+			<object name="g_catwalk_right_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_broken_01" enabled="true" template="static">
+			<object name="g_ceiling_broken_01"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_broken_02" enabled="true" template="static">
+			<object name="g_ceiling_broken_02"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_broken_03" enabled="true" template="static">
+			<object name="g_ceiling_broken_03"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_broken_04" enabled="true" template="static">
+			<object name="g_ceiling_broken_04"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_full_01" enabled="true" template="static">
+			<object name="g_ceiling_full_01"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_full_02" enabled="true" template="static">
+			<object name="g_ceiling_full_02"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_full_03" enabled="true" template="static">
+			<object name="g_ceiling_full_03"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ceiling_full_04" enabled="true" template="static">
+			<object name="g_ceiling_full_04"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_path_high1_cover" enabled="true" template="static">
+			<object name="g_path_high1_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_path_high2_cover" enabled="true" template="static">
+			<object name="g_path_high2_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_path_low1_cover" enabled="true" template="static">
+			<object name="g_path_low1_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_path_low2_cover" enabled="true" template="static">
+			<object name="g_path_low2_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_roofdoor1_cover1" enabled="true" template="static">
+			<object name="g_roofdoor1_cover1"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_roofdoor1_cover2" enabled="true" template="static">
+			<object name="g_roofdoor1_cover2"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_roofdoor2_cover1" enabled="true" template="static">
+			<object name="g_roofdoor2_cover1"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_roofdoor2_cover2" enabled="true" template="static">
+			<object name="g_roofdoor2_cover2"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_skylight_left_cover" enabled="true" template="static">
+			<object name="g_skylight_left_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_skylight_right_cover" enabled="true" template="static">
+			<object name="g_skylight_right_cover"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_stairway_main1" enabled="true" template="static">
+			<object name="g_stairway_main1"				collision_type="mesh_mopp" />
+		</body>
+		<body name="body_stairway_main2" enabled="true" template="static">
+			<object name="g_stairway_main2"				collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="g_group" enabled="true" culling_object="co_culling">
+			<object name="g_catwalk_cars_back"			enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_cars_back_cover"	enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_cars_front"			enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_cars_front_cover"	enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_left"				enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_left_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_main"				enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_main_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_right"				enabled="true"	shadow_caster="true"/>
+			<object name="g_catwalk_right_cover"		enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_broken_01"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_broken_02"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_broken_03"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_broken_04"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_full_01"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_full_02"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_full_03"			enabled="true"	shadow_caster="true"/>
+			<object name="g_ceiling_full_04"			enabled="true"	shadow_caster="true"/>
+			<object name="g_path_high1_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_path_high2_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_path_low1_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_path_low2_cover"			enabled="true"	shadow_caster="true"/>
+			<object name="g_roofdoor1_cover1"			enabled="true"	shadow_caster="true"/>
+			<object name="g_roofdoor1_cover2"			enabled="true"	shadow_caster="true"/>
+			<object name="g_roofdoor2_cover1"			enabled="true"	shadow_caster="true"/>
+			<object name="g_roofdoor2_cover2"			enabled="true"	shadow_caster="true"/>
+			<object name="g_skylight_left_cover"		enabled="true"	shadow_caster="true"/>
+			<object name="g_skylight_right_cover"		enabled="true"	shadow_caster="true"/>
+			<object name="g_stairway_main1"				enabled="true"	shadow_caster="true"/>
+			<object name="g_stairway_main2"				enabled="true"	shadow_caster="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/statues/statue" orientation_object="rp_piece_break" />
+  
+  <bodies>
+  <body name="editor_body" enabled="true" template="debris" pushed_by_mover="false">
+		<object name="rp_piece_break" />
+		<object name="g_piece_break" collision_type="box" />
+	</body>
+	</bodies>
+	
+	<decal_surfaces default_material="concrete">
+<decal_mesh name="g_piece_break" enabled="true" material="concrete"/>
+</decal_surfaces>
+  
+  <graphics>
+    <object name="g_piece_break" enabled="true" instance_struct="world_tm" />
+  </graphics>
+  
+  <!-- Other objects -->
+<sequence_manager file="units/world/props/statues/gen_kill_debris"/>
+</dynamic_object>

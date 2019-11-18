@@ -1,0 +1,8 @@
+<unit type="lxy" slot="1">
+	<object file="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

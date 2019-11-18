@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<unit type="fwb" slot="1">
+  <object file="units/world/props/statues/statue_bust" />
+  <network sync="spawn"/>
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+	<extension name="damage" class="UnitDamage" />
+  </extensions>
+  <dependencies>
+	<depends_on effect="effects/particles/dest/statue_man_dest"/>
+	<depends_on unit="units/world/props/statues/statue_bust_piece_break"/>
+  </dependencies>
+</unit>

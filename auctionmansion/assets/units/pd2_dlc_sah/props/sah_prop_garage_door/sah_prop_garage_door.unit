@@ -1,0 +1,11 @@
+<unit type="sah" slot="1">
+	<object file="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

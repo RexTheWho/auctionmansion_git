@@ -1,0 +1,14 @@
+<unit type="hsp" slot="1" >
+    <object file="units/world/architecture/hospital/props/securitycables/securitycable_interaction1" />
+    <dependencies>
+    	<depends_on bnk="soundbanks/regular_sfx" />
+    </dependencies>
+	<network sync="spawn"/>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+        <extension name="interaction" class="UseInteractionExt">
+        	<var name="tweak_data" value="hospital_security_cable_red" />
+        </extension>
+    </extensions>
+</unit>

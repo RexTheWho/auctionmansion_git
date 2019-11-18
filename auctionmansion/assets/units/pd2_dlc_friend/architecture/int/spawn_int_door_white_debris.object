@@ -1,0 +1,101 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" orientation_object="rp_spawn_int_door_white_debris" />
+
+	<bodies>
+		<body name="body_dynamic_01" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_1" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_02" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_2" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_03" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_3" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_04" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_4" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_05" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_5" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_06" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_6" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_07" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_7" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_08" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_8" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_09" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_9" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_10" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_10" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_11" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_11" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_12" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_12" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_13" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_13" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_14" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_14" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_15" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_15" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_16" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_16" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_17" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_17" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_18" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_18" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_19" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_19" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_20" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_20" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_21" enabled="true" template="dynamic" collides_with_mover="fals" >
+			<object name="c_mesh_mopp_21" collision_type="box" padding="-2.5" />
+		</body>
+
+	</bodies>
+
+
+
+	<decal_surfaces default_material="wood">
+	</decal_surfaces>
+
+
+
+	<graphics>
+		<object name="g_door_left_1" 					enabled="true" />
+		<object name="g_door_left_2" 					enabled="true" />
+		<object name="g_door_left_3" 					enabled="true" />
+		<object name="g_door_left_4" 					enabled="true" />
+		<object name="g_door_left_5" 					enabled="true" />
+		<object name="g_door_left_6" 					enabled="true" />
+		<object name="g_door_left_7" 					enabled="true" />
+		<object name="g_door_left_8" 					enabled="true" />
+		<object name="g_door_left_9" 					enabled="true" />
+		<object name="g_door_left_10" 					enabled="true" />
+		<object name="g_door_left_11" 					enabled="true" />
+		<object name="g_door_right_12" 					enabled="true" />
+		<object name="g_door_right_13" 					enabled="true" />
+		<object name="g_door_right_14" 					enabled="true" />
+		<object name="g_door_right_15" 					enabled="true" />
+		<object name="g_door_right_16" 					enabled="true" />
+		<object name="g_door_right_17" 					enabled="true" />
+		<object name="g_door_right_18" 					enabled="true" />
+		<object name="g_door_right_19" 					enabled="true" />
+		<object name="g_door_right_20" 					enabled="true" />
+		<object name="g_door_right_21" 					enabled="true" />
+	</graphics>
+</dynamic_object>

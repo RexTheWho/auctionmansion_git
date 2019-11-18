@@ -1,0 +1,8 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" type="unit">
+		<unit force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<object force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
+	</add>
+</table>

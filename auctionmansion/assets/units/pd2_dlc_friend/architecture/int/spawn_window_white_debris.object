@@ -1,0 +1,53 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" orientation_object="rp_spawn_window_white_debris" />
+	<bodies>
+		<body name="body_dynamic_01" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_02" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_03" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_03" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_04" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_05" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_06" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_06" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_07" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_07" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_08" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_08" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_09" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_09" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_10" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_10" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic_11" enabled="true" template="dynamic" collides_with_mover="false">
+			<object name="c_mesh_mopp_11" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+	</decal_surfaces>
+	<graphics>
+		<object name="g_debris_01" enabled="true" />
+		<object name="g_debris_02" enabled="true" />
+		<object name="g_debris_03" enabled="true" />
+		<object name="g_debris_04" enabled="true" />
+		<object name="g_debris_05" enabled="true" />
+		<object name="g_debris_06" enabled="true" />
+		<object name="g_debris_07" enabled="true" />
+		<object name="g_debris_08" enabled="true" />
+		<object name="g_debris_09" enabled="true" />
+		<object name="g_debris_10" enabled="true" />
+		<object name="g_debris_11" enabled="true" />
+	</graphics>
+</dynamic_object>

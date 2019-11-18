@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="aucman_hightech_displaystand.fbx" type="fbx" create_objects="false">
+    </import>
+</modelscript>

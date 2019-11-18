@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<!--Root-->
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	
+	<!--Objects-->
+    <object3d name="interact" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="10" y="0" z="-9" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+	<!--Import-->
+    <import file="aucman_hightech_displaystand_cable_red.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+</modelscript>

@@ -10,13 +10,9 @@
 			<object name="c_box_002" collision_type="box" padding="-2.5" />
 			<object name="c_box_003" collision_type="box" padding="-2.5" />
 		</body>
-		<body name="body_glass" enabled="true" template="static">
-			<object name="c_box_glass" collision_type="box" padding="-2.5" />
-		</body>
 	</bodies>
 
 	<decal_surfaces default_material="thin_layer">
-		<decal_mesh name="g_glass"			enabled="true" material="glass" />
 		<decal_mesh name="g_base"			enabled="true" material="wood" />
 		<decal_mesh name="g_panel"			enabled="true" material="wood" />
 		<decal_mesh name="g_panel_opened"	enabled="true" material="wood" />
@@ -28,24 +24,12 @@
 			<object name="g_base"			enabled="true"/>
 			<object name="g_mul"			enabled="true"/>
 			<object name="g_gensec"			enabled="true"/>
-			<object name="g_glass"			enabled="false"/>
 			<object name="g_security"		enabled="true"/>
-			<object name="g_stand"			enabled="true"/>
-			
-			<object name="g_glass"				enabled="true"/>
-			<object name="g_glass_cut"			enabled="false"/>
-			<object name="g_glass_shattered"	enabled="false"/>
 			
 			<object name="g_panel"			enabled="true"/>
 			<object name="g_panel_opened"	enabled="false"/>
 			
 			<object name="g_gui_lockpick"	enabled="true"/>
-		</graphic_group>
-		<graphic_group name="grp_art" enabled="false" culling_object="co_culling">
-			<object name="g_artitem_001" enabled="true"/>
-			<object name="g_artitem_002" enabled="true"/>
-			<object name="g_artitem_003" enabled="true"/>
-			<object name="g_artitem_004" enabled="true"/>
 		</graphic_group>
 	</graphics>
 </dynamic_object>

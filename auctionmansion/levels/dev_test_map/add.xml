@@ -120,11 +120,31 @@
 		<texture			path="units/pd2_mod_auction/pickups/pku_item_no071_keys/pku_item_no071_keys_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/pickups/pku_tags/auction_tag_no071_df" unload="true"/>
 		
+		<unit				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<object				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<model				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		
 		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cables" unload="true"/>
 	</add>
 	
 	

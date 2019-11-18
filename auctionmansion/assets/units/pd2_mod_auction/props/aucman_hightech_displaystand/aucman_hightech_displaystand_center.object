@@ -1,0 +1,49 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" orientation_object="rp_mus_prop_diamond_pedestal" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="anim" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="animated">
+			<object name="anim" />
+			<object name="c_box_001" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_art" enabled="true" template="animated">
+			<object name="anim" />
+			<object name="c_box_002" collision_type="box" />
+		</body>
+		<body name="body_glass" enabled="true" template="static">
+			<object name="g_glass_solid" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_glass_cut" enabled="false" template="static">
+			<object name="g_glass_cut" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_glass_solid"		enabled="true" material="glass" />
+		<decal_mesh name="g_glass_cut"			enabled="false" material="glass" />
+		<decal_mesh name="g_glass_shattered"	enabled="false" material="glass" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" culling_object="co_culling">
+			<object name="g_glass_solid"		enabled="true"/>
+			<object name="g_glass_cut"			enabled="false"/>
+			<object name="g_glass_shattered"	enabled="false"/>
+			<object name="g_stand"				enabled="true"/>
+			<lod_object name="ghost_icon">
+					<object name="g_icon_glass_cut" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_glass_cut_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_art" enabled="true" culling_object="co_culling">
+			<object name="g_artitem_001"	enabled="true"/>
+			<object name="g_artitem_002"	enabled="true"/>
+			<object name="g_artitem_003"	enabled="true"/>
+			<object name="g_artitem_004"	enabled="true"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

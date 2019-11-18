@@ -192,7 +192,7 @@
 			<unit_data _prev_pos="1600 4079.74 969.8" _prev_rot="-0.422618 0 0 -0.906308" continent="world" local_pos="1200 4079.74 969.8" local_rot="0.422618 0 0 0.906308" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_054" position="5200 4079.74 969.8" rotation="-0.422618 0 0 -0.906308" unit_id="100062"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="200 2200 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 2200 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" name_id="aucman_hightech_displaystand_001" position="3800 2200 0" rotation="0 0 0 -1" unit_id="100064"/>
+			<unit_data _prev_pos="3800 2200 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" name_id="aucman_hightech_displaystand_001" position="3800 2200 0" rotation="-0 0 -0 -1" unit_id="100064"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 2400 0" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="-400 2400 0" local_rot="0.707107 0 0 0.707107" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_055" position="3600 2400 0" rotation="-0.707107 0 0 -0.707107" unit_id="100065"/>
@@ -217,6 +217,21 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="3600 1200 0" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_059" position="3600 1200 0" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100072"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3800 2170 50" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" name_id="aucman_hightech_displaystand_cable_blue_001" position="3800 2170 50" rotation="-0 0 -0 -1" unit_id="100069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3800 2170 50" _prev_rot="-0 0 -0 -1" continent="world" local_pos="200 170 50" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" name_id="aucman_hightech_displaystand_cable_red_001" position="3800 2170 50" rotation="-0 0 -0 -1" unit_id="100073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3800 2170 50" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" name_id="aucman_hightech_displaystand_cable_yellow_001" position="3800 2170 50" rotation="-0 0 -0 -1" unit_id="100074"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3800 2200 0" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_pedestal_raise" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" name_id="aucman_hightech_displaystand_center_001" position="3800 2200 0" rotation="-0 0 -0 -1" unit_id="100076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3800 2200 125" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interaction_disable" name="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" name_id="pku_invisible_auction_item_001" only_visible_in_editor="true" position="3800 2200 125" rotation="-0 0 -0 -1" unit_id="100075"/>
 		</table>
 	</statics>
 	<values>

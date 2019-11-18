@@ -1,11 +1,31 @@
 <table directory="assets">
 	<!--Auction Items-->
 	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<object				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<model				path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" unload="true"/>
+		
 		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_center" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_red" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_yellow" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cables" unload="true"/>
 	</add>
 	<add path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
 		<unit force="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" unload="true"/>

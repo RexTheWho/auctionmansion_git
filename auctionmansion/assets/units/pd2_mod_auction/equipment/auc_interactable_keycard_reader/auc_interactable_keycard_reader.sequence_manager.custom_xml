@@ -1,5 +1,13 @@
 <table>
 	<unit>
+		<variables>
+			<var_opened value="0"/>
+		</variables>
+		<filter name="'filter_not_opened'">
+			<check value="vars.var_opened == 0"/>
+		</filter>
+		
+		
 		<sequence name="'hide_disable'" editable_state="true" triggable="true">
 			<interaction enabled="false"/>
 			<function extension="'base'" function="'deactivate'"/>
@@ -12,6 +20,15 @@
 			<graphic_group	name="'group_all'" visibility="true"/>
 			<body			name="'body_static'" enabled="true"/>
 		</sequence>
+		<sequence name="'disable'" editable_state="true" triggable="true" filter="'filter_not_opened'">
+			<interaction enabled="false"/>
+			<function extension="'base'" function="'deactivate'"/>
+		</sequence>
+		<sequence name="'enable'" editable_state="true" triggable="true" filter="'filter_not_opened'">
+			<interaction enabled="true"/>
+			<function extension="'base'" function="'activate'"/>
+		</sequence>
+		
 		<sequence name="'interact'">
 			<run_sequence name="'done_opened'"/>
 			<object enabled="true"		name="'g_keycard'"/>
@@ -26,6 +43,7 @@
 			<object enabled="true"	name="'g_ecm_glow'"/>
 		</sequence>
 		<sequence name="'done_opened'" editable_state="true" triggable="true">
+			<set_variables var_opened="1"/>
 			<interaction enabled="false"/>
 			<function extension="'base'" function="'deactivate'"/>
 		</sequence>

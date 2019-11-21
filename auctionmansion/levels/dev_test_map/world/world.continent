@@ -266,6 +266,9 @@
 		<table>
 			<unit_data _prev_pos="3600 1450 110" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_enable" name="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" name_id="auc_interactable_keycard_reader_002" position="3600 1450 110" rotation="0 0 -0.707107 -0.707107" unit_id="100087"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="3622.24 1464.06 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_002" position="3622.24 1464.06 0" rotation="0 0 0 -1" unit_id="100088"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

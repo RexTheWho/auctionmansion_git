@@ -1,0 +1,39 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" orientation_object="rp_des_pku_secret_document" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" />
+	<bodies>
+		<body name="body_static_01" enabled="true" template="static" collides_with_mover="false">
+			<object name="rp_des_pku_secret_document" />
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_static_02" enabled="false" template="static" collides_with_mover="false">
+			<object name="rp_des_pku_secret_document" />
+			<object name="c_convex" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_paper_01" enabled="true" material="cloth" />
+		<decal_mesh name="dm_paper_02" enabled="false" material="cloth" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_1" enabled="false" />
+		<object name="g_2" enabled="false" />
+		<object name="g_3" enabled="false" />
+		<object name="g_folder" enabled="true" />
+		<object name="g_note" enabled="false" />
+		<object name="g_folder_int" enabled="false" />
+		<object name="g_folder_int_clue_01" enabled="false" />
+		<object name="g_folder_int_clue_02" enabled="false" />
+		<object name="g_folder_int_clue_03" enabled="false" />
+		<object name="g_folder_int_clue_04" enabled="false" />
+		<object name="g_folder_int_clue_05" enabled="false" />
+		<object name="g_folder_int_clue_06" enabled="false" />
+		<object name="g_folder_int_clue_07" enabled="false" />
+		<object name="g_folder_int_clue_08" enabled="false" />
+		<object name="g_folder_int_clue_09" enabled="false" />
+		<lod_object name="lod_outline">
+			<object name="g_folder_outline_lod0" enabled="true"  max_distance="250" />
+			<object name="g_folder_outline_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

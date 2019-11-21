@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_sign_01" materials="units/payday2/props/str_prop_parking_signs/str_prop_parking_sign" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

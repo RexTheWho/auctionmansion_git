@@ -157,11 +157,23 @@
 		<model				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
-	</add>
-	
-	
-	<!--Auction Reskins-->
-	<add unload_on_restart="true">
+		
+		<!--Objective Hints-->
+		<unit				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile_df" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_df" unload="true"/>
+		
+		<!--Doors-->
 		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
 		<object				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
 		<model				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
@@ -173,10 +185,8 @@
 		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
 		<object				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
 		<model				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
-	</add>
-	
-	
-	<add unload_on_restart="true">
+		
+		<!--Vehicles-->
 		<unit				path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" unload="true"/>
 		<object				path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" unload="true"/>
 		<model				path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" unload="true"/>
@@ -187,8 +197,7 @@
 		<texture			path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01_nm" unload="true"/>
 		<texture			path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01_gsm" unload="true"/>
 		<texture			path="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01_op" unload="true"/>
-	</add>
-	<add unload_on_restart="true">
+		
 		<unit				path="units/pd2_mod_auction/vehicles/fps_vehicle_box_truck_lootbags/fps_vehicle_box_truck_lootbags" unload="true"/>
 		<object				path="units/pd2_mod_auction/vehicles/fps_vehicle_box_truck_lootbags/fps_vehicle_box_truck_lootbags" unload="true"/>
 		<model				path="units/pd2_mod_auction/vehicles/fps_vehicle_box_truck_lootbags/fps_vehicle_box_truck_lootbags" unload="true"/>

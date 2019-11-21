@@ -1,0 +1,11 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="push_button_des" />
+		</extension>
+	</extensions>
+</unit>

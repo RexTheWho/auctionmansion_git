@@ -269,6 +269,12 @@
 		<table>
 			<unit_data _prev_pos="3622.24 1464.06 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" name_id="gen_pku_keycard_002" position="3622.24 1464.06 0" rotation="0 0 0 -1" unit_id="100088"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="3750 -150 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" name_id="aucman_document_pile_001" position="3650 1150 0" rotation="-0 0 -0 -1" unit_id="100089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3650 1050 0" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_tag_red" name="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" name_id="aucman_auction_tag_001" position="3650 1050 0" rotation="0.5 0.5 -0.5 -0.5" unit_id="100090"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

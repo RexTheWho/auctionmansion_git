@@ -138,14 +138,14 @@
 			<object name="'g_catwalk_main_cover'"		enabled="false" />
 			<object name="'g_catwalk_right'"			enabled="true" />
 			<object name="'g_catwalk_right_cover'"		enabled="false" />
-			<object name="'g_ceiling_broken_01'"		enabled="true" />
-			<object name="'g_ceiling_broken_02'"		enabled="true" />
-			<object name="'g_ceiling_broken_03'"		enabled="true" />
-			<object name="'g_ceiling_broken_04'"		enabled="true" />
-			<object name="'g_ceiling_full_01'"			enabled="false" />
-			<object name="'g_ceiling_full_02'"			enabled="false" />
-			<object name="'g_ceiling_full_03'"			enabled="false" />
-			<object name="'g_ceiling_full_04'"			enabled="false" />
+			<object name="'g_ceiling_broken_01'"		enabled="false" />
+			<object name="'g_ceiling_broken_02'"		enabled="false" />
+			<object name="'g_ceiling_broken_03'"		enabled="false" />
+			<object name="'g_ceiling_broken_04'"		enabled="false" />
+			<object name="'g_ceiling_full_01'"			enabled="true" />
+			<object name="'g_ceiling_full_02'"			enabled="true" />
+			<object name="'g_ceiling_full_03'"			enabled="true" />
+			<object name="'g_ceiling_full_04'"			enabled="true" />
 			<object name="'g_path_high1_cover'"			enabled="false" />
 			<object name="'g_path_high2_cover'"			enabled="false" />
 			<object name="'g_path_low1_cover'"			enabled="false" />

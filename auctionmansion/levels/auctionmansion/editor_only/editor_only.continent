@@ -491,7 +491,7 @@
 			<unit_data _prev_pos="-2096 2096 -10" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1 -199 -10.001" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_089" only_exists_in_editor="true" position="-2096 2096 -10" rotation="0 0 -0.707107 -0.707107" unit_id="200166"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2295 2095 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_017" only_exists_in_editor="true" position="-2295 2095 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="200167"/>
+			<unit_data _prev_pos="-2295 2095 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_017stairsset1" only_exists_in_editor="true" position="-2295 2095 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="200167"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2295 2530 0.001" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_018" only_exists_in_editor="true" position="-2295 2530 0.001" rotation="0 0 0.707107 -0.707107" unit_id="200168"/>
@@ -1317,6 +1317,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-98.8 2230 228.959" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_001" position="-98.8 2230 228.959" rotation="0 0 -0.707107 -0.707107" unit_id="200436"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3785 6019 -100" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_202" only_exists_in_editor="true" position="-4195 6019 -100" rotation="0 0 0 -1" unit_id="200437"/>
 		</table>
 	</statics>
 	<values>

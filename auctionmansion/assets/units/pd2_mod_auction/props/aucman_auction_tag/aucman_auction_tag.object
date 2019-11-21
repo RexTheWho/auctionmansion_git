@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" orientation_object="rp_lxy_prop_auction_tag" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag"/>
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="fence" collides_with_mover="false">
+			<object name="rp_lxy_prop_auction_tag" />			
+			<object name="c_box" collision_type="box" padding="-2.5" />			
+		</body>	
+	</bodies>
+
+	<graphics>
+		<object name="g_tag_red"	enabled="true" />
+		<object name="g_tag_green"	enabled="true" />
+		<object name="g_tag_blue"	enabled="true" />
+		<object name="g_tag_yellow"	enabled="true" />
+		<object name="g_tag_white"	enabled="true" />
+	</graphics>
+</dynamic_object>

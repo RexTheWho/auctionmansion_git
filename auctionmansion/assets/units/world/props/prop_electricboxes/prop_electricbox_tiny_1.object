@@ -1,0 +1,15 @@
+<dynamic_object>
+    <diesel orientation_object="rp_electricbox_tiny_1" materials="units/world/props/prop_electricboxes/prop_electricbox_1" />
+    <bodies>
+        <body enabled="true" template="raycoll_static" name="body0" >
+            <object collision_type="box" name="c_tiny_1" />
+        </body>
+    </bodies>
+	<decal_surfaces default_material="thin_layer">
+        <decal_mesh enabled="true" name="dm_tiny_1" material="thin_layer" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_tiny_1" />
+        <object enabled="true" shadow_caster="true" name="s_tiny_1" />
+    </graphics>
+</dynamic_object>

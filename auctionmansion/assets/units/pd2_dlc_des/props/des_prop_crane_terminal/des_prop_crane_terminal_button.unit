@@ -1,0 +1,13 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_button" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+	      <var name="tweak_data" value="hold_open_lid" />
+	      <var name="drop_in_sync_tweak_data" value="true" />
+	  	  <var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

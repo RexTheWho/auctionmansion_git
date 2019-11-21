@@ -125,6 +125,18 @@
 		<model				path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/screen_df" unload="true"/>
+		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 	</add>
 	
 	<!--Auction Reskins-->

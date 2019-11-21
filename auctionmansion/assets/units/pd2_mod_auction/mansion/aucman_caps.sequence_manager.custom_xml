@@ -214,6 +214,14 @@
 			<object name="'g_skylight_right_cover'"		enabled="false" />
 			<body name="'body_skylight_right_cover'"	enabled="false" />
 		</sequence>
+		<sequence editable_state="true" name="'show_skylight_cap2'" triggable="true">
+			<object name="'g_skylight_left_cover'"		enabled="true" />
+			<body name="'body_skylight_left_cover'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_skylight_cap1'" triggable="true">
+			<object name="'g_skylight_right_cover'"		enabled="true" />
+			<body name="'body_skylight_right_cover'"	enabled="true" />
+		</sequence>
 		
 		<!--HIDE CATWALKS-->
 		<sequence editable_state="true" name="'hide_catwalk_1'" triggable="true">
@@ -221,12 +229,16 @@
 			<body name="'body_catwalk_left'"				enabled="false" />
 			<object name="'g_catwalk_left_cover'"			enabled="true" />
 			<body name="'body_catwalk_left_cover'"			enabled="true" />
+			<object name="'g_path_high2_cover'"				enabled="false" />
+			<body name="'body_path_high2_cover'"			enabled="false" />
 		</sequence>
 		<sequence editable_state="true" name="'hide_catwalk_2'" triggable="true">
 			<object name="'g_catwalk_right'"				enabled="false" />
 			<body name="'body_catwalk_right'"				enabled="false" />
 			<object name="'g_catwalk_right_cover'"			enabled="true" />
 			<body name="'body_catwalk_right_cover'"			enabled="true" />
+			<object name="'g_path_high1_cover'"				enabled="false" />
+			<body name="'body_path_high1_cover'"			enabled="false" />
 		</sequence>
 		<sequence editable_state="true" name="'hide_catwalk_3'" triggable="true">
 			<object name="'g_catwalk_main'"					enabled="false" />
@@ -245,6 +257,118 @@
 			<body name="'body_catwalk_cars_front'"			enabled="false" />
 			<object name="'g_catwalk_cars_front_cover'"		enabled="true" />
 			<body name="'body_catwalk_cars_front_cover'"	enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_catwalk_1'" triggable="true">
+			<object name="'g_catwalk_left'"					enabled="true" />
+			<body name="'body_catwalk_left'"				enabled="true" />
+			<object name="'g_catwalk_left_cover'"			enabled="false" />
+			<body name="'body_catwalk_left_cover'"			enabled="false" />
+			<object name="'g_path_high2_cover'"				enabled="true" />
+			<body name="'body_path_high2_cover'"			enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_catwalk_2'" triggable="true">
+			<object name="'g_catwalk_right'"				enabled="true" />
+			<body name="'body_catwalk_right'"				enabled="true" />
+			<object name="'g_catwalk_right_cover'"			enabled="false" />
+			<body name="'body_catwalk_right_cover'"			enabled="false" />
+			<object name="'g_path_high1_cover'"				enabled="true" />
+			<body name="'body_path_high1_cover'"			enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_catwalk_3'" triggable="true">
+			<object name="'g_catwalk_main'"					enabled="true" />
+			<body name="'body_catwalk_main'"				enabled="true" />
+			<object name="'g_catwalk_main_cover'"			enabled="false" />
+			<body name="'body_catwalk_main_cover'"			enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'show_catwalk_4'" triggable="true">
+			<object name="'g_catwalk_cars_back'"			enabled="true" />
+			<body name="'body_catwalk_cars_back'"			enabled="true" />
+			<object name="'g_catwalk_cars_back_cover'"		enabled="false" />
+			<body name="'body_catwalk_cars_back_cover'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'show_catwalk_5'" triggable="true">
+			<object name="'g_catwalk_cars_front'"			enabled="true" />
+			<body name="'body_catwalk_cars_front'"			enabled="true" />
+			<object name="'g_catwalk_cars_front_cover'"		enabled="false" />
+			<body name="'body_catwalk_cars_front_cover'"	enabled="false" />
+		</sequence>
+		
+		<!--HIDE ROOFDOOR CAPS-->
+		<sequence editable_state="true" name="'hide_roofdoor1_cover1'" triggable="true">
+			<object name="'g_roofdoor1_cover1'"			enabled="false" />
+			<body name="'body_roofdoor1_cover1'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_roofdoor1_cover2'" triggable="true">
+			<object name="'g_roofdoor1_cover2'"			enabled="false" />
+			<body name="'body_roofdoor1_cover2'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_roofdoor2_cover1'" triggable="true">
+			<object name="'g_roofdoor2_cover1'"			enabled="false" />
+			<body name="'body_roofdoor2_cover1'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_roofdoor2_cover2'" triggable="true">
+			<object name="'g_roofdoor2_cover2'"			enabled="false" />
+			<body name="'body_roofdoor2_cover2'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'show_roofdoor1_cover1'" triggable="true">
+			<object name="'g_roofdoor1_cover1'"			enabled="true" />
+			<body name="'body_roofdoor1_cover1'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_roofdoor1_cover2'" triggable="true">
+			<object name="'g_roofdoor1_cover2'"			enabled="true" />
+			<body name="'body_roofdoor1_cover2'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_roofdoor2_cover1'" triggable="true">
+			<object name="'g_roofdoor2_cover1'"			enabled="true" />
+			<body name="'body_roofdoor2_cover1'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_roofdoor2_cover2'" triggable="true">
+			<object name="'g_roofdoor2_cover2'"			enabled="true" />
+			<body name="'body_roofdoor2_cover2'"		enabled="true" />
+		</sequence>
+		
+		<!--OPEN VAULT CEILINGS-->
+		<sequence editable_state="true" name="'open_ceiling_01'" triggable="true">
+			<body name="'body_ceiling_broken_01'"			enabled="true" />
+			<object name="'g_ceiling_broken_01'"			enabled="true" />
+			<body name="'body_ceiling_full_01'"				enabled="false" />
+			<object name="'g_ceiling_full_01'"				enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'open_ceiling_02'" triggable="true">
+			<body name="'body_ceiling_broken_02'"			enabled="true" />
+			<object name="'g_ceiling_broken_02'"			enabled="true" />
+			<body name="'body_ceiling_full_02'"				enabled="false" />
+			<object name="'g_ceiling_full_02'"				enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'open_ceiling_03'" triggable="true">
+			<body name="'body_ceiling_broken_03'"			enabled="true" />
+			<object name="'g_ceiling_broken_03'"			enabled="true" />
+			<body name="'body_ceiling_full_03'"				enabled="false" />
+			<object name="'g_ceiling_full_03'"				enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'open_ceiling_04'" triggable="true">
+			<body name="'body_ceiling_broken_04'"			enabled="true" />
+			<object name="'g_ceiling_broken_04'"			enabled="true" />
+			<body name="'body_ceiling_full_04'"				enabled="false" />
+			<object name="'g_ceiling_full_04'"				enabled="false" />
+		</sequence>
+		
+		<!--HIDE PATHCAPS-->
+		<sequence editable_state="true" name="'hide_pathcap_low1'" triggable="true">
+			<body name="'body_path_low1_cover'"		enabled="false" />
+			<object name="'g_path_low1_cover'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'hide_pathcap_low2'" triggable="true">
+			<body name="'body_path_low2_cover'"		enabled="false" />
+			<object name="'g_path_low2_cover'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'show_pathcap_low1'" triggable="true">
+			<body name="'body_path_low1_cover'"		enabled="true" />
+			<object name="'g_path_low1_cover'"		enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'show_pathcap_low2'" triggable="true">
+			<body name="'body_path_low2_cover'"		enabled="true" />
+			<object name="'g_path_low2_cover'"		enabled="true" />
 		</sequence>
 	</unit>
 </table>

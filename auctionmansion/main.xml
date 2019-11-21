@@ -10,6 +10,8 @@
 		<hooks directory="hooks">
 			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
 		<include directory="levels/auctionmansion">
 			<file file="world.world" type="generic_xml"/>
@@ -140,6 +142,8 @@
 		<hooks directory="hooks">
 			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 		</hooks>
 		<include directory="levels/dev_test_map">
 			<file file="world.world" type="generic_xml"/>
@@ -161,6 +165,7 @@
 			<value_node value="levels/instances/unique/mad/mad_door/world/world"/>
 			<value_node value="levels/narratives/dentist/mus/world/world"/>
 			<value_node value="levels/narratives/dentist/mus/art/art"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

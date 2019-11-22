@@ -774,7 +774,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="535.797 -142.054 -50.0001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" name_id="auc_interactable_keycard_reader_001" position="535.797 -142.054 -50.0001" rotation="0 0 0 -1" unit_id="100235"/>
+			<unit_data _prev_pos="485.797 57.946 -50.0001" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" name_id="auc_interactable_keycard_reader_001" position="485.797 57.946 -50.0001" rotation="0 0 -0.707107 -0.707107" unit_id="100235"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1050 700 900" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_openable" name="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" name_id="com_ext_gallery_roof_window_001" position="-1050 700 900" rotation="-0 0 -0 -1" unit_id="100236"/>
@@ -789,10 +789,10 @@
 			<unit_data _prev_pos="-600 2300 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" name_id="aucman_skylight_01_001" position="-600 2300 1200" rotation="0 0 -0.707107 -0.707107" unit_id="100239"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2875 1200 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" name_id="aucman_skylight_02_001" position="-2875 1200 1200" rotation="0 0 -0.707107 -0.707107" unit_id="100240"/>
+			<unit_data _prev_pos="-2875 1200 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" name_id="aucman_skylight_02_001" position="-2875 1200 1200" rotation="0 0 -0.707107 -0.707107" unit_id="100240"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3425 3675 1200" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" name_id="aucman_skylight_03_001" position="-3425 3675 1200" rotation="0 0 0 -1" unit_id="100241"/>
+			<unit_data _prev_pos="-3425 3675 1200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" name_id="aucman_skylight_03_001" position="-3425 3675 1200" rotation="0 0 0 -1" unit_id="100241"/>
 		</table>
 	</statics>
 	<values>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<!--Root-->
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	
+	
+    <object3d name="e_glass_01" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-150" y="150" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_02" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="150" y="150" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_03" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-150" y="450" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_04" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="150" y="450" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_05" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-150" y="750" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_06" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="150" y="750" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_07" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-150" y="1050" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_08" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="150" y="1050" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_09" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-150" y="1350" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glass_10" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="150" y="1350" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+	
+	<!--Import-->
+    <import file="aucman_skylight_03.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+</modelscript>

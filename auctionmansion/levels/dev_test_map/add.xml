@@ -84,8 +84,6 @@
 		<model				path="units/pd2_mod_auction/pickups/pku_item_no056_gavel/pku_item_no056_gavel" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/pickups/pku_item_no056_gavel/pku_item_no056_gavel" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/pickups/pku_item_no056_gavel/pku_item_no056_gavel" unload="true"/>
-		<texture			path="units/pd2_mod_auction/pickups/pku_item_no056_gavel/pku_item_no056_gavel_df" unload="true"/>
-		<texture			path="units/pd2_mod_auction/pickups/pku_item_no056_gavel/pku_item_no056_gavel_nm" unload="true"/>
 		<texture			path="units/pd2_mod_auction/pickups/pku_tags/auction_tag_no056_df" unload="true"/>
 		
 		<unit				path="units/pd2_mod_auction/pickups/pku_item_no058_horn/pku_item_no058_horn" unload="true"/>
@@ -165,13 +163,64 @@
 		<material_config	path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
 		<texture			path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile_df" unload="true"/>
-		
 		<unit				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
 		<model				path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" unload="true"/>
-		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_op" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_blue_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_green_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_red_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_white_df" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_03" unload="true"/>
+		
+		
+		<unit				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1_husk" unload="true"/>
+		<object				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
+		<model				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1_contour" unload="true"/>
+		<texture			path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_body_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_head_df" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_husk" unload="true"/>
+		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
+		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_contour" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02_husk" unload="true"/>
+		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
+		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02_contour" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_03/ene_guard_indoor_03" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_03/ene_guard_indoor_03_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05_husk" unload="true"/>
+		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
+		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05_contour" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_06/ene_guard_indoor_06" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_06/ene_guard_indoor_06_husk" unload="true"/>
 		
 		<!--Doors-->
 		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
@@ -213,7 +262,7 @@
 		<sequence_manager	path="units/vanilla/vehicles/fps_vehicle_kubelwagen/fps_vehicle_kubelwagen" unload="true"/>
 		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/kubel_wheel_df" unload="true"/>
 		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/kubel_wheel_nm" unload="true"/>
-		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/kubel_wheel_gsm" unload="true"/>
+		<!-- <texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/kubel_wheel_gsm" unload="true"/> -->
 		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/kubel_wheel_op" unload="true"/>
 		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/props_vehicle_collectors_kubelwagen_01_df" unload="true"/>
 		<texture			path="units/vanilla/vehicles/fps_vehicle_kubelwagen/textures/props_vehicle_collectors_kubelwagen_01_nm" unload="true"/>

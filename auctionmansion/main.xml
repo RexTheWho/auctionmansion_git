@@ -12,6 +12,7 @@
 			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/auctionmansion">
 			<file file="world.world" type="generic_xml"/>
@@ -144,6 +145,7 @@
 			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/dev_test_map">
 			<file file="world.world" type="generic_xml"/>
@@ -166,6 +168,8 @@
 			<value_node value="levels/narratives/dentist/mus/world/world"/>
 			<value_node value="levels/narratives/dentist/mus/art/art"/>
 			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+			<value_node value="packages/narr_hox_3"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -291,8 +295,8 @@
 	<Melee based_on="dingdong" global_value="auction_mansion" id="biggavel" texture_bundle_folder="mods" third_unit="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg" unit="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
 	<narrative contact="custom" id="narr_auctionmansion">
 		<chain>
-			<table level_id="auctionmansion" type="d" type_id="heist_type_assault"/>
 			<table level_id="dev_test_map" type="d" type_id="heist_type_assault"/>
+			<table level_id="auctionmansion" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>

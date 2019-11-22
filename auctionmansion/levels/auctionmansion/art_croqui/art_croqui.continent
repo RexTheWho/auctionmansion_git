@@ -554,16 +554,16 @@
 			<unit_data _prev_pos="-4274.01 769.008 573.112" _prev_rot="0 0 0.241922 -0.970296" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1099 747.232 173.112" local_rot="0 0 -0.515038 0.857167" name="units/pd2_dlc_arena/architecture/are_int_stage/are_int_stage_speakers_01" name_id="are_int_stage_speakers_01_004" position="-4274.01 769.008 573.112" rotation="0 0 0.241922 -0.970296" unit_id="400201"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1150 2295 1200" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" name_id="sah_prop_chandelier_004" position="-1150 2295 1200" rotation="-0 0 -0 -1" unit_id="400204">
+			<unit_data _prev_pos="-1150 2300 1450" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" name_id="sah_prop_chandelier_004" position="-1150 2300 1450" rotation="-0 0 -0 -1" unit_id="400204">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="4" far_range="250" multiplier="@IDb3570b664608819f@" name="ls_bulb" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="4" far_range="250" multiplier="megatron" name="ls_bulb" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3480 1195 1200" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2330 -1100 0" local_rot="-0 0 0 1" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" name_id="sah_prop_chandelier_003" position="-3480 1195 1200" rotation="0 0 -0 -1" unit_id="400205">
+			<unit_data _prev_pos="-3475 1200 1450" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" name_id="sah_prop_chandelier_003" position="-3475 1200 1450" rotation="-0 0 -0 -1" unit_id="400205">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="4" far_range="250" multiplier="@IDb3570b664608819f@" name="ls_bulb" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="4" far_range="250" multiplier="megatron" name="ls_bulb" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -1342,7 +1342,7 @@
 			<unit_data _prev_pos="-3085 -730 -35" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_015" only_visible_in_editor="true" position="-3085 -730 -35" rotation="0 0 -0.707107 -0.707107" unit_id="400532"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4075 5290 1200" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_001" position="-4075 5310 1200" rotation="0 0 0.707107 -0.707107" unit_id="400540"/>
+			<unit_data _prev_pos="-3925 5475 1200" _prev_rot="0 0 1 -0" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_001" position="-3925 5475 1200" rotation="0 0 1 -0" unit_id="400540"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3290 2625 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_big" name_id="str_prop_rooftop_ac_unit_a_big_001" position="-3290 2625 800" rotation="0 0 -0.707107 -0.707107" unit_id="400543"/>
@@ -1375,10 +1375,10 @@
 			<unit_data _prev_pos="-3950 705 1200" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="-7.08124e-006 -81 0" local_rot="0 0 1 4.37114e-008" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_009" position="-4020 705 1200" rotation="0 0 0 -1" unit_id="400552"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2975 3639 1200" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_010" position="-2975 5174 1200" rotation="0 0 1 -4.37114e-008" unit_id="400553"/>
+			<unit_data _prev_pos="-2875 5174 1200" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_010" position="-2875 5174 1200" rotation="0 0 1 -4.37114e-008" unit_id="400553"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2975 3720 1200" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="-7.08124e-006 -81 0" local_rot="0 0 1 4.37114e-008" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_011" position="-2975 5255 1200" rotation="0 0 0 -1" unit_id="400554"/>
+			<unit_data _prev_pos="-2875 5255 1200" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_011" position="-2875 5255 1200" rotation="0 0 0 -1" unit_id="400554"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-545 1929 1200" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_012" position="-545 1694 1200" rotation="0 0 1 -4.37114e-008" unit_id="400555"/>
@@ -4623,37 +4623,19 @@
 			<unit_data _prev_pos="-3834.13 244.924 485" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_002enable_tag_2" position="-3834.13 244.924 485" rotation="0 0 1 -4.37114e-008" unit_id="401677"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3864.21 244.056 485" _prev_rot="0.707107 0 0 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_003enable_tag_2" position="-3864.21 244.056 485" rotation="0.707107 0 0 -0.707107" unit_id="401678"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-4249.13 509.924 515" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_001enable_tag_1" position="-4249.13 509.924 515" rotation="0 0 -0.707107 -0.707107" unit_id="401679"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-4250 540 515" _prev_rot="0.5 -0.5 0.5 -0.5" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_002enable_tag_1" position="-4250 540 515" rotation="-0.5 0.5 -0.5 0.5" unit_id="401680"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3293.13 274.924 485" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_003enable_tag_3" position="-3293.13 274.924 485" rotation="0 0 1 -4.37114e-008" unit_id="401681"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3323.21 274.056 485" _prev_rot="0.707107 0 0 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_004enable_tag_3" position="-3323.21 274.056 485" rotation="0.707107 0 0 -0.707107" unit_id="401682"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2983.13 469.924 475" _prev_rot="0 0 0.544639 -0.838671" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_004enable_tag_4" position="-2983.13 469.924 475" rotation="0 0 0.544639 -0.838671" unit_id="401683"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2970.11 442.801 475" _prev_rot="-0.385118 -0.59303 0.59303 0.385118" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_005enable_tag_4" position="-2970.11 442.801 475" rotation="0.385118 0.59303 -0.59303 -0.385118" unit_id="401684"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2648.3 1293.63 480" _prev_rot="0 0 -0.608761 -0.793353" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_005enable_tag_5" position="-2648.3 1293.63 480" rotation="0 0 -0.608761 -0.793353" unit_id="401685"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2641.36 1322.91 480" _prev_rot="-0.430459 0.560986 -0.560986 0.430459" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_006enable_tag_5" position="-2641.36 1322.91 480" rotation="-0.430459 0.560986 -0.560986 0.430459" unit_id="401686"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-4136.31 2096.1 480" _prev_rot="0 0 -0.819152 -0.573576" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_006enable_tag_6" position="-4136.31 2096.1 480" rotation="0 0 -0.819152 -0.573576" unit_id="401687"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-4147.41 2124.06 480" _prev_rot="0.579228 -0.40558 0.40558 -0.579228" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_007enable_tag_6" position="-4147.41 2124.06 480" rotation="0.579228 -0.40558 0.40558 -0.579228" unit_id="401688"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4135 2125 400" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_int_table_console_wooden/sfm_prop_int_table_console_wooden" name_id="sfm_prop_int_table_console_wooden_015" position="-4135 2135 400" rotation="0 0 0.707107 -0.707107" unit_id="401689"/>
@@ -4665,22 +4647,13 @@
 			<unit_data _prev_pos="-3978.61 1856.24 875" _prev_rot="0 0 -0.422618 -0.906308" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_007enable_tag_9" position="-3978.61 1856.24 875" rotation="0 0 -0.422618 -0.906308" unit_id="401691"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3959.94 1879.84 875" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_008enable_tag_9" position="-3959.94 1879.84 875" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="401692"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2475.18 393.524 865" _prev_rot="0 0 -0.121869 -0.992546" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_008enable_tag_8" position="-2475.18 393.524 865" rotation="0 0 -0.121869 -0.992546" unit_id="401693"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2446.2 401.642 865" _prev_rot="-0.0861745 0.701836 -0.701836 0.0861745" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_009enable_tag_8" position="-2446.2 401.642 865" rotation="-0.0861745 0.701836 -0.701836 0.0861745" unit_id="401694"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3500 745.457 450" _prev_rot="0 0 -0.566406 -0.824126" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/res_prop_livingroom_coffeetable_c_worn_clean/res_prop_livingroom_coffeetable_c_worn_clean" name_id="res_prop_livingroom_coffeetable_c_worn_clean_007" position="-3505.38 731.453 450" rotation="0 0 -0.566406 -0.824126" unit_id="401695"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3505.38 731.453 450" _prev_rot="0 0 -0.566406 -0.824126" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/res_prop_livingroom_coffeetable_c_worn_clean/res_prop_livingroom_coffeetable_c_worn_clean" name_id="res_prop_livingroom_coffeetable_c_worn_clean_008" position="-3505.38 731.453 494" rotation="0 0 -0.566406 -0.824126" unit_id="401696"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3526.1 734.315 545" _prev_rot="0.69934 -0.104517 0.104517 -0.69934" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" name_id="lxy_prop_auction_tag_010enable_tag_7" position="-3526.1 734.315 545" rotation="0.69934 -0.104517 0.104517 -0.69934" unit_id="401697"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3497.09 726.352 545" _prev_rot="-3.72529e-008 -2.98023e-008 0.989016 0.147809" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" name_id="penpaper_009enable_tag_7" position="-3497.09 726.352 545" rotation="-0 0 0.989016 0.147809" unit_id="401698"/>

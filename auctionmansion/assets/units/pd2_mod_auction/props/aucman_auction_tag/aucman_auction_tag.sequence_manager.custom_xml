@@ -1,0 +1,170 @@
+<table>
+	<unit>
+		<variables>
+			<var_color value="0"/>
+			<var_code value="0"/>
+		</variables>
+		<filter name="'red'">
+			<check value="vars.var_color == 0"/>
+		</filter>
+		<filter name="'green'">
+			<check value="vars.var_color == 1"/>
+		</filter>
+		<filter name="'blue'">
+			<check value="vars.var_color == 2"/>
+		</filter>
+		<filter name="'white'">
+			<check value="vars.var_color == 3"/>
+		</filter>
+		<filter name="'code1'">
+			<check value="vars.var_code == 0"/>
+		</filter>
+		<filter name="'code2'">
+			<check value="vars.var_code == 1"/>
+		</filter>
+		<filter name="'code3'">
+			<check value="vars.var_code == 2"/>
+		</filter>
+		<filter name="'code4'">
+			<check value="vars.var_code == 3"/>
+		</filter>
+		<filter name="'code0'">
+			<check value="vars.var_code == 4"/>
+		</filter>
+		
+		
+		<sequence editable_state="false" name="'init_pick_color'" startup="true" triggable="false">
+			<run_sequence name=" 'state_tag_'..pick('red','green','blue','white')"/>
+			<run_sequence name=" 'state_code_none' "/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'state_tag_red'" triggable="true">
+			<set_variables var_color="0"/>
+			<run_sequence name="'int_seq_hide_all'"/>
+			<graphic_group	visibility="true" name="'grp_red'"/>
+			<run_sequence filter="'code1'"		name="'state_code_1'"/>
+			<run_sequence filter="'code2'"		name="'state_code_2'"/>
+			<run_sequence filter="'code3'"		name="'state_code_3'"/>
+			<run_sequence filter="'code4'"		name="'state_code_4'"/>
+			<run_sequence filter="'code5'"		name="'state_code_none'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_tag_green'" triggable="true">
+			<set_variables var_color="1"/>
+			<run_sequence name="'int_seq_hide_all'"/>
+			<graphic_group	visibility="true" name="'grp_green'"/>
+			<run_sequence filter="'code1'"		name="'state_code_1'"/>
+			<run_sequence filter="'code2'"		name="'state_code_2'"/>
+			<run_sequence filter="'code3'"		name="'state_code_3'"/>
+			<run_sequence filter="'code4'"		name="'state_code_4'"/>
+			<run_sequence filter="'code5'"		name="'state_code_none'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_tag_blue'" triggable="true">
+			<set_variables var_color="2"/>
+			<run_sequence name="'int_seq_hide_all'"/>
+			<graphic_group	visibility="true" name="'grp_blue'"/>
+			<run_sequence filter="'code1'"		name="'state_code_1'"/>
+			<run_sequence filter="'code2'"		name="'state_code_2'"/>
+			<run_sequence filter="'code3'"		name="'state_code_3'"/>
+			<run_sequence filter="'code4'"		name="'state_code_4'"/>
+			<run_sequence filter="'code5'"		name="'state_code_none'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_tag_white'" triggable="true">
+			<set_variables var_color="3"/>
+			<run_sequence name="'int_seq_hide_all'"/>
+			<graphic_group	visibility="true" name="'grp_white'"/>
+			<run_sequence filter="'code1'"		name="'state_code_1'"/>
+			<run_sequence filter="'code2'"		name="'state_code_2'"/>
+			<run_sequence filter="'code3'"		name="'state_code_3'"/>
+			<run_sequence filter="'code4'"		name="'state_code_4'"/>
+			<run_sequence filter="'code5'"		name="'state_code_none'"/>
+		</sequence>
+		<sequence name="'int_seq_hide_all'">
+			<graphic_group	visibility="false" name="'grp_red'"/>
+			<graphic_group	visibility="false" name="'grp_green'"/>
+			<graphic_group	visibility="false" name="'grp_blue'"/>
+			<graphic_group	visibility="false" name="'grp_white'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_code_none'" triggable="true">
+			<run_sequence name="'hide_code'"/>
+			<set_variables var_code="4"/>
+			<object filter="'blue'"		name="'g_tag_blue_code0'"	enabled="true"/>
+			<object filter="'red'"		name="'g_tag_red_code0'"	enabled="true"/>
+			<object filter="'green'"	name="'g_tag_green_code0'"	enabled="true"/>
+			<object filter="'white'"	name="'g_tag_white_code0'"	enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_code_1'" triggable="true">
+			<run_sequence name="'hide_code'"/>
+			<set_variables var_code="0"/>
+			<object filter="'blue'"		name="'g_tag_blue_code1'"	enabled="true"/>
+			<object filter="'red'"		name="'g_tag_red_code1'"	enabled="true"/>
+			<object filter="'green'"	name="'g_tag_green_code1'"	enabled="true"/>
+			<object filter="'white'"	name="'g_tag_white_code1'"	enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_code_2'" triggable="true">
+			<run_sequence name="'hide_code'"/>
+			<set_variables var_code="1"/>
+			<object filter="'blue'"		name="'g_tag_blue_code2'"	enabled="true"/>
+			<object filter="'red'"		name="'g_tag_red_code2'"	enabled="true"/>
+			<object filter="'green'"	name="'g_tag_green_code2'"	enabled="true"/>
+			<object filter="'white'"	name="'g_tag_white_code2'"	enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_code_3'" triggable="true">
+			<run_sequence name="'hide_code'"/>
+			<set_variables var_code="2"/>
+			<object filter="'blue'"		name="'g_tag_blue_code3'"	enabled="true"/>
+			<object filter="'red'"		name="'g_tag_red_code3'"	enabled="true"/>
+			<object filter="'green'"	name="'g_tag_green_code3'"	enabled="true"/>
+			<object filter="'white'"	name="'g_tag_white_code3'"	enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_code_4'" triggable="true">
+			<run_sequence name="'hide_code'"/>
+			<set_variables var_code="3"/>
+			<object filter="'blue'"		name="'g_tag_blue_code4'"	enabled="true"/>
+			<object filter="'red'"		name="'g_tag_red_code4'"	enabled="true"/>
+			<object filter="'green'"	name="'g_tag_green_code4'"	enabled="true"/>
+			<object filter="'white'"	name="'g_tag_white_code4'"	enabled="true"/>
+		</sequence>
+		<sequence name="'hide_code'" >
+			<object name="'g_tag_blue_code0'"	enabled="false"/>
+			<object name="'g_tag_blue_code1'"	enabled="false"/>
+			<object name="'g_tag_blue_code2'"	enabled="false"/>
+			<object name="'g_tag_blue_code3'"	enabled="false"/>
+			<object name="'g_tag_blue_code4'"	enabled="false"/>
+			<object name="'g_tag_red_code0'"	enabled="false"/>
+			<object name="'g_tag_red_code1'"	enabled="false"/>
+			<object name="'g_tag_red_code2'"	enabled="false"/>
+			<object name="'g_tag_red_code3'"	enabled="false"/>
+			<object name="'g_tag_red_code4'"	enabled="false"/>
+			<object name="'g_tag_green_code0'"	enabled="false"/>
+			<object name="'g_tag_green_code1'"	enabled="false"/>
+			<object name="'g_tag_green_code2'"	enabled="false"/>
+			<object name="'g_tag_green_code3'"	enabled="false"/>
+			<object name="'g_tag_green_code4'"	enabled="false"/>
+			<object name="'g_tag_white_code0'"	enabled="false"/>
+			<object name="'g_tag_white_code1'"	enabled="false"/>
+			<object name="'g_tag_white_code2'"	enabled="false"/>
+			<object name="'g_tag_white_code3'"	enabled="false"/>
+			<object name="'g_tag_white_code4'"	enabled="false"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<body enabled="false" name="'body_static'"/>
+			<run_sequence name="'int_seq_hide_all'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<body enabled="true" name="'body_static'"/>
+			<run_sequence filter="'red'"		name="'state_tag_red'"/>
+			<run_sequence filter="'green'"		name="'state_tag_green'"/>
+			<run_sequence filter="'blue'"		name="'state_tag_blue'"/>
+			<run_sequence filter="'white'"		name="'state_tag_white'"/>
+			<run_sequence filter="'code0'"		name="'state_code_none'"/>
+			<run_sequence filter="'code1'"		name="'state_code_1'"/>
+			<run_sequence filter="'code2'"		name="'state_code_2'"/>
+			<run_sequence filter="'code3'"		name="'state_code_3'"/>
+			<run_sequence filter="'code4'"		name="'state_code_4'"/>
+		</sequence>
+	</unit>
+</table>

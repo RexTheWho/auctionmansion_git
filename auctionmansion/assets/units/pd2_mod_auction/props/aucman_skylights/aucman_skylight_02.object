@@ -1,0 +1,93 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_02"/>
+	
+	<bodies>
+		<body name="body_nav_walk" template="mover_blocker" enabled="true">
+			<object name="c_playerblocker" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_static" enabled="true" template="static" >
+			<object name="g_g" collision_type="mesh_mopp" />						
+		</body>
+		
+		<!--GLASS-->
+		<body name="body_glass_01" enabled="true" template="window" >
+			<object name="g_glass_01" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_02" enabled="true" template="window" >
+			<object name="g_glass_02" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_03" enabled="true" template="window" >
+			<object name="g_glass_03" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_04" enabled="true" template="window" >
+			<object name="g_glass_04" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_05" enabled="true" template="window" >
+			<object name="g_glass_05" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_06" enabled="true" template="window" >
+			<object name="g_glass_06" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_07" enabled="true" template="window" >
+			<object name="g_glass_07" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_08" enabled="true" template="window" >
+			<object name="g_glass_08" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_09" enabled="true" template="window" >
+			<object name="g_glass_09" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_10" enabled="true" template="window" >
+			<object name="g_glass_10" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_11" enabled="true" template="window" >
+			<object name="g_glass_11" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_glass_12" enabled="true" template="window" >
+			<object name="g_glass_12" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" culling_object="co_culling">
+			<object name="g_g"				enabled="true"/>
+			<object name="g_glass_01"		enabled="true"/>
+			<object name="g_glass_02"		enabled="true"/>
+			<object name="g_glass_03"		enabled="true"/>
+			<object name="g_glass_04"		enabled="true"/>
+			<object name="g_glass_05"		enabled="true"/>
+			<object name="g_glass_06"		enabled="true"/>
+			<object name="g_glass_07"		enabled="true"/>
+			<object name="g_glass_08"		enabled="true"/>
+			<object name="g_glass_09"		enabled="true"/>
+			<object name="g_glass_10"		enabled="true"/>
+			<object name="g_glass_11"		enabled="true"/>
+			<object name="g_glass_12"		enabled="true"/>
+			<object name="g_glass_01_crk"	enabled="false"/>
+			<object name="g_glass_02_crk"	enabled="false"/>
+			<object name="g_glass_03_crk"	enabled="false"/>
+			<object name="g_glass_04_crk"	enabled="false"/>
+			<object name="g_glass_05_crk"	enabled="false"/>
+			<object name="g_glass_06_crk"	enabled="false"/>
+			<object name="g_glass_07_crk"	enabled="false"/>
+			<object name="g_glass_08_crk"	enabled="false"/>
+			<object name="g_glass_09_crk"	enabled="false"/>
+			<object name="g_glass_10_crk"	enabled="false"/>
+			<object name="g_glass_11_crk"	enabled="false"/>
+			<object name="g_glass_12_crk"	enabled="false"/>
+			<object name="g_glass_01_sht"	enabled="false"/>
+			<object name="g_glass_02_sht"	enabled="false"/>
+			<object name="g_glass_03_sht"	enabled="false"/>
+			<object name="g_glass_04_sht"	enabled="false"/>
+			<object name="g_glass_05_sht"	enabled="false"/>
+			<object name="g_glass_06_sht"	enabled="false"/>
+			<object name="g_glass_07_sht"	enabled="false"/>
+			<object name="g_glass_08_sht"	enabled="false"/>
+			<object name="g_glass_09_sht"	enabled="false"/>
+			<object name="g_glass_10_sht"	enabled="false"/>
+			<object name="g_glass_11_sht"	enabled="false"/>
+			<object name="g_glass_12_sht"	enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

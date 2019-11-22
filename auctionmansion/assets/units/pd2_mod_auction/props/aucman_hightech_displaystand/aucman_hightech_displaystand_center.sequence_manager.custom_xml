@@ -17,6 +17,25 @@
 				<run_sequence name="'glass_break'"/>
 			</endurance>
 		</body>
+		
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<run_sequence name="'enable_interaction'"/>
+			<decal_mesh		enabled="true" name="'g_glass_solid'"/>
+			<graphic_group	visibility="true" name="'grp_main'"/>
+			<graphic_group	visibility="true" name="'grp_art'"/>
+			<body			enabled="true" name="'body_glass'"/>
+			<body			enabled="true" name="'body_static'"/>
+			<body			enabled="true" name="'body_art'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<run_sequence name="'disable_interaction'"/>
+			<decal_mesh		enabled="false" name="'g_glass_solid'"/>
+			<graphic_group	visibility="false" name="'grp_main'"/>
+			<graphic_group	visibility="false" name="'grp_art'"/>
+			<body			enabled="false" name="'body_glass'"/>
+			<body			enabled="false" name="'body_static'"/>
+			<body			enabled="false" name="'body_art'"/>
+		</sequence>
 
 		<sequence editable_state="true" name="'anim_pedestal_lower'" triggable="true">
 			<animation_group enabled="true" from="5/30" name="'anim'" speed="1" to="17/30"/>

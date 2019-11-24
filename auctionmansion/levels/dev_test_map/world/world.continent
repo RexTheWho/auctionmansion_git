@@ -341,6 +341,9 @@
 		<table>
 			<unit_data _prev_pos="800 350 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="350 -50 3.04372e-005" local_rot="0.707107 0.707107 -3.09086e-008 -3.09086e-008" mesh_variation="deathwish" name="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" name_id="auc_security_camera_ceiling_002" position="800 350 350" rotation="0 0 -0.707107 -0.707107" unit_id="100096"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="750 101.11 43.038" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" name_id="gen_equipment_camera_hackingtool_001" position="750 101.11 83.038" rotation="-0 0 -0 -1" unit_id="100113"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

@@ -871,6 +871,26 @@
 					<entry key="yaw" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="34" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera"/>
+				<entry key="id" type="number" value="100033"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100094"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="819.341 260.198 150"/>
+					<entry key="rotation" type="quaternion" value="0.270598 -0.270598 0.653282 -0.653281"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 		</entry>

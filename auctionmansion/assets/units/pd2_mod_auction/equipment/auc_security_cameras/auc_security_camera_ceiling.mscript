@@ -25,7 +25,7 @@
     </object3d>
     <object3d name="CameraLens" mode="add">
         <parent name="CameraPitch" />
-        <position x="0" y="10" z="0" />
+        <position x="0" y="0" z="-40" />
         <rotation w="0.707107" x="-0.707107" y="0" z="0" />
     </object3d>
     <object3d name="snd" mode="add">

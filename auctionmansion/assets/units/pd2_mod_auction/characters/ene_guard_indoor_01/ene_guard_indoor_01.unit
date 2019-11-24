@@ -2,11 +2,10 @@
 <unit type="being" slot="12">
 	<anim_state_machine name= "anims/units/enemies/cop/cop_machine" />
 	<object file= "units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" />
-	<network sync="spawn" remote_unit="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_husk"/>
 
 	<dependencies>
-
 		<depends_on bnk="soundbanks/regular_vox" />
+		<depends_on unit="units/payday2/weapons/wpn_npc_c45/wpn_npc_x_c45" />
 	</dependencies>
 
 	<extensions>
@@ -37,7 +36,7 @@
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
-	<network sync="spawn" remote_unit="units/pd2_mod_auction/characters/ene_guard_indoor/ene_guard_indoor_01_husk"/>
+	<network sync="spawn" remote_unit="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_husk"/>
 
 	<sounds>
 		<default_soundsource source="Hips"/>

@@ -1,12 +1,25 @@
 <?xml version="1.0" ?>
 <modelscript>
+
+
     <object3d name="rp_rootpoint" mode="add">
         <parent root="true" />
     </object3d>
-    <import file="test_vertex.fbx" type="fbx" create_objects="true">
+	
+	
+    <import file="test_vertex.obj" type="obj" create_objects="true">
         <rootpoint name="rp_rootpoint">
             <default/>
             <object name="co_culling" />
         </rootpoint>
     </import>
+	
+	
+    <import file="test_vertex.fbx" type="fbx" create_objects="false">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+        </rootpoint>
+    </import>
+	
+	
 </modelscript>

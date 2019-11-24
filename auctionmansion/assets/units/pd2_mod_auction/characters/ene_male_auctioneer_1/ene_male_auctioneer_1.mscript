@@ -1,13 +1,6 @@
 <?xml version="1.0" ?>
 <modelscript>
-    <object3d name="spawn_glow_01" mode="add">
-        <parent name="Head" />
-        <position x="3.5" y="7" z="12" />
-        <rotation w="1" x="0" y="0" z="0" />
-    </object3d>
-	
-    <import file="ene_male_auctioneer_1.obj" type="obj" create_objects="true">
-	
+    <import file="ene_male_auctioneer_1.fbx" type="fbx" create_objects="false">
         <rootpoint name="root_point">
             <default/>
         </rootpoint>

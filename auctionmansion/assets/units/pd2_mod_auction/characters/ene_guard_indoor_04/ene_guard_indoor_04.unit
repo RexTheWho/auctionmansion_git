@@ -2,7 +2,6 @@
 <unit type="being" slot="12">
 	<anim_state_machine name= "anims/units/enemies/cop/cop_machine" />
 	<object file= "units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" />
-	<network sync="spawn" remote_unit="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04_husk"/>
 
 	<dependencies>
 
@@ -37,6 +36,7 @@
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
+	<network sync="spawn" remote_unit="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04_husk"/>
 
 	<sounds>
 		<default_soundsource source="Hips"/>

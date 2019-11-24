@@ -9,6 +9,9 @@
 		<object				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<model				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/test/material_test" unload="true"/>
+		<unit				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
+		<object				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
+		<model				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
 		<unit				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
@@ -155,6 +158,17 @@
 		<model				path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<cooked_physics		path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_light_red" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_light_blue" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_glass_titan_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_sticker_blackmesa_df" unload="true"/>
 		
 		<!--Objective Hints-->
 		<unit				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<!--Root-->
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	<!--Import-->
+    <import file="aucman_nametags.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+</modelscript>

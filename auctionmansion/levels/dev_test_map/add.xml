@@ -205,6 +205,12 @@
 		<model				path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags_df" unload="true"/>
 		
 		<unit				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>

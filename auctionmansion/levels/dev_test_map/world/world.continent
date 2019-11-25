@@ -347,6 +347,12 @@
 		<table>
 			<unit_data _prev_pos="3650 950 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_spawn_usb" name="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" name_id="aucman_clipboard_001" position="3650 950 0" rotation="0 0 -0.707107 -0.707107" unit_id="100114"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="3600 950 50" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_vis_show" name="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags" name_id="aucman_nametags_001" position="3600 950 50" rotation="0.5 0.5 0.5 0.5" unit_id="100115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3600 1100 0" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_081" position="3600 700 0" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100116"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

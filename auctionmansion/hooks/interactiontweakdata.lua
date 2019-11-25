@@ -10,5 +10,11 @@ Hooks:PostHook(InteractionTweakData,"init","auction_missiondoortweak_init",funct
 		sound_done =		"bar_pick_lock_finished",
 		axis =				"y"
 	}
+	self.take_auction_usb = {
+		text_id = "hud_take_usb_key",
+		interact_distance = 150,
+		special_equipment_block = "cas_usb_key",
+		start_active = true
+	}
 	
 end)

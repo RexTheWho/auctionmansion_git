@@ -1,0 +1,103 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name=" 'clear_names' " triggable="true">
+			<object name="'g_name_001'" enabled="false"/>
+			<object name="'g_name_002'" enabled="false"/>
+			<object name="'g_name_003'" enabled="false"/>
+			<object name="'g_name_004'" enabled="false"/>
+			<object name="'g_name_005'" enabled="false"/>
+			<object name="'g_name_006'" enabled="false"/>
+			<object name="'g_name_007'" enabled="false"/>
+			<object name="'g_name_008'" enabled="false"/>
+			<object name="'g_name_009'" enabled="false"/>
+			<object name="'g_name_010'" enabled="false"/>
+			<object name="'g_name_011'" enabled="false"/>
+			<object name="'g_name_012'" enabled="false"/>
+			<object name="'g_name_013'" enabled="false"/>
+			<object name="'g_name_014'" enabled="false"/>
+			<object name="'g_name_015'" enabled="false"/>
+			<object name="'g_name_016'" enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'spawn_usb' " triggable="true" once="true">
+			<spawn_unit name="'units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick'" position="object_pos('a_usb')" rotation="object_rot('a_usb')"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'name_01' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_001'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_02' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_002'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_03' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_003'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_04' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_004'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_05' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_005'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_06' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_006'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_07' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_007'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_08' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_008'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_09' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_009'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_10' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_010'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_11' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_011'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_12' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_012'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_13' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_013'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_14' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_014'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_15' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_015'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name=" 'name_16' " triggable="true">
+			<run_sequence name="'clear_names'"/>
+			<object name="'g_name_016'" enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<graphic_group name="'grp_all'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<graphic_group name="'grp_all'" visibility="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'show_and_spawn_usb' " triggable="true">
+			<run_sequence name="'state_vis_show'"/>
+			<run_sequence name="'spawn_usb'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,14 +1,17 @@
 <table directory="assets">
 	<add path="units/test/jocke/plane_black_temp" type="unit">
-		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
-		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<unit				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<object				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<model				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/test/material_test" unload="true"/>
+		<unit				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
+		<object				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
+		<model				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
 		<unit				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
@@ -156,6 +159,23 @@
 		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
 		
+		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<cooked_physics		path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_security_camera_ceiling" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_light_red" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_light_blue" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_glass_titan_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_sticker_blackmesa_df" unload="true"/>
+		
 		<!--Objective Hints-->
 		<unit				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
@@ -173,6 +193,18 @@
 		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_green_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_red_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_white_df" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard_df" unload="true"/>
+		<texture			path="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard_names_df" unload="true"/>
+		<unit				path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/props/aucman_usbstick/aucman_usbstick" unload="true"/>
 		
 		<unit				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_skylights/aucman_skylight_01" unload="true"/>
@@ -278,6 +310,29 @@
 		<effect				path="units/vanilla/vehicles/fps_vehicle_kubelwagen/eff_lamp" unload="true"/>
 		<effect				path="units/vanilla/vehicles/fps_vehicle_kubelwagen/eff_stop" unload="true"/>
 	</add>
+	
+	<!--GENERIC PROP CLONES-->
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" unload="true"/>
+		<cooked_physics		path="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_round" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_round" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_round" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long" unload="true"/>
+		<object				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long" unload="true"/>
+		<model				path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_tables" unload="true"/>
+	</add>
 	<add path="units/pd2_dlc_chill/props/chl_prop_cashier_chip_blue/chl_prop_cashier_chip_blue" type="unit">
 		<material_config force="true" path="units/pd2_dlc_chill/props/chl_prop_cashier_chip_blue/chl_prop_cashier_chip_blue" unload="true"/>
 		<object force="true" path="units/pd2_dlc_chill/props/chl_prop_cashier_chip_blue/chl_prop_cashier_chip_blue" unload="true"/>
@@ -335,7 +390,6 @@
 		<material_config force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<object force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
-		<texture force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document_df" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_des/props/des_interactable_secret_document/des_interactable_secret_document" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_casino/environment/cas_int/cas_securityroom_door/cas_securityroom_door" type="unit">
@@ -460,8 +514,24 @@
 		<unit force="true" path="units/payday2/props/str_prop_parking_signs/str_prop_parking_sign_2" unload="true"/>
 	</add>
 	<add path="units/payday2/architecture/com_int_basement/com_int_basement_garage_beam_8m" type="unit">
-		<unit force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_beam_8m" unload="true"/>
-		<object force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_beam_8m" unload="true"/>
 		<material_config force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall" unload="true"/>
+		<object force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_beam_8m" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_beam_8m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5" type="unit">
+		<material_config force="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker" unload="true"/>
+		<object force="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker" unload="true"/>
+		<unit force="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5" unload="true"/>
+	</add>
+	<add path="units/world/props/street/fence/fence_near_low_01" type="unit">
+		<material_config force="true" path="units/world/props/street/fence/fence" unload="true"/>
+		<object force="true" path="units/world/props/street/fence/fence_near_low_01" unload="true"/>
+		<unit force="true" path="units/world/props/street/fence/fence_near_low_01" unload="true"/>
+	</add>
+	<add path="units/world/props/street/fence/fence_near_low_02" type="unit">
+		<unit force="true" path="units/world/props/street/fence/fence_near_low_02" unload="true"/>
+		<object force="true" path="units/world/props/street/fence/fence_near_low_02" unload="true"/>
+		<material_config force="true" path="units/world/props/street/fence/fence" unload="true"/>
 	</add>
 </table>

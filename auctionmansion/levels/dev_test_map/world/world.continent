@@ -344,6 +344,9 @@
 		<table>
 			<unit_data _prev_pos="750 101.11 43.038" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_enabled" name="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" name_id="gen_equipment_camera_hackingtool_001" position="750 101.11 83.038" rotation="-0 0 -0 -1" unit_id="100113"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="3650 950 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_and_spawn_usb" name="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" name_id="aucman_clipboard_001" position="3650 950 0" rotation="0 0 -0.707107 -0.707107" unit_id="100114"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<unit type="auc" slot="1">
+	<object file="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" />
+	<network sync="spawn"/>
+<!--
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+		<depends_on effect="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" />
+	</dependencies>
+-->
+	
+	<extensions>
+		<!--Sequenced Unit-->
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		
+		<!--IS DRILL-->
+		<extension name="base" class="Drill">
+			<var name="is_drill"					value="true" />
+			<var name="_use_effect"					value="false" />
+			<var name="_attention_obj_name"			value="a_attention" />
+			<var name="_sabotage_align_obj_name"	value="a_sabotage" />
+		</extension>
+		
+		<!--IS INTERACTABLE-->
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data"					value="aucman_cutter_part" />
+			<var name="_interact_object"			value="interaction_location" />
+			<var name="drop_in_sync_tweak_data"		value="true" />
+		</extension>
+		
+		<!--DRILL SEQUENCES-->
+		<extension name="timer_gui" class="DrillTimerGui">
+			<var name="THEME"						value="bry_control_display" />
+			<var name="_gui_object"					value="timer_gui" />
+			<var name="_gui_start"					value="gui_aucman_cutter_start" />
+			<var name="_gui_working"				value="gui_aucman_cutter_working" />
+			<var name="_gui_done"					value="gui_aucman_cutter_done" />
+			<var name="_gui_malfunction"			value="gui_aucman_cutter_malfunction" />
+			<var name="_can_jam" 					value="false" />
+			
+			<var name="_start_event" 				value="aucman_start_cutter" />
+			<var name="_jammed_tweak_data"			value="aucman_fix_cutter" />
+			<var name="_jam_event" 					value="aucman_fix_cutter" />
+			<var name="_upgrade_tweak_data" 		value="aucman_fix_cutter" />
+			<var name="_resume_event" 				value="aucman_fix_cutter" />
+			<var name="_done_event" 				value="aucman_fix_cutter" />
+		</extension>
+	</extensions>
+	
+	
+	<sounds>
+		<default_soundsource source="rp_gen_interactable_circle_cutter"/>
+		<soundsource name="snd" source="rp_gen_interactable_circle_cutter" />
+		<soundsource name="snd_jam" source="rp_gen_interactable_circle_cutter" />
+	</sounds>
+</unit>

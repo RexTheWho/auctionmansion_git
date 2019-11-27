@@ -176,6 +176,17 @@
 		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_glass_titan_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_sticker_blackmesa_df" unload="true"/>
 		
+		<unit				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_df" unload="true"/>
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_fire" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_sparks" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_sparks2" unload="true" load="true" />
+		
 		<!--Objective Hints-->
 		<unit				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>
 		<object				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>

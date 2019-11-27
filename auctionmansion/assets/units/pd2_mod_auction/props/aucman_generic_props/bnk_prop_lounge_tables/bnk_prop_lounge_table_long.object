@@ -11,7 +11,10 @@
 			<object name="c_box_06" collision_type="box" padding="-2.5"/>
         </body>
     </bodies>
-    <graphics>
-        <object enabled="true" name="g_bnk_prop_lounge_table_long" />
-    </graphics>
+	<graphics>
+		<lod_object name="lod_bnk_prop_lounge_table_long">
+			<object name="g_bnk_prop_lounge_table_long"			enabled="true" shadow_caster="true"		max_distance="800" />
+			<object name="g_bnk_prop_lounge_table_long_lod1"	enabled="true" shadow_caster="false"/>
+		</lod_object>
+	</graphics>
 </dynamic_object>

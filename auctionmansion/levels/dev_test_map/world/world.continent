@@ -353,6 +353,30 @@
 		<table>
 			<unit_data _prev_pos="3600 1100 0" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_081" position="3600 700 0" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100116"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="3800 600 0" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide" name="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" name_id="auc_apollonius_cutter_001" position="3800 600 0" rotation="0 0 1 -4.37114e-008" unit_id="100117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6050 1950 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/props/aucman_generic_props/elevator_chair/elevator_chair" name_id="elevator_chair_001" position="5950 2000 0" rotation="0 0 -0.707107 -0.707107" unit_id="100118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5950 1850 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long" name_id="bnk_prop_lounge_table_long_001" position="5950 1850 0" rotation="0 0 0.707107 -0.707107" unit_id="100119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5950 1650 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_round" name_id="bnk_prop_lounge_table_round_001" position="5916 1650 0" rotation="0 0 0.707107 -0.707107" unit_id="100120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5950 1550 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall" name_id="bnk_prop_lounge_table_tall_001" position="5950 1550 0" rotation="0 0 0.707107 -0.707107" unit_id="100121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6000 1800 0" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_082" position="6000 1800 0" rotation="0 0.707107 0 -0.707107" unit_id="100122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6000 1800 0" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_083" position="6000 1400 0" rotation="0 0.707107 0 -0.707107" unit_id="100123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3850 200 0" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="debug_show_dummy" name="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" name_id="auc_apollonius_cutter_002" position="4350 750 0" rotation="0 0 1 4.37114e-008" unit_id="100124"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

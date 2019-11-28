@@ -2,29 +2,19 @@
 	<editor_groups>
 		<table continent="art_croqui" name="TO_BE_REMOVED" reference="401342" visible="true">
 			<units>
-				<value_node value="401342"/>
 				<value_node value="100193"/>
-				<value_node value="401341"/>
 				<value_node value="100195"/>
 				<value_node value="100173"/>
-				<value_node value="401340"/>
 				<value_node value="100172"/>
-				<value_node value="401339"/>
 				<value_node value="100198"/>
 				<value_node value="100192"/>
-				<value_node value="400824"/>
-				<value_node value="401338"/>
 				<value_node value="100191"/>
 				<value_node value="100197"/>
 				<value_node value="100176"/>
-				<value_node value="401337"/>
-				<value_node value="400045"/>
 				<value_node value="100189"/>
 				<value_node value="100194"/>
 				<value_node value="100174"/>
-				<value_node value="400823"/>
 				<value_node value="100190"/>
-				<value_node value="400046"/>
 				<value_node value="100196"/>
 				<value_node value="100175"/>
 			</units>
@@ -71,16 +61,10 @@
 			<unit_data _prev_pos="-4370 2290 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_close" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_008" position="-4370 2290 0" rotation="0 0 -0.707107 -0.707107" unit_id="400014"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1775 2115 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_004" position="-1775 2115 400" rotation="0 0 -0.707107 -0.707107" unit_id="400002"/>
+			<unit_data _prev_pos="-1775 2215 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_004" position="-1775 2215 400" rotation="0 0 -0.707107 -0.707107" unit_id="400002"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1775 2315 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_003" position="-1775 2315 400" rotation="0 0 -0.707107 -0.707107" unit_id="400003"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1775 2115 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_001" position="-1775 2115 0" rotation="0 0 -0.707107 -0.707107" unit_id="400015"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1775 2315 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_002" position="-1775 2315 0" rotation="0 0 -0.707107 -0.707107" unit_id="400016"/>
+			<unit_data _prev_pos="-1775 2115 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_001" position="-1775 2215 0" rotation="0 0 -0.707107 -0.707107" unit_id="400015"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1706.11 2532.18 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_004" position="-1706.11 2532.18 0" rotation="0 0 0.382683 -0.92388" unit_id="400017"/>
@@ -95,10 +79,7 @@
 			<unit_data _prev_pos="-1703.54 2071.46 0" _prev_rot="-0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-46.2134 -74.3923 -400" local_rot="0 0 -0.382684 0.92388" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_005" position="-1703.54 2071.46 0" rotation="0 0 -0.382683 -0.92388" unit_id="400020"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1775 2115 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_006" position="-1775 2115 800" rotation="0 0 -0.707107 -0.707107" unit_id="400021"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1775 2315 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_005" position="-1775 2315 800" rotation="0 0 -0.707107 -0.707107" unit_id="400022"/>
+			<unit_data _prev_pos="-1775 2115 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 800" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_006" position="-1775 2215 800" rotation="0 0 -0.707107 -0.707107" unit_id="400021"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1703.54 2071.46 800" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-46.2134 -74.3923 400" local_rot="0 0 -0.382684 0.92388" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_009" position="-1703.54 2071.46 800" rotation="0 0 -0.382683 -0.92388" unit_id="400023"/>
@@ -1237,7 +1218,7 @@
 			<unit_data _prev_pos="-670 2830 1200" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_flat" name_id="str_prop_rooftop_ac_unit_a_flat_001" position="-670 2830 1200" rotation="-0 0 -0 -1" unit_id="400544"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1490 745 800.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_002" position="-1490 745 800.001" rotation="0 0 -0.707107 -0.707107" unit_id="400545"/>
+			<unit_data _prev_pos="-1540 745 800.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_002" position="-1540 745 800.001" rotation="0 0 -0.707107 -0.707107" unit_id="400545"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4015 1855 800" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_002" position="-4380 1855 800" rotation="0 0 -0.707107 -0.707107" unit_id="400462"/>
@@ -1273,7 +1254,7 @@
 			<unit_data _prev_pos="-545 2010 1200" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="-7.08124e-006 -81 0" local_rot="0 0 1 4.37114e-008" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_013" position="-545 1775 1200" rotation="0 0 0 -1" unit_id="400556"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1795 4165 870" _prev_rot="0.0958458 0 0 -0.995396" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_003" position="-1795 4160.23 845.459" rotation="0.0958458 0 0 -0.995396" unit_id="400550"/>
+			<unit_data _prev_pos="-1800 4144 849" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_003" position="-1800 4144 849" rotation="-0 0 -0 -1" unit_id="400550"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2130 2050 1170" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" name_id="ind_ext_level_ladder_top_001ladderset7" position="-2130 2050 1170" rotation="-0 0 -0 -1" unit_id="400558"/>
@@ -2386,7 +2367,7 @@
 			<unit_data _prev_pos="-1253.43 4120.1 46" _prev_rot="0 0 0.71934 -0.694658" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-88.429 -9.89502 25.999" local_rot="-0 0 -0.71934 0.694658" name="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" name_id="jfr_prop_crate_a_005" position="-1253.43 4120.1 42.999" rotation="0 0 0.71934 -0.694658" unit_id="401011"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2104.83 4267.56 107" _prev_rot="0 0 -0.398749 -0.91706" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_003" position="-2104.83 4267.56 107" rotation="0 0 -0.414693 -0.909961" unit_id="400978"/>
+			<unit_data _prev_pos="-2104.83 4267.56 107" _prev_rot="0 0 -0.398749 -0.91706" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_003" position="-2104.83 4267.56 107" rotation="-0 0 -0.414693 -0.909961" unit_id="400978"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1810 4195 0" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet" name_id="ind_prop_warehouse_pallet_002" position="-1810 4195 0" rotation="-0 0 -0 -1" unit_id="400979"/>
@@ -3386,33 +3367,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-470 2820 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_001" position="-470 2820 0" rotation="0 0 -0.707107 -0.707107" unit_id="401036"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2120 1905 2900" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="510 860 0" local_rot="0 0 -1 -4.37114e-008" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_003gaudr" position="-2120 1905 2900" rotation="0 0 1 4.37114e-008" unit_id="401337"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2120 1705 2900" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="510 660 0" local_rot="0 0 -1 -4.37114e-008" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_004gaudr" position="-2120 1705 2900" rotation="0 0 1 4.37114e-008" unit_id="400045"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2120 2805 800" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1.74846e-005 200 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_005drolo" position="-2120 2805 2600" rotation="0 0 1 -4.37114e-008" unit_id="400046"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2120 3005 2600" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_006drolo" position="-2120 3005 2600" rotation="0 0 1 -4.37114e-008" unit_id="400823"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3380 3205 2900" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-750 2160 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_007" position="-3380 3205 2900" rotation="0 0 0.707107 -0.707107" unit_id="400824"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3580 3205 2900" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-950 2160 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_008" position="-3580 3205 2900" rotation="0 0 0.707107 -0.707107" unit_id="401338"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3520 2045 2900" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-890 1000 0" local_rot="0 0 0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_009roofdoorset2" position="-3520 2045 2900" rotation="0 0 -0.707107 -0.707107" unit_id="401339"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2630 1245 2900" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_011roofdoorset1" position="-2630 1245 2900" rotation="0 0 0 -1" unit_id="401341"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2630 1045 2900" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_012roofdoorset1" position="-2630 1045 2900" rotation="0 0 0 -1" unit_id="401342"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2695 5620 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="disable_nocat_5door" position="-2695 5620 800" rotation="0 0 -0.707107 -0.707107" unit_id="401343"/>
@@ -4523,9 +4477,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-3981.55 1332.41 0" _prev_rot="0 0 -0.224951 -0.97437" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_int_sofa/sfm_prop_int_sofa_small" name_id="sfm_prop_int_sofa_small_010" position="-3981.55 1332.41 0" rotation="0 0 -0.284015 -0.95882" unit_id="400202"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-3320 2045 2900" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-690 1000 0" local_rot="0 0 0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="auc_interactable_door_corridor_001roofdoorset2" position="-3320 2045 2900" rotation="0 0 -0.707107 -0.707107" unit_id="401340"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3435 715 375" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_b" name_id="com_prop_vent_ceiling_b_001" position="-3435 710 375" rotation="-0 0 -0 -1" unit_id="400446"/>
@@ -6108,15 +6059,18 @@
 		<table>
 			<unit_data _prev_pos="679.913 3424.86 -109.903" _prev_rot="0 -0.0697565 0 -0.997564" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="grey" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_002" position="679.913 4429.86 -109.903" rotation="0 -0.0697565 0 -0.997564" unit_id="401975">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="monitor" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
-					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="monitor" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
-					<table clipping_values="10000 -10000 0" color="1 0.420139 0.275" enabled="false" falloff_exponent="4" far_range="350" multiplier="monitor" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 0.420139 0.275" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
 				</lights>
 				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
 			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="678.803 913.758 -109.903" _prev_rot="0 -0.0697565 -0 -0.997564" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_002" position="688.706 913.758 -111.294" rotation="0 -0.0697565 0 -0.997564" unit_id="401976"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1800 4144 849" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_002" position="-2200 4144 849" rotation="0 0 0 -1" unit_id="400575"/>
 		</table>
 	</statics>
 	<values>

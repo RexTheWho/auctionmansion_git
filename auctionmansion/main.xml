@@ -48,7 +48,6 @@
 			<value_node value="levels/narratives/locke/brb/collision/collision"/>
 			<value_node value="levels/instances/unique/spa/spa_gangster_group/world/world"/>
 			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
-			<value_node value="levels/narratives/butcher/friend/world/world"/>
 			<value_node value="levels/instances/unique/rvd/rvd_security_gate/world/world"/>
 			<value_node value="levels/instances/unique/dinner/keycard_panel/world/world"/>
 			<value_node value="levels/narratives/bain/rvd/stage2/world"/>
@@ -59,7 +58,6 @@
 			<value_node value="levels/narratives/classics/dah/props/props"/>
 			<value_node value="levels/narratives/bain/cage/temp_art/temp_art"/>
 			<value_node value="levels/narratives/dentist/mus/world"/>
-			<value_node value="levels/narratives/skm/skm_red2/world/world"/>
 			<value_node value="levels/narratives/skm/skm_red2/world"/>
 			<value_node value="levels/narratives/locke/sah/props/props"/>
 			<value_node value="levels/narratives/locke/sah/art/art"/>
@@ -93,6 +91,7 @@
 			<value_node value="levels/instances/unique/fish/auction_tag/world/world"/>
 			<value_node value="levels/instances/unique/dark/equipment_board/world/world"/>
 			<value_node value="levels/narratives/locke/tag/world/world"/>
+			<value_node value="levels/narratives/skm/skm_red2/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -186,6 +185,8 @@
 			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
 			<value_node value="packages/narr_hox_3"/>
 			<value_node value="levels/instances/unique/pet_shutter/world/world"/>
+			<value_node value="packages/job_kenaz"/>
+			<value_node value="levels/narratives/bain/big/editor_only/editor_only"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

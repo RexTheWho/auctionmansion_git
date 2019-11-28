@@ -22,6 +22,10 @@
 		</filter>
 		<filter name="'filter_int_4plus'">
 			<check value="vars.var_interaction > 4"/>
+			<check value="vars.var_interaction < 9000"/>
+		</filter>
+		<filter name="'filter_int_removing'">
+			<check value="vars.var_interaction == 9001"/>
 		</filter>
 		
 		<filter name="'filter_part_big_0'">
@@ -73,8 +77,12 @@
 			<object	name="'g_part2'"			enabled="true" />
 			<object	name="'g_part3'"			enabled="true" />
 			<object	name="'g_part4'"			enabled="true" />
+			<object	name="'g_part1_contour'"	enabled="true" />
+			<object	name="'g_part2_contour'"	enabled="true" />
+			<object	name="'g_part3_contour'"	enabled="true" />
+			<object	name="'g_part4_contour'"	enabled="true" />
 			<object	name="'g_cable'"			enabled="true" />
-			<body	name="'body_static'"		enabled="true"/>
+			<body	name="'body_static'"		enabled="true" />
 		</sequence>
 		
 		<!---->
@@ -89,7 +97,12 @@
 			<object	name="'g_part2'"			enabled="false" />
 			<object	name="'g_part3'"			enabled="false" />
 			<object	name="'g_part4'"			enabled="false" />
+			<object	name="'g_part1_contour'"	enabled="false" />
+			<object	name="'g_part2_contour'"	enabled="false" />
+			<object	name="'g_part3_contour'"	enabled="false" />
+			<object	name="'g_part4_contour'"	enabled="false" />
 			<object	name="'g_cable'"			enabled="false" />
+			<body	name="'body_static'"		enabled="false" />
 		</sequence>
 		
 		<!---->
@@ -101,6 +114,10 @@
 			<object	name="'g_part2'"			enabled="false" />
 			<object	name="'g_part3'"			enabled="false" />
 			<object	name="'g_part4'"			enabled="false" />
+			<object	name="'g_part1_contour'"	enabled="false" />
+			<object	name="'g_part2_contour'"	enabled="false" />
+			<object	name="'g_part3_contour'"	enabled="false" />
+			<object	name="'g_part4_contour'"	enabled="false" />
 			<object	name="'g_cable'"			enabled="false" />
 			<body	name="'body_static'"		enabled="false"/>
 		</sequence>
@@ -108,6 +125,8 @@
 		<!--Dropped large parts bag-->
 		<sequence editable_state="true" name="'add_part_big'" triggable="true">
 			<body	name="'body_static'"		filter="'filter_part_big_0'"	enabled="true" />
+			<object	name="'g_part1'"			filter="'filter_part_big_0'"	enabled="true" />
+			<object	name="'g_part3_contour'"	filter="'filter_part_big_0'"	enabled="true" />
 			<object	name="'g_part1'"			filter="'filter_part_big_0'"	enabled="true" />
 			<interaction						filter="'filter_part_big_0'"	enabled="true" />
 			<object	name="'g_part2'"			filter="'filter_part_big_1'"	enabled="true" />
@@ -122,6 +141,7 @@
 		
 		<!--Interacted-->
 		<sequence name="'interact'">
+			<run_sequence	filter="'filter_int_removing'"	name="'removed_cutter'" />
 			<set_variables var_interaction="vars.var_interaction + 1"/>
 			<run_sequence	filter="'filter_int_part_1'"	name="'add_part_small'" />
 			<run_sequence	filter="'filter_int_part_2'"	name="'add_part_small'" />
@@ -132,9 +152,12 @@
 		
 		<!--Interacted and added a small part-->
 		<sequence editable_state="true" name="'add_part_small'" triggable="true">
-			<object name="'g_part3'"	filter="'filter_int_part_1'" enabled="true" />
-			<interaction				filter="'filter_int_part_1'" enabled="true" start_time="0.5"/>
-			<object name="'g_part4'"	filter="'filter_int_part_2'"	enabled="true" />
+			<object name="'g_part3'"			filter="'filter_int_part_1'" enabled="true" />
+			<object name="'g_part3_contour'"	filter="'filter_int_part_1'" enabled="false" />
+			<object	name="'g_part4_contour'"	filter="'filter_int_part_1'" enabled="true" />
+			<interaction						filter="'filter_int_part_1'" enabled="true" start_time="0.1"/>
+			<object name="'g_part4'"			filter="'filter_int_part_2'" enabled="true" />
+			<object name="'g_part4_contour'"	filter="'filter_int_part_2'" enabled="false" />
 			<sound action="'play'" event="'saw_impact_light'" source="'snd'"/>
 			<set_variables var_parts_placed="vars.var_parts_placed + 1"/>
 			<run_sequence	filter="'filter_parts_placed'" name="'all_parts_placed'" />
@@ -163,7 +186,11 @@
 			<object	name="'g_cable_contour'"	enabled="false" />
 			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
 			<function extension="'interaction'" function="'set_tweak_data'" param1="'aucman_start_cutter'"/>
-			<interaction enabled="true" start_time="0.5"/>
+			<interaction enabled="true" start_time="0.1"/>
+			<object name="'g_part1_contour'" enabled="true" />
+			<object name="'g_part2_contour'" enabled="true" />
+			<object name="'g_part3_contour'" enabled="true" />
+			<object name="'g_part4_contour'" enabled="true" />
 		</sequence>
 		
 		<!---->
@@ -180,6 +207,10 @@
 			<effect_spawner enabled="true" name="'es_sparks2'"/>
 			<effect_spawner enabled="false" name="'es_smoke1'"/>
 			<effect_spawner enabled="false" name="'es_smoke2'"/>
+			<object	name="'g_part1_contour'" enabled="false" />
+			<object	name="'g_part2_contour'" enabled="false" />
+			<object	name="'g_part3_contour'" enabled="false" />
+			<object	name="'g_part4_contour'" enabled="false" />
 			<animation_group enabled="true" filter="'filter_0'" name="'anim_arm'" speed="0.05" />	<!---30s-->
 			<function extension="'timer_gui'" filter="'filter_0'" function="'start'" param1="'30'"/>
 			<animation_group enabled="true" filter="'filter_1'" name="'anim_arm'" speed="0.1" />	<!---60s-->
@@ -201,6 +232,10 @@
 			<effect_spawner enabled="false" name="'es_sparks2'"/>
 			<effect_spawner enabled="true" name="'es_smoke1'"/>
 			<effect_spawner enabled="true" name="'es_smoke2'"/>
+			<object	name="'g_part1_contour'" enabled="true" />
+			<object	name="'g_part2_contour'" enabled="true" />
+			<object	name="'g_part3_contour'" enabled="true" />
+			<object	name="'g_part4_contour'" enabled="true" />
 			<animation_group enabled="true" name="'anim_arm'" speed="0"/>
 		</sequence>
 		
@@ -215,6 +250,23 @@
 			<effect_spawner enabled="false" name="'es_smoke2'"/>
 			<animation_group enabled="false" name="'anim_arm'" speed="0" />
 			<sound action="'play'" event="'metal_cutter_end'" source="'snd'"/>
+			
+			<set_variables var_interaction="9001"/>
+			<run_sequence name="'begin_remove_cutter'" />
+		</sequence>
+		
+		<!--Begin removing the cutter-->
+		<sequence editable_state="true" name="'begin_remove_cutter'" triggable="true">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'aucman_cutter_remove'"/>
+			<interaction enabled="true"/>
+			<object	name="'g_part1_contour'" enabled="true" />
+			<object	name="'g_part2_contour'" enabled="true" />
+			<object	name="'g_part3_contour'" enabled="true" />
+			<object	name="'g_part4_contour'" enabled="true" />
+			<object	name="'g_cable_contour'" enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'removed_cutter'" triggable="true">
+			<run_sequence name="'hide'" />
 		</sequence>
 	</unit>
 </table>

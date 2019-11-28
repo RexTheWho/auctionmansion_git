@@ -32,6 +32,10 @@
 			<object name="g_part2"			enabled="true" />
 			<object name="g_part3"			enabled="true" />
 			<object name="g_part4"			enabled="true" />
+			<object name="g_part1_contour"	enabled="true" />
+			<object name="g_part2_contour"	enabled="true" />
+			<object name="g_part3_contour"	enabled="true" />
+			<object name="g_part4_contour"	enabled="true" />
 			<object name="g_cable"			enabled="true" />
 			<object name="g_marker_drop1"	enabled="false" />
 			<object name="g_marker_drop2"	enabled="false" />

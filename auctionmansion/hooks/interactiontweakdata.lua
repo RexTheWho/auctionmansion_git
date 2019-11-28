@@ -22,19 +22,23 @@ Hooks:PostHook(InteractionTweakData,"init","auction_missiondoortweak_init",funct
 		icon = "develop",
 		text_id = "hud_aucman_power_cable",
 		timer = 0.5,
-		interact_distance = 150,
+		interact_distance = 200,
 		equipment_text_id = "hud_aucman_power_cable_required",
 		special_equipment = "aucman_power_cable",
 		start_active = false,
 		equipment_consume = true,
-		sound_done = "insert_cable_gen"
+		sound_start =		"bar_hose_drag_out",
+		sound_interupt =	"bar_hose_drag_out_cancel",
+		sound_done =		"insert_cable_gen"
 	}
+	self.aucman_power_cable_no_consume = deep_clone(self.aucman_power_cable)
+	self.aucman_power_cable_no_consume.equipment_consume = false
 	
 	self.aucman_cutter_part = {
 		icon = "develop",
 		text_id = "hud_aucman_cutter_part",
 		timer = 1.5,
-		interact_distance = 150,
+		interact_distance = 200,
 		equipment_text_id = "hud_aucman_cutter_part_required",
 		special_equipment = "aucman_cutter_part",
 		start_active = false,
@@ -45,17 +49,27 @@ Hooks:PostHook(InteractionTweakData,"init","auction_missiondoortweak_init",funct
 	self.aucman_start_cutter = {
 		text_id = "hud_aucman_start_cutter",
 		timer = 3,
-		interact_distance = 150,
+		interact_distance = 200,
 		start_active = false,
-		sound_start =	"bar_water_pump",
-		sound_cancel =	"bar_water_pump_cancel",
-		sound_done =	"bar_water_pump_finish"
+		sound_start =		"bar_plant_breaching_detonator",
+		sound_interupt =	"bar_plant_breaching_detonator_cancel",
+		sound_done =		"bar_plant_breaching_detonator_finished"
 	}
 	
 	self.aucman_fix_cutter = {
 		text_id = "hud_aucman_fix_cutter",
 		timer = 10,
-		interact_distance = 150,
+		interact_distance = 200,
+		start_active = false,
+		sound_start =		"bar_drill_fix",
+		sound_interupt =	"bar_drill_fix_cancel",
+		sound_done =		"bar_drill_fix_finished"
+	}
+	
+	self.aucman_cutter_remove = {
+		text_id = "hud_aucman_cutter_remove",
+		timer = 10,
+		interact_distance = 200,
 		start_active = false,
 		sound_start =		"bar_drill_fix",
 		sound_interupt =	"bar_drill_fix_cancel",

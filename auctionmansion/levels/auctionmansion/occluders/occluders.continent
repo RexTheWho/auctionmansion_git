@@ -1,6 +1,49 @@
 <table>
 	<editor_groups/>
-	<statics/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-2125 3200 800" _prev_rot="-0 0 -0 -1" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_001" only_visible_in_editor="true" position="-2125 3200 800" rotation="-0 0 -0 -1" unit_id="500000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 3200 800" _prev_rot="0 0 0 -1" continent="occluders" local_pos="800 0 0" local_rot="-0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_002" only_visible_in_editor="true" position="-1325 3200 800" rotation="0 0 0 -1" unit_id="500001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 3200 800" _prev_rot="0 0 0 -1" continent="occluders" local_pos="1225 0 0" local_rot="-0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_003" only_visible_in_editor="true" position="-900 3200 800" rotation="0 0 0 -1" unit_id="500002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 1400 800" _prev_rot="0 0 1 4.37114e-008" continent="occluders" local_pos="2025 -1800 0" local_rot="0 0 -1 -4.37114e-008" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_004" only_visible_in_editor="true" position="-100 1400 800" rotation="0 0 1 4.37114e-008" unit_id="500003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-900 1400 800" _prev_rot="0 0 1 4.37114e-008" continent="occluders" local_pos="1225 -1800 0" local_rot="0 0 -1 -4.37114e-008" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_005" only_visible_in_editor="true" position="-900 1400 800" rotation="0 0 1 4.37114e-008" unit_id="500004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 1400 800" _prev_rot="0 0 1 4.37114e-008" continent="occluders" local_pos="800 -1800 0" local_rot="0 0 -1 -4.37114e-008" name="units/pd2_mod_auction/occluders/occluder_plane_4x8" name_id="occluder_plane_4x8_006" only_visible_in_editor="true" position="-1325 1400 800" rotation="0 0 1 4.37114e-008" unit_id="500005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 5625 400" _prev_rot="0 0 0.707107 -0.707107" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_001" only_visible_in_editor="true" position="-2625 5625 400" rotation="0 0 0.707107 -0.707107" unit_id="500006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 4800 400" _prev_rot="0 0 0.707107 -0.707107" continent="occluders" local_pos="825 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_002" only_visible_in_editor="true" position="-2625 4800 400" rotation="0 0 0.707107 -0.707107" unit_id="500007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 3200 400" _prev_rot="0 0 0.707107 -0.707107" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_003" only_visible_in_editor="true" position="-2625 3200 400" rotation="0 0 0.707107 0.707107" unit_id="500008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2625 2375 400" _prev_rot="0 0 0.707107 -0.707107" continent="occluders" local_pos="825 5.09024e-005 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_004" only_visible_in_editor="true" position="-2625 4025 400" rotation="0 0 0.707107 0.707107" unit_id="500009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4225 3200 400" _prev_rot="0 0 -0.707107 -0.707107" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_005" only_visible_in_editor="true" position="-4225 3200 400" rotation="0 0 -0.707107 -0.707107" unit_id="500010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4225 4025 400" _prev_rot="0 0 -0.707107 -0.707107" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_006" only_visible_in_editor="true" position="-4225 4025 400" rotation="0 0 -0.707107 -0.707107" unit_id="500011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4225 5625 400" _prev_rot="0 0 -0.707107 -0.707107" continent="occluders" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_007" only_visible_in_editor="true" position="-4225 5625 400" rotation="0 0 0.707107 -0.707107" unit_id="500012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4225 6450 400" _prev_rot="0 0 -0.707107 -0.707107" continent="occluders" local_pos="825 9.83477e-005 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/occluders/occluder_plane_16x8" name_id="occluder_plane_16x8_008" only_visible_in_editor="true" position="-4225 4800 400" rotation="0 0 0.707107 -0.707107" unit_id="500013"/>
+		</table>
+	</statics>
 	<values>
 		<workviews/>
 	</values>

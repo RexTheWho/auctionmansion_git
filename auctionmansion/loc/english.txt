@@ -13,6 +13,7 @@
 	"hud_aucman_cutter_part_required":		"Cutter Parts Required!",
 	"hud_aucman_start_cutter":				"Hold $BTN_INTERACT to start the cutter",
 	"hud_aucman_fix_cutter":				"Hold $BTN_INTERACT to fix the cutter",
+	"hud_aucman_cutter_remove":				"Hold $BTN_INTERACT to remove the cutter",
 	
 	
 	"gui_aucman_cutter_start":				"START CUTTER",

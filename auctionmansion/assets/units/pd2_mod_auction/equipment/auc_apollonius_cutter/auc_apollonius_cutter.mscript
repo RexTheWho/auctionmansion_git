@@ -40,6 +40,7 @@
         
         <rootpoint name="a_pivot">
             <object name="g_part2" />
+            <object name="g_part2_contour" />
             <object name="c_box_001" />
         </rootpoint>
     </import>

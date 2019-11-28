@@ -1,8 +1,8 @@
 <table directory="assets">
 	<add path="units/test/jocke/plane_black_temp" type="unit">
-		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
-		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<unit				path="units/pd2_mod_auction/test/material_test" unload="true"/>
@@ -12,6 +12,22 @@
 		<unit				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
 		<object				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
 		<model				path="units/pd2_mod_auction/test/test_vertex" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_auction/occluders/occluder_plane" unload="true"/>
+		<unit				path="units/pd2_mod_auction/occluders/occluder_plane_4x8" unload="true"/>
+		<object				path="units/pd2_mod_auction/occluders/occluder_plane_4x8" unload="true"/>
+		<model				path="units/pd2_mod_auction/occluders/occluder_plane_4x8" unload="true"/>
+		<unit				path="units/pd2_mod_auction/occluders/occluder_plane_8x8" unload="true"/>
+		<object				path="units/pd2_mod_auction/occluders/occluder_plane_8x8" unload="true"/>
+		<model				path="units/pd2_mod_auction/occluders/occluder_plane_8x8" unload="true"/>
+		<unit				path="units/pd2_mod_auction/occluders/occluder_plane_16x8" unload="true"/>
+		<object				path="units/pd2_mod_auction/occluders/occluder_plane_16x8" unload="true"/>
+		<model				path="units/pd2_mod_auction/occluders/occluder_plane_16x8" unload="true"/>
+		<unit				path="units/pd2_mod_auction/occluders/occluder_plane_16x16" unload="true"/>
+		<object				path="units/pd2_mod_auction/occluders/occluder_plane_16x16" unload="true"/>
+		<model				path="units/pd2_mod_auction/occluders/occluder_plane_16x16" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_auction/mansion/auction_mansion" unload="true"/>
 		<unit				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/man_int_mainhall" unload="true"/>
@@ -25,7 +41,55 @@
 		<object				path="units/pd2_mod_auction/mansion/aucman_caps" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/aucman_caps" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/mansion/aucman_caps" unload="true"/>
-		<material_config	path="units/pd2_mod_auction/mansion/auction_mansion" unload="true"/>
+		
+		
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner2" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner2" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner2" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner3" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner3" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner3" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m_gate" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m_gate" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m_gate" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_4m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_2m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_2m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_2m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_1m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_1m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_1m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_02" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_02" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_02" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_03" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_03" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_03" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_vault_ceiling_floor/aucman_vault_ceiling_floor" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_vault_ceiling_floor/aucman_vault_ceiling_floor" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_vault_ceiling_floor/aucman_vault_ceiling_floor" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/mansion/aucman_vault_ceiling_floor/aucman_vault_ceiling_floor" unload="true"/>
+		
 		
 		<texture			path="units/pd2_mod_auction/textures/wallpaper_generic_nm" unload="true"/>
 		
@@ -175,6 +239,24 @@
 		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_light_blue" unload="true"/>
 		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_glass_titan_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/equipment/auc_security_cameras/auc_camera_sticker_blackmesa_df" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_df" unload="true"/>
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_fire" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_sparks" unload="true" load="true" />
+		<effect				path="units/pd2_mod_auction/equipment/auc_apollonius_cutter/auc_apollonius_cutter_lance_sparks2" unload="true" load="true" />
+		
+		<unit				path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives" unload="true"/>
+		<object				path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives" unload="true"/>
+		<model				path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives" unload="true"/>
+		<material_config	path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives" unload="true"/>
+		<texture			path="units/pd2_mod_auction/equipment/auc_explosives/auc_explosives_df" unload="true"/>
 		
 		<!--Objective Hints-->
 		<unit				path="units/pd2_mod_auction/props/aucman_document_pile/aucman_document_pile" unload="true"/>

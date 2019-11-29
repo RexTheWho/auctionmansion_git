@@ -18,7 +18,7 @@
     </object3d>
     <object3d name="c_box_004" mode="edit">
         <parent name="rp_rootpoint" />
-        <position x="0" y="0" z="1125" />
+        <position x="0" y="0" z="1150" />
         <rotation w="1" x="0" y="0" z="0" />
     </object3d>
     <object3d name="c_capsule_001" mode="edit">

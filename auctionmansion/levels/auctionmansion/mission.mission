@@ -1,5 +1,6 @@
 <table>
 	<art_croqui file="art_croqui/art_croqui"/>
+	<bdrop file="bdrop/bdrop"/>
 	<editor_only file="editor_only/editor_only"/>
 	<occluders file="occluders/occluders"/>
 	<temp file="temp/temp"/>

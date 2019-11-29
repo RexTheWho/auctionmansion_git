@@ -8,7 +8,7 @@
 			<object name="c_box_002"		collision_type="box"		padding="-2.5" />
 			<object name="c_box_003"		collision_type="box"		padding="-2.5" />
 			<object name="c_box_004"		collision_type="box"		padding="-2.5" />
-			<object name="c_capsule_001"	collision_type="capsule"	padding="-2.5" />
+			<object name="c_capsule_001"	collision_type="capsule"	padding="-3.5" />
 		</body>
 	</bodies>
 	

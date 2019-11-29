@@ -4,6 +4,10 @@
 		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
 	</add>
+	<!--AUCTION CUBEMAPS-->
+	<add unload_on_restart="true">
+		<texture path="levels/mods/auctionmansion/cubemaps/100523"/>
+	</add>
 	<add unload_on_restart="true">
 		<unit				path="units/pd2_mod_auction/test/material_test" unload="true"/>
 		<object				path="units/pd2_mod_auction/test/material_test" unload="true"/>
@@ -42,6 +46,11 @@
 		<model				path="units/pd2_mod_auction/mansion/aucman_caps" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_auction/mansion/aucman_caps" unload="true"/>
 		
+		<!--BDROP-->
+		<unit				path="units/pd2_mod_auction/bdrop/aucman_bdrop_sea" unload="true"/>
+		<object				path="units/pd2_mod_auction/bdrop/aucman_bdrop_sea" unload="true"/>
+		<model				path="units/pd2_mod_auction/bdrop/aucman_bdrop_sea" unload="true"/>
+		
 		
 		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_corner" unload="true"/>
@@ -67,6 +76,9 @@
 		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/aucman_roof_trims/aucman_roof_trim_025m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
 		<unit				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_01" unload="true"/>
@@ -77,9 +89,31 @@
 		<object				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_03" unload="true"/>
 		<model				path="units/pd2_mod_auction/mansion/aucman_pillars/aucman_pillar_03" unload="true"/>
 		
-		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
-		<object				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
-		<model				path="units/pd2_mod_auction/mansion/aucman_roof_setpiece/aucman_roof_setpiece" unload="true"/>
+		
+		<unit				path="units/pd2_mod_auction/mansion/aucman_exterior_walls/aucman_exterior_walls" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_exterior_walls/aucman_exterior_walls" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_exterior_walls/aucman_exterior_walls" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_exterior/aucman_exterior_1" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_exterior/aucman_exterior_1" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_exterior/aucman_exterior_1" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_4m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_4m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_4m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_2m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_2m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_2m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_1m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_1m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_1m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_025m" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_025m" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_025m" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner" unload="true"/>
+		<unit				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner2" unload="true"/>
+		<object				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner2" unload="true"/>
+		<model				path="units/pd2_mod_auction/mansion/aucman_ext_trims/aucman_ext_trim_corner2" unload="true"/>
 		
 		<unit				path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
 		<object				path="units/pd2_mod_auction/mansion/aucman_roof_skylight_cap/aucman_roof_skylight_cap" unload="true"/>
@@ -310,7 +344,7 @@
 		
 		
 		<unit				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1_husk" unload="true" load="true"/>
 		<object				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
 		<model				path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_1" unload="true"/>
@@ -318,29 +352,29 @@
 		<texture			path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_body_df" unload="true"/>
 		<texture			path="units/pd2_mod_auction/characters/ene_male_auctioneer_1/ene_male_auctioneer_head_df" unload="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_husk" unload="true" load="true"/>
 		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
 		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_01/ene_guard_indoor_01_contour" unload="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02_husk" unload="true" load="true"/>
 		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
 		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_02/ene_guard_indoor_02_contour" unload="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_03/ene_guard_indoor_03" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_03/ene_guard_indoor_03_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_03/ene_guard_indoor_03_husk" unload="true" load="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_04/ene_guard_indoor_04_husk" unload="true" load="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05_husk" unload="true" load="true"/>
 		<object				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
 		<model				path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05" unload="true"/>
 		<material_config	path="units/pd2_mod_auction/characters/ene_guard_indoor_05/ene_guard_indoor_05_contour" unload="true"/>
 		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_06/ene_guard_indoor_06" unload="true"/>
-		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_06/ene_guard_indoor_06_husk" unload="true"/>
+		<unit				path="units/pd2_mod_auction/characters/ene_guard_indoor_06/ene_guard_indoor_06_husk" unload="true" load="true"/>
 		
 		<!--Doors-->
 		<unit				path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>

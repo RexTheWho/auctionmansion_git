@@ -3,7 +3,7 @@ Hooks:PostHook(CharacterTweakData,"character_map","auction_character_map",functi
 		auction = {
 			path = "units/pd2_mod_auction/characters/",
 			list = {
-				-- "ene_male_auctioneer_1",
+				"ene_male_auctioneer_1",
 				-- "ene_male_auctioneer_2",
 				"ene_guard_indoor_01",
 				"ene_guard_indoor_02",

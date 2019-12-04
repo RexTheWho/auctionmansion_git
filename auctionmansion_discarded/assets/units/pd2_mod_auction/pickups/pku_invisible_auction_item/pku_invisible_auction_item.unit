@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<unit type="dev" slot="1">
+	<object file="units/pd2_mod_auction/pickups/pku_invisible_auction_item/pku_invisible_auction_item" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData">
+			<var name="only_visible_in_editor" value="true" />
+		</extension>
+
+		<!-- -->
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="gen_pku_artifact" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="_global_event" value="pku_auction_item_special" />
+		</extension> 
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="auction_item_special" />
+		</extension>
+
+		<extension name="damage" class="UnitDamage" />
+
+	</extensions>
+</unit>

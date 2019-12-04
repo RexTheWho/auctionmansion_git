@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chew/props/chw_wooden_shipping_crate/chw_wooden_shipping_crate" orientation_object="rp_chw_wooden_shipping_crate" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chw_wooden_shipping_crate" />
+			<object name="c_c" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

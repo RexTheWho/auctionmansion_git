@@ -1,0 +1,103 @@
+<table>
+	<unit>
+		<variables>
+			<var_opened value="0"/>
+		</variables>
+		<filter name="'filter_not_opened'">
+			<check value="vars.var_opened == 0"/>
+		</filter>
+		
+		
+		<sequence name="'hide_disable'" editable_state="true" triggable="true">
+			<interaction enabled="false"/>
+			<function extension="'base'" function="'deactivate'"/>
+			<graphic_group	name="'group_all'" visibility="false"/>
+			<body			name="'body_static'" enabled="false"/>
+		</sequence>
+		<sequence name="'show_enable'" editable_state="true" triggable="true">
+			<interaction enabled="true"/>
+			<function extension="'base'" function="'activate'"/>
+			<graphic_group	name="'group_all'" visibility="true"/>
+			<body			name="'body_static'" enabled="true"/>
+		</sequence>
+		<sequence name="'disable'" editable_state="true" triggable="true" filter="'filter_not_opened'">
+			<interaction enabled="false"/>
+			<function extension="'base'" function="'deactivate'"/>
+		</sequence>
+		<sequence name="'enable'" editable_state="true" triggable="true" filter="'filter_not_opened'">
+			<interaction enabled="true"/>
+			<function extension="'base'" function="'activate'"/>
+		</sequence>
+		
+		<sequence name="'interact'">
+			<run_sequence name="'done_opened'"/>
+			<object enabled="true"		name="'g_keycard'"/>
+			<object enabled="true"		name="'g_control_panel_screen_acces'"/>
+			<object enabled="false"		name="'g_control_panel_screen'"/>
+		</sequence>
+		<sequence name="'open_door_ecm'">
+			<interaction enabled="false"/>
+			<run_sequence name="'start_hack_animation'"/>
+			<object enabled="false"	name="'g_control_panel_screen'"/>
+			<object enabled="true"	name="'g_ecm'"/>
+			<object enabled="true"	name="'g_ecm_glow'"/>
+		</sequence>
+		<sequence name="'done_opened'" editable_state="true" triggable="true">
+			<set_variables var_opened="1"/>
+			<interaction enabled="false"/>
+			<function extension="'base'" function="'deactivate'"/>
+		</sequence>
+		
+		
+		
+		
+		<sequence name="'start_hack_animation'" >
+			<object enabled="false"	name="'g_control_panel_screen'"/>
+			<object enabled="false"	name="'g_control_panel_screen_acces'"/>
+			<object enabled="true"	name="'g_control_panel_screen_hack'"/>
+			<material name="'mtl_screen_hacked'" state="'pause'"/>
+			<material name="'mtl_glow'" state="'pause'"/>
+			<run_sequence name="'hack_anim_00'"/>
+		</sequence>
+		<sequence name="'hack_anim_00'" >
+			<material name="'mtl_screen_hacked'" time="0.25"/>
+			<material name="'mtl_glow'" time="0.25"/>
+			<run_sequence name="'hack_anim_01'" start_time="5/30"/>
+		</sequence>
+		<sequence name="'hack_anim_01'" >
+			<material name="'mtl_screen_hacked'" time="0.375"/>
+			<material name="'mtl_glow'" time="0.375"/>
+			<run_sequence name="'hack_anim_02'" start_time="3/30"/>
+		</sequence>
+		<sequence name="'hack_anim_02'" >
+			<material name="'mtl_screen_hacked'" time="0.5"/>
+			<material name="'mtl_glow'" time="0.5"/>
+			<run_sequence name="'hack_anim_03'" start_time="9/30"/>
+		</sequence>
+		<sequence name="'hack_anim_03'" >
+			<material name="'mtl_screen_hacked'" time="0.875"/>
+			<material name="'mtl_glow'" time="0.875"/>
+			<run_sequence name="'hack_anim_04'" start_time="7/30"/>
+		</sequence>
+		<sequence name="'hack_anim_04'" >
+			<material name="'mtl_screen_hacked'" time="1"/>
+			<material name="'mtl_glow'" time="1"/>
+			<run_sequence name="'hack_anim_05'" start_time="5/30"/>
+		</sequence>
+		<sequence name="'hack_anim_05'" >
+			<material name="'mtl_screen_hacked'" time="0.875"/>
+			<material name="'mtl_glow'" time="0.875"/>
+			<run_sequence name="'hack_anim_06'" start_time="4/30"/>
+		</sequence>
+		<sequence name="'hack_anim_06'" >
+			<material name="'mtl_screen_hacked'" time="0.375"/>
+			<material name="'mtl_glow'" time="0.375"/>
+			<run_sequence name="'hack_anim_done'" start_time="7/30"/>
+		</sequence>
+		<sequence name="'hack_anim_done'">
+			<object enabled="false"		name="'g_control_panel_screen_hack'"/>
+			<object enabled="true"		name="'g_control_panel_screen_acces'"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+	</unit>
+</table>

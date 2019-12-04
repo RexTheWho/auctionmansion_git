@@ -1,0 +1,54 @@
+<table>
+	<unit>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<object name="'g_gui_lockpick'"	enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<object name="'g_gui_lockpick'"	enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction  enabled="false"/>
+			<graphic_group	visibility="false" name="'grp_main'"/>
+			
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction  enabled="true"/>
+			<graphic_group	visibility="true" name="'grp_main'"/>
+			
+			<body enabled="true" name="'body_static'"/>
+		</sequence>
+		
+		<sequence name="'glass_break'" once="true">
+			<object name="'g_glass'"			enabled="false" />
+			<object name="'g_glass_cut'"		enabled="false" />
+			<object name="'g_glass_shattered'"	enabled="true" />
+			<body enabled="false" name="'body_glass'"/>
+			<body enabled="false" name="'body_glass_cut'"/>
+		</sequence>
+		<sequence name="'glass_cut'" >
+			<object name="'g_glass'"			enabled="false" />
+			<object name="'g_glass_cut'"		enabled="true" />
+			<object name="'g_glass_shattered'"	enabled="false" />
+			<body enabled="false" name="'body_glass'"/>
+			<body enabled="true" name="'body_glass_cut'"/>
+		</sequence>
+		<sequence name="'glass_solid'" >
+			<object name="'g_glass'"			enabled="true" />
+			<object name="'g_glass_cut'"		enabled="false" />
+			<object name="'g_glass_shattered'"	enabled="false" />
+			<body enabled="true" name="'body_glass'"/>
+			<body enabled="false" name="'body_glass_cut'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true" >
+			<object name="'g_gui_lockpick'"	enabled="false"/>
+			<object name="'g_panel'"		enabled="false"/>
+			<object name="'g_panel_opened'"	enabled="true"/>
+		</sequence>
+	</unit>
+</table>

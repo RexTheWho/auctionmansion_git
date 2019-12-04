@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="bath_stool">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/pd2_dlc_lxy/props/yacht/bath/lxy_prop_bath_stool_df"/>
+        <bump_normal_texture file="units/pd2_dlc_lxy/props/yacht/bath/lxy_prop_bath_stool_nm"/>
+    </material>
+</materials>

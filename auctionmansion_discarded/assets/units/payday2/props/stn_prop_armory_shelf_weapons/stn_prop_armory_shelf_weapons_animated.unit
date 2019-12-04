@@ -1,0 +1,12 @@
+<unit type="stn" slot="1" >
+    <object file="units/payday2/props/stn_prop_armory_shelf_weapons/stn_prop_armory_shelf_weapons_animated" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="pick_lock_easy_no_skill" />
+			<var name="_interact_object" value="interact_locator"/>
+		</extension>
+	</extensions>
+</unit>

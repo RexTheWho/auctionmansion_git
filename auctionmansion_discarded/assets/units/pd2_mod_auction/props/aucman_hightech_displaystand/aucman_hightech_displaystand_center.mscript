@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<modelscript>
+
+    <object3d name="interact" mode="edit">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="anim" mode="edit">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="-10" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+	<!--Import-->
+    <import file="aucman_hightech_displaystand_center.obj" type="obj" create_objects="true">
+        <rootpoint name="anim">
+            <default/>
+        </rootpoint>
+        <rootpoint name="rp_mus_prop_diamond_pedestal">
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+	
+    <object3d name="g_glass_solid" mode="edit">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_glass_cut" mode="edit">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_glass_shattered" mode="edit">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <object3d name="e_glass" mode="add">
+        <parent name="rp_mus_prop_diamond_pedestal" />
+        <position x="0" y="0" z="135" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+</modelscript>

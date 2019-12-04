@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+    <import file="aucman_vault_beam.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+	
+	<object3d name="c_box_003" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="350" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

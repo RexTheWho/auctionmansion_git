@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_pku_loot_cigar_crate" materials="units/payday2/pickups/gen_pku_loot_hlm_crates/gen_pku_loot_cigar_crate" />
+    <graphics>
+        <object enabled="true" name="g_cigar" />
+    </graphics>
+</dynamic_object>

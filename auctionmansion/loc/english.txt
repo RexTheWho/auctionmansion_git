@@ -3,26 +3,7 @@
 	"heist_narr_auctionmansion_brief":"JOB BRIEF",
 	"heist_auctionmansion_name":"LVL NAME",
 	"heist_auctionmansion_brief":"LVL BRIEF",
-	
-	
-	"debug_equipment_aucman_power_cable":	"Power Cable",
-	"hud_aucman_power_cable":				"Hold $BTN_INTERACT to connect power cable",
-	"hud_aucman_power_cable_required":		"Power Cable Required!",
-	"debug_equipment_aucman_cutter_part":	"Cutter Parts",
-	"hud_aucman_cutter_part":				"Hold $BTN_INTERACT to attach cutter parts",
-	"hud_aucman_cutter_part_required":		"Cutter Parts Required!",
-	"hud_aucman_start_cutter":				"Hold $BTN_INTERACT to start the cutter",
-	"hud_aucman_fix_cutter":				"Hold $BTN_INTERACT to fix the cutter",
-	"hud_aucman_cutter_remove":				"Hold $BTN_INTERACT to remove the cutter",
-	
-	
-	"gui_aucman_cutter_start":				"START CUTTER",
-	"gui_aucman_cutter_working":			"CUTTING",
-	"gui_aucman_cutter_done":				"COMPLETED",
-	"gui_aucman_cutter_malfunction":		"ERR: MALFUNCTION",
-	
-	
 	"bm_melee_biggavel":"Oversized Gavel",
-	"bm_melee_biggavel_desc":"That's it! I'm gettin' me mallet!",
+	"bm_melee_biggavel_desc":"That's it! Im gettin' me mallet!",
 	"hud_carry_auction_item":"Auction Item"
 }

@@ -1,0 +1,12 @@
+<unit type="auc" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_push_button" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

@@ -1,0 +1,8 @@
+<unit type="chl" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_chill/props/chl_prop_cashier_chip_blue/chl_prop_cashier_chip_blue" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

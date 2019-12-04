@@ -1,0 +1,113 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_dah/props/dah_prop_chandelier_03/dah_prop_chandelier_03" orientation_object="rp_dah_prop_chandelier_03" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_dah_prop_chandelier_03" />
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" padding="-2.5" />
+		</body>
+	</bodies>
+	
+<!--
+	<effects>
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect1" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect2" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect3" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect4" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect5" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect6" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect7" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect8" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect9" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect10" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect11" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect12" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect13" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect14" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect15" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect16" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect17" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect18" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect19" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect20" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect21" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect22" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect23" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect24" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect25" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect26" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect27" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect28" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect29" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect30" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect31" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect32" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect33" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect34" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect35" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect36" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect37" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect38" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect39" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect40" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect41" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect42" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect43" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect44" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect45" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect46" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect47" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect48" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect49" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect50" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect51" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect52" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect53" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect54" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect55" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect56" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect57" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect58" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect59" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect60" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect61" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect62" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect63" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect64" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect65" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect66" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect67" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect68" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect69" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect70" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect71" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect72" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect73" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect74" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect75" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect76" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect77" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect78" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect79" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect80" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect81" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect82" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect83" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect84" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect85" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect86" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect87" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect88" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect89" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+		<effect_spawner name="indoor_lamp" enabled="true" object="e_effect90" effect="effects/payday2/particles/flares/indoor_lamp_v9" />
+
+    </effects>
+-->
+
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<object name="g_glow" enabled="true" />
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

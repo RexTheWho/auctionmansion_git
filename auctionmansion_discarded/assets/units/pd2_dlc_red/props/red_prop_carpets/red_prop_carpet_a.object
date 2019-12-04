@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_prop_carpet_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_red_prop_carpet_a" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="dm_carpet" enabled="true" material="carpet"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

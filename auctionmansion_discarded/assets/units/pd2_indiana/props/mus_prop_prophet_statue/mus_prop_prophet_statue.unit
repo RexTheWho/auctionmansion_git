@@ -1,0 +1,25 @@
+<unit type="mus" slot="1" >
+  <object file="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" />
+  <network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/destruction/dest_statue_bust" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_01" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_02" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_cape" />
+		<!-- 
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_arm" />
+		-->
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_hand" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_leg" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_shoulder" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_leg" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_shoulder" />
+		<depends_on unit="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_waist" />
+		<depends_on physic_effect="physic_effects/push_sphere" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+  </unit>

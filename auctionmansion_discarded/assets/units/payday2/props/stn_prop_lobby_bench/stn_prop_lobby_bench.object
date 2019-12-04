@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_lobby_bench/stn_prop_lobby_bench" orientation_object="rp_stn_prop_lobby_bench" />
+	<bodies>
+		<body name="body_collision" enabled="true" template="static">
+			<object name="rp_stn_prop_lobby_bench" />
+			<object name="c_stn_prop_lobby_bench" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_stn_prop_lobby_bench" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_stn_prop_lobby_bench" enabled="true"  />
+	</graphics>
+</dynamic_object>

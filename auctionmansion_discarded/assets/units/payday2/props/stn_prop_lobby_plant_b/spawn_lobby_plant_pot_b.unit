@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="debris" slot="18">
+	<object file="units/payday2/props/stn_prop_lobby_plant_b/spawn_lobby_plant_pot_b" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

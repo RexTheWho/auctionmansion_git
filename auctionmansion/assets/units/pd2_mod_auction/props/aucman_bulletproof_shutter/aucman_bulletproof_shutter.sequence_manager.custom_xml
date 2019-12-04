@@ -1,0 +1,25 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'shutters_close'" triggable="true">
+			<animation_group enabled="true" from="0/30" loop="false" name="'shutters'" speed="1" to="36/30"/>
+			<sound action="'play'" event="'bulletproof_shutter_open'" object="'rp_sfm_prop_bulletproof_shutter'"/>
+		</sequence>
+		<sequence editable_state="true" name="'shutters_open'" triggable="true">
+			<animation_group enabled="true" from="36/30" loop="false" name="'shutters'" speed="-1" to="0/30"/>
+			<sound action="'play'" event="'bulletproof_shutter_open'" object="'rp_sfm_prop_bulletproof_shutter'"/>
+		</sequence>
+		<sequence name="'int_seq_open_shutters'">
+			<animation_group enabled="true" from="30/30" name="'shutters'" speed="0.3" to="39/30"/>
+			<sound action="'play'" event="'bulletproof_shutter_open'" object="'rp_sfm_prop_bulletproof_shutter'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_open'" triggable="false">
+			<run_sequence name="'int_seq_open_shutters'"/>
+			<object enabled="true" name="'g_shutter_01'"/>
+			<object enabled="true" name="'g_shutter_02'"/>
+			<object enabled="true" name="'g_shutter_03'"/>
+			<object enabled="true" name="'g_shutter_04'"/>
+			<object enabled="true" name="'g_shutter_05'"/>
+			<object enabled="true" name="'g_shutter_06'"/>
+		</sequence>
+	</unit>
+</table>

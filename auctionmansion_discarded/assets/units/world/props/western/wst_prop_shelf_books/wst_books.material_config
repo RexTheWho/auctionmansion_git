@@ -1,0 +1,6 @@
+<materials version="3">
+	<material render_template="generic:DIFFUSE_TEXTURE" decal_material="metal" version="2" name="mtr_wst_prop_book">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/western/wst_prop_book/wst_prop_book_df"/>
+    </material>
+</materials>

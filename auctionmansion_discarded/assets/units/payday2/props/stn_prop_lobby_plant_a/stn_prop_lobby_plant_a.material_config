@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="mat_stn_prop_lobby_plant_a" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a_df"/>
+        <bump_normal_texture file="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a_nm"/>
+        <variable value="0.019999999552965" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

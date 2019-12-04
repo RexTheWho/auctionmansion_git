@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sah/props/sah_prop_auction_screen/sah_prop_auction_screen" orientation_object="rp_sah_prop_auction_screen" />
+	<sequence_manager file="units/pd2_dlc_sah/props/sah_prop_auction_screen/sah_prop_auction_screen" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sah_prop_auction_screen" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_glass_unbreakable" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<object name="g_screen_on" enabled="true" />
+		<object name="g_screen_off" enabled="false" />
+	</graphics>
+</dynamic_object>

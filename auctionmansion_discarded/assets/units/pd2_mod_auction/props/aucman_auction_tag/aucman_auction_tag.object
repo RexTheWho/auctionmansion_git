@@ -1,0 +1,45 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag"/>
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static" collides_with_mover="false">
+			<object name="c_c" collision_type="box" padding="-2.5" />			
+		</body>	
+	</bodies>
+
+	<graphics>
+		<graphic_group name="grp_blue" enabled="true" culling_object="co_culling">
+			<object name="g_tag_blue"				enabled="true"/>
+			<object name="g_tag_blue_code0"			enabled="true"/>
+			<object name="g_tag_blue_code1"			enabled="false"/>
+			<object name="g_tag_blue_code2"			enabled="false"/>
+			<object name="g_tag_blue_code3"			enabled="false"/>
+			<object name="g_tag_blue_code4"			enabled="false"/>
+		</graphic_group>
+		<graphic_group name="grp_red" enabled="true" culling_object="co_culling">
+			<object name="g_tag_red"				enabled="true"/>
+			<object name="g_tag_red_code0"			enabled="true"/>
+			<object name="g_tag_red_code1"			enabled="false"/>
+			<object name="g_tag_red_code2"			enabled="false"/>
+			<object name="g_tag_red_code3"			enabled="false"/>
+			<object name="g_tag_red_code4"			enabled="false"/>
+		</graphic_group>
+		<graphic_group name="grp_green" enabled="true" culling_object="co_culling">
+			<object name="g_tag_green"				enabled="true"/>
+			<object name="g_tag_green_code0"		enabled="true"/>
+			<object name="g_tag_green_code1"		enabled="false"/>
+			<object name="g_tag_green_code2"		enabled="false"/>
+			<object name="g_tag_green_code3"		enabled="false"/>
+			<object name="g_tag_green_code4"		enabled="false"/>
+		</graphic_group>
+		<graphic_group name="grp_white" enabled="true" culling_object="co_culling">
+			<object name="g_tag_white"				enabled="true"/>
+			<object name="g_tag_white_code0"		enabled="true"/>
+			<object name="g_tag_white_code1"		enabled="false"/>
+			<object name="g_tag_white_code2"		enabled="false"/>
+			<object name="g_tag_white_code3"		enabled="false"/>
+			<object name="g_tag_white_code4"		enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

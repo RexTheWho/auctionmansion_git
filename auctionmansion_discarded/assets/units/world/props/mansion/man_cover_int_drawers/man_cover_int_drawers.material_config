@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="drawers" decal_material="wood" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/mansion/man_cover_int_drawers/man_cover_drawers_df"/>
+        <bump_normal_texture file="units/world/props/mansion/man_cover_int_drawers/man_cover_drawers_nm"/>
+    </material>
+</materials>

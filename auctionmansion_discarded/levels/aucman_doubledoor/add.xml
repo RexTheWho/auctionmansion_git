@@ -1,0 +1,71 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" type="unit">
+		<material_config force="true" path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" unload="true"/>
+		<object force="true" path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<material_config force="true" path="core/material_configs/hub_elements" unload="true"/>
+		<object force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" unload="true"/>
+		<unit force="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit path="units/pd2_mod_auction/mansion/aucman_doubledoor_caps" unload="true"/>
+		<object path="units/pd2_mod_auction/mansion/aucman_doubledoor_caps" unload="true"/>
+		<model path="units/pd2_mod_auction/mansion/aucman_doubledoor_caps" unload="true"/>
+		<sequence_manager path="units/pd2_mod_auction/mansion/aucman_doubledoor_caps" unload="true"/>
+		<material_config path="units/pd2_mod_auction/mansion/auction_mansion" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_1_df" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_1_dnm" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_1_gsma" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_2_df" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_2_dnm" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_2_gsma" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_3_df" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_3_dnm" unload="true"/>
+		<texture path="units/pd2_mod_auction/textures/wallpaper_3_gsma" unload="true"/>
+		<unit path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<object path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<model path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<material_config path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<sequence_manager path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader" unload="true"/>
+		<texture path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/screen_df" unload="true"/>
+		<unit path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<object path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<model path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<material_config path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<sequence_manager path="units/pd2_mod_auction/equipment/auc_interactable_keycard_reader/auc_interactable_keycard_reader_jammer" unload="true"/>
+		<unit path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
+		<object path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
+		<model path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
+		<material_config path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
+		<sequence_manager path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" unload="true"/>
+		<unit path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
+		<object path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
+		<model path="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor_debris" unload="true"/>
+		<unit path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<object path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<model path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<material_config path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+		<sequence_manager path="units/pd2_mod_auction/equipment/auc_interactable_big_button/auc_interactable_big_button" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<unit force="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<object force="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<material_config force="true" path="units/payday2/architecture/mkp/mkp" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" type="unit">
+		<unit force="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config force="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit force="true" path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object force="true" path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+	</add>
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<unit force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+		<material_config force="true" path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="bnk_prop_lounge_table_long.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_bnk_prop_lounge_table_long">
+            <default/>
+        </rootpoint>
+    </import>
+</modelscript>

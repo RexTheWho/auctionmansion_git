@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a" orientation_object="rp_spawn_lobby_plant_leaves" />
+	<bodies>
+        <body name="dynamic_shard_1" enabled="true" template="dynamic" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_convex_leaves_01" collision_type="convex" padding="-2.5" mass="50" />
+        </body>
+        <body name="dynamic_shard_2" enabled="true" template="dynamic" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_convex_leaves_02" collision_type="convex" padding="-2.5" mass="50" />
+        </body>
+        <body name="dynamic_shard_3" enabled="true" template="dynamic" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_convex_leaves_03" collision_type="convex" padding="-2.5" mass="50" />
+        </body>
+        <body name="dynamic_shard_4" enabled="true" template="dynamic" collides_with_mover="false" pushed_by_mover="false" friction="0.5" collision_script_quiet_time="0.5" >
+            <object name="c_convex_leaves_04" collision_type="convex" padding="-2.5" mass="50" />
+        </body>
+	</bodies>
+	<graphics>
+		<object name="g_leaves_dmg_01" enabled="true"  />
+		<object name="g_leaves_dmg_02" enabled="true"  />
+		<object name="g_leaves_dmg_03" enabled="true"  />
+		<object name="g_leaves_dmg_04" enabled="true"  />
+	</graphics>
+</dynamic_object>

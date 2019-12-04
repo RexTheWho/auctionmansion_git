@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/mansion/man_cover_int_drawers/man_cover_int_drawers" orientation_object="rp_man_cover_int_drawers" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="c_man_cover_int_drawers" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="wood">
+    <decal_mesh name="g_man_cover_int_drawers" enabled="true" material="wood"/>
+  </decal_surfaces>
+  <graphics>
+    <object name="g_man_cover_int_drawers" enabled="true" shadow_caster="false"  />
+  </graphics>
+</dynamic_object>

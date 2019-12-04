@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	
+    <object3d name="a_disk" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="-50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <import file="aucman_vault_ceiling_floor.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+        <rootpoint name="a_disk">
+            <object name="c_disk" />
+            <object name="g_disk" />
+        </rootpoint>
+    </import>
+	
+    <object3d name="c_box_001" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-200" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_002" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="200" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_003" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="200" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_004" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="-200" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_005" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-200" y="0" z="-50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_006" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="200" y="0" z="-50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_007" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="200" z="-50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_008" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="-200" z="-50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_009" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="60" y="60" z="-50" />
+        <rotation w="0.382683" x="0" y="0" z="0.92388" />
+    </object3d>
+    <object3d name="c_box_010" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="60" y="-60" z="-50" />
+        <rotation w="0.92388" x="0" y="0" z="0.382683" />
+    </object3d>
+    <object3d name="c_box_011" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-60" y="-60" z="-50" />
+        <rotation w="0.92388" x="0" y="0" z="-0.382683" />
+    </object3d>
+    <object3d name="c_box_012" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-60" y="60" z="-50" />
+        <rotation w="0.382683" x="0" y="0" z="-0.92388" />
+    </object3d>
+    <object3d name="c_box_013" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="-25" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

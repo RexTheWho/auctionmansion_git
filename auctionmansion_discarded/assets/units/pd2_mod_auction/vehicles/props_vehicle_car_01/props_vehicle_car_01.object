@@ -1,0 +1,81 @@
+<dynamic_object>
+    <diesel orientation_object="rp_props_vehicle_car_01" materials="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" />
+    <sequence_manager file="units/pd2_mod_auction/vehicles/props_vehicle_car_01/props_vehicle_car_01" />
+    <animations>
+		<animation_group name="anim" enabled="false">
+			<object name="r_front_wheel" />
+			<object name="l_front_wheel" />
+			<object name="r_back_wheel" />
+			<object name="l_back_wheel" />
+			<object name="base" />
+		</animation_group>
+	</animations>
+    <bodies>
+        <body enabled="true" template="animated" name="static_body">
+            <object name="base" />
+			<object name="c_box_00" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_00" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_04" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_05" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_06" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_07" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_08" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_09" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_10" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_11" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_12" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_13" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_14" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_15" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_16" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_17" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_18" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_19" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_20" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_21" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_22" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_23" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_24" collision_type="convex" padding="-2.5"/>
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_car" enabled="true" material="car" />
+        <decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+        <decal_mesh name="dm_glass" enabled="true" material="glass" />
+        <decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+    </decal_surfaces>
+    <graphics>
+    	<graphic_group name="gfx_grp" enabled="true" culling_object="bounding_box">
+    		<lod_object name="lod_grp">
+            	<object name="g_props_vehicle_car_01_lod0" enabled="true"  max_distance="2500" />
+            	<object name="g_props_vehicle_car_01_lod1" enabled="true" />
+        	</lod_object>
+    	</graphic_group>
+    	<object name="s_s" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

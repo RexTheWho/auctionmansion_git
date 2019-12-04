@@ -1,0 +1,22 @@
+<materials version="3">
+	<material name="mat_lamp_clean" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_df" />
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_nm" />
+		<self_illumination_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_il" />
+		<variable name="il_multiplier" type="scalar" value="identity" />
+	</material>
+	<material name="mat_lamp_clean_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_df" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_nm" mip="4" />
+		<self_illumination_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_il" mip="2" />
+		<variable name="il_multiplier" type="scalar" value="identity" />
+	</material>
+	<material name="mat_lamp_dmg" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_df" />
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_nm" />
+	</material>
+	<material name="mat_lamp_dmg_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_df" mip="4" />
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp_nm" mip="4" />
+	</material>
+</materials>

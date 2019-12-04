@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector" orientation_object="rp_stn_cover_metaldetector" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+	  <object name="rp_stn_cover_metaldetector"/>
+      <object name="c_stn_cover_metaldetector" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal_chassis" static="true">
+    <decal_mesh name="c_stn_cover_metaldetector" enabled="true" material="metal_chassis" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_stn_cover_metaldetector" enabled="true"  />
+  </graphics>
+</dynamic_object>

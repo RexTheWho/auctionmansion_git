@@ -1,0 +1,32 @@
+<table>
+	<unit>
+		
+		<!--Glass-->
+		
+		<body name="'body_glass'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" once="true" name="'int_seq_crk'" triggable="true">
+			<object	name="'g_glass_solid'"		enabled="false"/>
+			<object	name="'g_glass_cracked'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht'" triggable="true">
+			<body	name="'body_glass'" enabled="false"/>
+			<object	name="'g_glass'"		enabled="false"/>
+			<object	name="'g_glass_cracked'"	enabled="false"/>
+			<object	name="'g_glass_shattered'"	enabled="true"/>
+			<object	name="'g_beams_solid'"	enabled="false"/>
+			<object	name="'g_beams_broken'"	enabled="true"/>
+			<spawn_unit name="'units/pd2_dlc_friend/architecture/int/spawn_window_white_debris'" position="object_pos('e_glass')" rotation="object_rot('e_glass')"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
+			<attention giveaway="'glass'" object_name="'e_glass'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+	</unit>
+</table>

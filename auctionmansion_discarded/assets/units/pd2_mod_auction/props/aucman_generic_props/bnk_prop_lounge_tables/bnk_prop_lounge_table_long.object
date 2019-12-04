@@ -1,0 +1,20 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_lounge_table_long" materials="units/pd2_mod_auction/props/aucman_generic_props/bnk_prop_lounge_tables/bnk_prop_lounge_tables" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_bnk_prop_lounge_table_long" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	<graphics>
+		<lod_object name="lod_bnk_prop_lounge_table_long">
+			<object name="g_bnk_prop_lounge_table_long"			enabled="true" shadow_caster="true"		max_distance="800" />
+			<object name="g_bnk_prop_lounge_table_long_lod1"	enabled="true" shadow_caster="false"/>
+		</lod_object>
+	</graphics>
+</dynamic_object>

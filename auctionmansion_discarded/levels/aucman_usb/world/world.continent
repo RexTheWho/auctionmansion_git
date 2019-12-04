@@ -1,0 +1,111 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="2.50013 -4.33 2" _prev_rot="0 0 -0.866025 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/props/sfm_fbi_usb_stick/sfm_fbi_usb_stick" name_id="sfm_fbi_usb_stick_001" position="2.5 -4.33 2" rotation="0 -0 0.866025 0.5" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0.981627 0.190809" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/clipboard01/clipboard01" name_id="clipboard01_001" position="0 0 0" rotation="0 0 0.981627 0.190809" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.39709 11.9541 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME1" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100003">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Stromberg" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME2" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100004">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Wallace" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME3" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100005">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Hardin" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME4" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100006">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Moore" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME5" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100007">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Petersson" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME6" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100008">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Riley" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME7" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100009">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Sok" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5.397 11.954 2" _prev_rot="0 0 0.731354 -0.681998" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" name_id="NAME8" position="-5.397 11.954 2" rotation="0 0 0.731354 -0.681998" unit_id="100010">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_dunton_writing" font_color="1 1 1" font_size="0.271359" render_template="Text" text="Lakner" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

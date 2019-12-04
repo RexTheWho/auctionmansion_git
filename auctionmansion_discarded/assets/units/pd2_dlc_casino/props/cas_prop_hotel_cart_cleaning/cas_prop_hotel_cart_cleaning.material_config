@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mtr_cart" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+		<diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning_df"/>
+		<bump_normal_texture file="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning_nm"/>
+	</material>
+</materials>

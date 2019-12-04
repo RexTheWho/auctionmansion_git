@@ -1,0 +1,12 @@
+<materials version="3">
+    <material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" version="2" decal_material="glass_breakable">
+        <opacity_texture file="units/glass/window_glass/windows_op_texture_03_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_dark_df"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_dah_construction_area" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0.87999999523163 0 1"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="0 760 0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING" name="mat_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_props_glass_screens/dah_prop_office_safe_brushed_metal_df"/>
+    </material>
+</materials>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/statues/statue" orientation_object="rp_man_prop_bust" />
+  
+  <!-- Bodies -->
+<bodies>
+	<body name="bust_body" template="static" enabled="true">
+		<object name="rp_man_prop_bust" />
+		<object name="c_bust_meshmopp" collision_type="mesh_mopp" enabled="true" />
+	</body>
+	<body name="base_body" template="static" enabled="true">
+		<object name="c_base" collision_type="mesh_mopp" enabled="true"/>
+	</body>
+	<body name="piece01_body" template="static" enabled="false" >
+		<object name="c_piece01" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece01_body_dyn" template="small_prop" enabled="false" pushed_by_mover="false">
+		<object name="c_piece01" collision_type="box" enabled="false"/>
+	</body>
+
+	<body name="piece03_body" template="static" enabled="false">
+		<object name="c_piece03" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece03_body_dyn" template="small_prop" enabled="false" pushed_by_mover="false">
+		<object name="c_piece03" collision_type="box" enabled="false"/>
+	</body>
+
+	<body name="piece04_body" template="static" enabled="false">
+		<object name="c_piece04" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece04_body_dyn" template="small_prop" enabled="false" pushed_by_mover="false">
+		<object name="c_piece04" collision_type="box" enabled="false"/>
+	</body>
+
+	<body name="piece05_body" template="static" enabled="false">
+		<object name="c_piece05" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece05sm_body" template="static" enabled="false">
+		<object name="c_piece05_small" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece05a_body" template="static" enabled="false">
+		<object name="c_piece05a" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece05b_body" template="static" enabled="false">
+		<object name="c_piece05b" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+	<body name="piece06_body" template="static" enabled="false">
+		<object name="c_piece06" collision_type="mesh_mopp" enabled="false"/>
+	</body>
+
+	<body name="piece05a_dyn_body" template="debris" enabled="false" collision_script_tag="" pushed_by_mover="false">
+		<object name="c_piece05a" collision_type="box" enabled="false"/>
+	</body>
+	<body name="piece05b_dyn_body" template="debris" enabled="false" collision_script_tag="" pushed_by_mover="false">
+		<object name="c_piece05b" collision_type="box" enabled="false"/>
+	</body>
+
+	<body name="piece05b_piece1_dyn_body" template="debris" enabled="false" pushed_by_mover="false">
+		<object name="c_piece05b_piece1" collision_type="box" enabled="false"/>
+	</body>
+	<body name="piece05b_piece2_dyn_body" template="debris" enabled="false" pushed_by_mover="false">
+		<object name="c_piece05b_piece2" collision_type="box" enabled="false"/>
+	</body>
+	<body name="piece05a_piece1_dyn_body" template="debris" enabled="false" pushed_by_mover="false">
+		<object name="c_piece05a_piece1" collision_type="box" enabled="false"/>
+	</body>
+	<body name="piece05a_piece2_dyn_body" template="debris" enabled="false" pushed_by_mover="false">
+		<object name="c_piece05a_piece2" collision_type="box" enabled="false"/>
+	</body>
+  </bodies>
+  
+  <!-- Decal Surfaces -->
+	<decal_surfaces default_material="concrete">
+		<!-- <decal_mesh name="g_bust_meshmopp" material="concrete" /> -->
+		<!-- <decal_mesh name="g_bust_meshmopp" material="concrete"/> -->
+		
+		<decal_mesh name="dm_base"  enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece01"  enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece03"  enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece04"  enabled="true" material="concrete"/>
+		<!--
+		
+		<decal_mesh name="dm_piece05" 				enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05_small" 		enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05a" 			enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05b" 			enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece06" 				enabled="true" material="concrete"/>
+		<decal_mesh name="dm_base" 					enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05a_piece1" 	enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05a_piece2" 	enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05b_piece1" 	enabled="true" material="concrete"/>
+		<decal_mesh name="dm_piece05b_piece2" 	enabled="true" material="concrete"/>
+		-->
+	</decal_surfaces>
+  
+	<!-- Graphics -->
+	<graphics>
+		<object name="g_bust_meshmopp" 	enabled="true" instance_struct="world_tm"/>
+		<object name="g_base" 				enabled="true" instance_struct="world_tm"/>
+		<object name="g_piece04" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece01" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05"				enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece03" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05a" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05a_piece1" enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05a_piece2" enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece06" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05b" 			enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05b_piece1" enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05b_piece2" enabled="false" instance_struct="world_tm"/>
+		<object name="g_piece05_small" 	enabled="false" instance_struct="world_tm"/>
+	</graphics>
+  
+	<!-- Other objects -->
+	<sequence_manager file="units/world/props/statues/statue_bust"/>
+</dynamic_object>

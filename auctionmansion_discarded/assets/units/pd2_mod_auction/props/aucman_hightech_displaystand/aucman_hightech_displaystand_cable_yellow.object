@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cables" />
+
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="rp_rootpoint" />
+			<object name="g_cable" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" culling_object="co_culling">
+			<lod_object name="lod_cable">
+				<object name="g_cable" 		enabled="true"	max_distance="175"	max_draw_lod="0"/>
+				<object name="g_cable_lod1"	enabled="true"	lod="1" />
+            </lod_object>
+			<object name="g_cable_cut"	enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

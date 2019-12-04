@@ -1,0 +1,29 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cas_prop_security_computer" materials="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer" />
+    <sequence_manager file="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body">
+            <object name="rp_cas_prop_security_computer" />
+            <object name="g_computer_monitor" collision_type="box" />
+        </body>
+    </bodies>
+    <decal_surfaces />
+    <graphics>
+    	<graphic_group name="keyboard_grp" enabled="true">
+    		<lod_object name="computer_lod">
+    			<object name="g_computer_keyboard" enabled="true"  max_distance="400"  max_draw_lod="0" />
+    			<object name="g_computer_keyboard_no_outline" enabled="true" lod="1" />
+    		</lod_object>
+    		<lod_object name="monitor_lod">
+    			<object name="g_computer_monitor" enabled="true"  max_distance="400"  max_draw_lod="0" />
+    			<object name="g_computer_monitor_no_outline" enabled="true" lod="1" />
+    		</lod_object>
+    		<lod_object name="mouse_lod">
+    			<object name="g_computer_mouse" enabled="true"  max_distance="400"  max_draw_lod="0" />
+    			<object name="g_computer_mouse_no_outline" enabled="true" lod="1" />
+    		</lod_object>
+    	</graphic_group>
+        <object name="g_screen" enabled="false" />
+        <object name="g_screen_done" enabled="false" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,30 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" orientation_object="rp_rootpoint" />
+	<sequence_manager file="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard" />
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+        <object name="c_c" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	<graphics>
+		<graphic_group name="grp_all" enabled="true" culling_object="co_culling">
+			<object name="g_g"			enabled="true"/>
+			<object name="g_name_001"	enabled="true"/>
+			<object name="g_name_002"	enabled="false"/>
+			<object name="g_name_003"	enabled="false"/>
+			<object name="g_name_004"	enabled="false"/>
+			<object name="g_name_005"	enabled="false"/>
+			<object name="g_name_006"	enabled="false"/>
+			<object name="g_name_007"	enabled="false"/>
+			<object name="g_name_008"	enabled="false"/>
+			<object name="g_name_009"	enabled="false"/>
+			<object name="g_name_010"	enabled="false"/>
+			<object name="g_name_011"	enabled="false"/>
+			<object name="g_name_012"	enabled="false"/>
+			<object name="g_name_013"	enabled="false"/>
+			<object name="g_name_014"	enabled="false"/>
+			<object name="g_name_015"	enabled="false"/>
+			<object name="g_name_016"	enabled="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

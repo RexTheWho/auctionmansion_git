@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="interact" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="-10" y="0" z="0" />
+        <rotation w="0" x="0" y="0" z="1" />
+    </object3d>
+    <object3d name="a_ecm_hack" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="45" />
+        <rotation w="0" x="0" y="0" z="1" />
+    </object3d>
+    <import file="auc_interactable_keycard_reader.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+</modelscript>

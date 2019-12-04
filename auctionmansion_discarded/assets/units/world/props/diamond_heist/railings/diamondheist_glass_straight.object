@@ -1,0 +1,29 @@
+<dynamic_object>
+	<diesel materials="units/world/props/diamond_heist/railings/diamondheist_railing" orientation_object="rp_diamondheist_glass_straight" />
+	<sequence_manager file="units/world/props/diamond_heist/railings/glass" />
+    <bodies>
+		<body name="glass_1" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="rp_diamondheist_glass_straight" />
+			<object name="c_glass_1" collision_type="mesh_mopp" />
+		</body>
+		<body name="glass_2" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="c_glass_2" collision_type="mesh_mopp" />
+		</body>
+		<body name="glass_3" enabled="true" template="static" remove_ray_type="vis_graph ai_vision">
+			<object name="c_glass_3" collision_type="mesh_mopp" />
+		</body>
+    </bodies>
+	
+	<decal_surfaces default_material="glass_breakable" static="true">
+		<decal_mesh name="c_glass_1" material="glass_breakable"/>
+		<decal_mesh name="c_glass_2" material="glass_breakable"/>
+		<decal_mesh name="c_glass_3" material="glass_breakable"/>
+	</decal_surfaces>	
+	
+    <graphics>
+        <object enabled="true" name="g_glass"/>
+        <object enabled="false" name="g_glass_dmg_1"/>
+        <object enabled="false" name="g_glass_dmg_2"/>
+        <object enabled="false" name="g_glass_dmg_3"/>
+    </graphics>
+</dynamic_object> 

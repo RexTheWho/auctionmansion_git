@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<unit type="auc" slot="1">
+	<object file="units/pd2_mod_auction/mansion/aucman_vault_ceiling_floor/aucman_vault_ceiling_floor" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_gen_equipment_security_camera"/>
+    	<soundsource name="snd" source="a_disk" />
+    </sounds>
+</unit>

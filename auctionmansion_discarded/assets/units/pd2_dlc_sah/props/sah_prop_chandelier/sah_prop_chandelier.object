@@ -1,0 +1,33 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" orientation_object="rp_sah_prop_chandelier" />
+	<sequence_manager file="units/pd2_dlc_sah/props/sah_prop_chandelier/sah_prop_chandelier" />
+	<bodies>
+		<body name="static_01" enabled="true" template="static">
+			<object name="rp_sah_prop_chandelier" />
+			<object name="c_meshmopp_01" collision_type="mesh_mopp" />
+		</body>
+		<body name="static_02" enabled="true" template="static">
+			<object name="rp_sah_prop_chandelier" />
+			<object name="c_meshmopp_02" collision_type="mesh_mopp" />
+		</body>
+		<body name="static_03" enabled="true" template="static">
+			<object name="rp_sah_prop_chandelier" />
+			<object name="c_box_01" collision_type="box" />
+		</body>
+	</bodies>
+	<lights>
+		<light name="ls_bulb" enabled="false" editable="true" type="omni|specular" multiplier="100" far_range="250" falloff="4" />
+	</lights>
+	<decal_surfaces default_material="glass">
+		<decal_mesh name="dm_metal_01" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_02" enabled="true" material="metal" />
+		<decal_mesh name="dm_glass_01" enabled="true" material="glass" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_light_on" enabled="true" />
+		<object name="g_light_off" enabled="false" />
+		<object name="g_rings_01" enabled="true" />
+		<object name="g_chains" enabled="true" />
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,20 @@
+<materials version="3">
+	<material name="mat_traintrack_fence_bars" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_df" />
+		<bump_normal_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_nm" />
+		<variable name="alpha_ref" type="scalar" value="0.048000000417233" />
+	</material>
+	<material name="mat_traintrack_fence_concrete" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_concrete_df" />
+		<bump_normal_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_concrete_nm" />
+	</material>
+	<material name="mat_traintrack_fence_metal" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_metal_df" />
+		<bump_normal_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_metal_nm" />
+	</material>
+	<material name="mat_traintrack_fence_concrete_broken" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_concrete_broken_df" />
+		<bump_normal_texture file="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_concrete_broken_nm" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

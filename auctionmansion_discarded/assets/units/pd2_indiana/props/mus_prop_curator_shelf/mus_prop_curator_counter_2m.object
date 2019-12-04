@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf" orientation_object="rp_mus_prop_curator_counter_2m" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_prop_curator_counter_2m" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_paper" enabled="true" material="paper" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_shelf" enabled="true" />
+		<lod_object name="lod_">
+			<object name="g_books_lod0" enabled="true"  max_distance="1000" />
+			<object name="g_books_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

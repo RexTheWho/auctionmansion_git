@@ -1,0 +1,24 @@
+<materials version="3">
+    <material name="mtl_diamondblock" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture		file="units/pd2_mod_auction/pickups/pku_item_no070_block/pku_item_no070_block_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mtl_auction_tag" render_template="generic:ALIGN_NORMAL_WORLD_Z:ALPHA_MASKED:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF" version="2">
+        <diffuse_texture		file="units/pd2_mod_auction/pickups/pku_tags/auction_tag_no070_df"/>
+        <variable				value="0.05" type="scalar" name="alpha_ref"/>
+    </material>
+	
+    <material name="mtl_glass" version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE">
+        <diffuse_texture		file="units/payday2/glass/glass_clear_small_blue_df"/>
+        <opacity_texture		file="units/payday2/glass/glass_clear_small_op"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable				value="2 1 0.6" type="vector3" name="fresnel_settings"/>
+    </material>
+    <material name="mtl_case" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_nm"/>
+    </material>
+</materials>

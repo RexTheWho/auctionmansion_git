@@ -1,0 +1,11 @@
+<unit type="ind" slot="1">
+	<object file="units/pd2_dlc_cage/props/ind_prop_cardealership_displaycase/ind_prop_cardealership_displaycase_a" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/office_divider_glass" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

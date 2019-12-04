@@ -1,0 +1,174 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 106 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer" name_id="cas_prop_security_computer_001" position="0 1 0" rotation="0 0 0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 50" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_name" position="-30 6 50" rotation="-0.707107 0 0 -0.707107" unit_id="100005">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="TRACED ORIGIN:" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 35" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_458" position="-30 6 35" rotation="-0.707107 0 0 -0.707107" unit_id="100006">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="105-458" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 25" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_459" position="-30 6 25" rotation="-0.707107 0 0 -0.707107" unit_id="100007">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="105-459" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 6 25" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_460" position="0 6 35" rotation="-0.707107 0 0 -0.707107" unit_id="100008">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="105-460" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 6 35" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_461" position="0 6 25" rotation="-0.707107 0 0 -0.707107" unit_id="100009">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="105-461" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 35" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="-95 10 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_458_no" position="-30 6 35" rotation="-0.707107 0 0 -0.707107" unit_id="100010">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="......." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 25" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_459_no" position="-30 6 25" rotation="-0.707107 0 0 -0.707107" unit_id="100011">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="......." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 6 25" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_460_no" position="0 6 35" rotation="-0.707107 0 0 -0.707107" unit_id="100012">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="......." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 6 35" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_number_461_no" position="0 6 25" rotation="-0.707107 0 0 -0.707107" unit_id="100013">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="......." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-25 6 40" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_track1" position="-25 6 40" rotation="-0.707107 0 0 -0.707107" unit_id="100014">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="WAITING FOR" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-30 6 34" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_track2" position="-30 6 34" rotation="-0.707107 0 0 -0.707107" unit_id="100015">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="0 1 0" font_size="0.1" render_template="diffuse_vc_decal" text="AUTHORISATION" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13 6 40" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_denied" position="-13 6 40" rotation="-0.707107 0 0 -0.707107" unit_id="100016">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="1 0 0" font_size="0.1" render_template="diffuse_vc_decal" text="ACCESS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-13 6 33" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="TAG_denied2" position="-13 6 33" rotation="-0.707107 0 0 -0.707107" unit_id="100017">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="1 0 0" font_size="0.1" render_template="diffuse_vc_decal" text="DENIED" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-34.0602 -24.5438 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/props/sfm_fbi_usb_stick/sfm_fbi_usb_stick" name_id="usb" position="-34.06 -24.544 0" rotation="-0 0 -0.25038 -0.968148" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0.1" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer" name_id="cas_prop_security_computer_002" position="0.1 0 0.1" rotation="-0 0 -0 -1" unit_id="100020"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

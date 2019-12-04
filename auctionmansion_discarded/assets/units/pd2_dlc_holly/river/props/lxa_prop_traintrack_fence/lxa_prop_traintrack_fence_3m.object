@@ -1,0 +1,40 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence" orientation_object="rp_lxa_prop_traintrack_fence_3m" />
+	<bodies>
+				
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_lxa_prop_traintrack_fence_3m" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>	
+		
+		<body name="mover_blocker_body" enabled="true" template="fence">
+			<object name="rp_lxa_prop_traintrack_fence_3m" />
+			<object name="c_box_player" collision_type="box" padding="-2.5"/>
+		</body>	
+			
+		<body name="graph_block" enabled="true" template="graph_blocker">
+			<object name="rp_lxa_prop_traintrack_fence_3m" />
+			<object name="c_box_graph" collision_type="box" padding="-2.5"/>
+		</body>	
+			
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_concrete" enabled="true" material="concrete" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_base" enabled="true" />
+		<object name="g_fence" enabled="true" shadow_caster="true" />
+		<object name="g_metal_bars" enabled="true" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>
+
+
+		
+		
+		
+		

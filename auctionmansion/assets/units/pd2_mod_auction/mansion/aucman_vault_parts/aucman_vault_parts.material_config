@@ -1,0 +1,30 @@
+<materials version="3">
+
+
+	<material name="mtl_panicroom" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture		file="units/pd2_dlc_flat/props/flt_prop_panic_room/flt_prop_panicroom_df" />
+		<bump_normal_texture	file="units/pd2_dlc_flat/props/flt_prop_panic_room/flt_prop_panicroom_nm" />
+        <reflection_texture		type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+	</material>
+    <material name="mtl_bulletproofglass" decal_material="glass_unbreakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <opacity_texture file="units/pd2_dlc_flat/props/flt_prop_apartment_glass/flt_prop_apartment_glass_op"/>
+        <diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_apartment_glass/flt_prop_apartment_glass_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable name="fresnel_settings" type="vector3"	value="2 1 0"/>
+        <variable name="opacity_fade" type="vector3"		value="10 3200 0"/>
+    </material>
+    <material name="mtl_glass_cracked" decal_material="glass_unbreakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <opacity_texture file="units/payday2/glass/glass_shattered_2_op"/>
+        <diffuse_texture file="units/pd2_dlc_flat/props/flt_prop_apartment_glass/flt_prop_apartment_glass_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable name="fresnel_settings" type="vector3"	value="2 1 0"/>
+        <variable name="opacity_fade" type="vector3"		value="10 3200 0"/>
+    </material>
+	
+    <material name="mat_door" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_door_df"/>
+        <bump_normal_texture	file="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_door_nm"/>
+        <reflection_texture		type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+    </material>
+	
+</materials>

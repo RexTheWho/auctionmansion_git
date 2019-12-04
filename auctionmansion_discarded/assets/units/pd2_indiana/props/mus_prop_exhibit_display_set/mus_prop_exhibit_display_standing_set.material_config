@@ -1,0 +1,40 @@
+<materials version="3">
+    <material name="mus_prop_exhibit_display_standing" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_df"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mus_prop_exhibit_display_standing_lod" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture mip="4" file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_df"/>
+        <bump_normal_texture mip="4" file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_nm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_steel"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material version="2" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP" name="glass">
+        <variable value="0 0.79999995231628 0.39999997615814" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/glass_clear_default_op"/>
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/glass_clear_default_df"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/glass_clear_default_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_cabinets" type="cubemap"/>
+    </material>
+    <material name="gensec" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_sign_df"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_contour" unique="true" version="2" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="mtr_glass_cut" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/glasscutter_indicator_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+</materials>

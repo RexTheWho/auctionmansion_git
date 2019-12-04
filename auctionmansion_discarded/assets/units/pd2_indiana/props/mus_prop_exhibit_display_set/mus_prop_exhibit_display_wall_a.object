@@ -1,0 +1,43 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set" orientation_object="rp_mus_prop_exhibit_display_wall_a" />
+	<sequence_manager file="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_prop_exhibit_display_wall_a" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_glass" enabled="true" template="window">
+			<object name="rp_mus_prop_exhibit_display_wall_a" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_cut" enabled="false" template="window">
+			<object name="rp_mus_prop_exhibit_display_wall_a" />
+			<object name="c_box_cut_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_cut_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_cut_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_cut_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_cut_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable" />
+	</decal_surfaces>
+	<graphics>
+        <lod_object name="lod_grp">
+            <object name="g_display_lod0" enabled="true"  max_distance="1500" />
+            <object name="g_display_lod1" enabled="true" />
+        </lod_object>
+		<graphic_group name="grp_icon" enabled="true">
+			<lod_object name="lod_icon">
+				<object name="g_icon_glass_cut" enabled="true"  max_distance="500" />
+				<object name="g_icon_glass_cut_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<object name="g_glass" enabled="true" />
+		<object name="g_glass_cut" enabled="false" />
+		<object name="g_sign" enabled="true" />
+	</graphics>
+</dynamic_object>

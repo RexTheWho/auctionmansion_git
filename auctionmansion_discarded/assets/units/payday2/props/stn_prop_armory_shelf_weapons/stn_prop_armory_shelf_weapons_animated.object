@@ -1,0 +1,56 @@
+<dynamic_object>
+    <diesel orientation_object="rp_stn_prop_armory_shelf_weapons_animated" materials="units/payday2/props/stn_prop_armory_shelf_weapons/stn_prop_armory_shelf_weapons_animated" />
+	<sequence_manager file="units/payday2/props/stn_prop_armory_shelf_weapons/stn_prop_armory_shelf_weapons_animated" />
+	
+	<animations>
+		<animation_group name="anim_doors_open">
+			<object name="anim_door_left" />
+			<object name="anim_door_right" />
+			<object name="anim_shelf" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_stn_prop_armory_shelf_weapons_animated" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_animated_01" enabled="true" template="animated">
+			<object name="anim_door_left" />
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_animated_02" enabled="true" template="animated">
+			<object name="anim_door_right" />
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal_left" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_right" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_shelf" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_locker" enabled="true" culling_object="co_cull">
+			<lod_object name="lod_shelf">
+				<object name="g_shelf_lod0" enabled="true"  max_distance="1500"  max_draw_lod="0" />
+				<object name="g_shelf_lod1" enabled="true" lod="1" />				
+			</lod_object>	
+			
+			<lod_object name="lod_guns">
+				<object name="g_guns_lod0" enabled="true"  max_distance="1500"  max_draw_lod="0" />
+				<object name="g_guns_lod1" enabled="true" lod="1" />
+			</lod_object>
+			
+		</graphic_group>
+
+		<graphic_group name="grp_icon" enabled="true" culling_object="g_icon_lockpick">
+			<lod_object name="lod_pick_lock">
+				<object name="g_icon_lockpick" enabled="true"  max_distance="450"  max_draw_lod="0" />
+				<object name="g_icon_lockpick_lod1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+
+	</graphics>
+</dynamic_object>

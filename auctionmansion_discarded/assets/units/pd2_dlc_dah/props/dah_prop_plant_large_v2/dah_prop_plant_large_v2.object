@@ -1,0 +1,22 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_dah/props/dah_prop_plant_large_v2/dah_prop_plant_large_v2" orientation_object="rp_dah_prop_plant_large_v2" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_dah_prop_plant_large_v2" />
+			<object name="c_box_4" collision_type="box" padding="-2.5" />
+			<object name="c_box_3" collision_type="box" padding="-2.5" />
+			<object name="c_box_2" collision_type="box" padding="-2.5" />
+			<object name="c_box_1" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="3000" />
+			<object name="g_lod1" enabled="true" max_distance="4500" />
+			<object name="g_lod2" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

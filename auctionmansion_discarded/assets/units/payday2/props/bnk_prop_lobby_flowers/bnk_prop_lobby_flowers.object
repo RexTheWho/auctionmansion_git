@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_bnk_prop_lobby_flowers" materials="units/payday2/props/bnk_prop_lobby_flowers/bnk_prop_lobby_flowers" />
+    <sequence_manager file="units/payday2/props/bnk_prop_lobby_flowers/bnk_prop_lobby_flowers" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="capsule" name="c_capsule_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <graphic_group name="grp_flowers" enabled="true">
+            <lod_object name="flowerpower">
+                <object enabled="true" name="g_g" lod="0" max_distance="1500" />
+                <object enabled="true" name="g_lod1" lod="1"/>
+            </lod_object>
+        </graphic_group>
+    </graphics>
+</dynamic_object>

@@ -2,19 +2,29 @@
 	<editor_groups>
 		<table continent="art_croqui" name="TO_BE_REMOVED" reference="401342" visible="true">
 			<units>
+				<value_node value="401342"/>
 				<value_node value="100193"/>
+				<value_node value="401341"/>
 				<value_node value="100195"/>
 				<value_node value="100173"/>
+				<value_node value="401340"/>
 				<value_node value="100172"/>
+				<value_node value="401339"/>
 				<value_node value="100198"/>
 				<value_node value="100192"/>
+				<value_node value="400824"/>
+				<value_node value="401338"/>
 				<value_node value="100191"/>
 				<value_node value="100197"/>
 				<value_node value="100176"/>
+				<value_node value="401337"/>
+				<value_node value="400045"/>
 				<value_node value="100189"/>
 				<value_node value="100194"/>
 				<value_node value="100174"/>
+				<value_node value="400823"/>
 				<value_node value="100190"/>
+				<value_node value="400046"/>
 				<value_node value="100196"/>
 				<value_node value="100175"/>
 			</units>
@@ -28,13 +38,19 @@
 			<unit_data _prev_pos="-4215 5000 -100" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_closed" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_005" position="-4215 5000 -100" rotation="0 0 1 4.37114e-008" unit_id="400001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2630 5000 -100" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_004" position="-2630 5000 -100" rotation="0 0 1 4.37114e-008" unit_id="400004"/>
+			<unit_data _prev_pos="-2630 5000 -100" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_closed" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_004" position="-2630 5000 -100" rotation="0 0 1 4.37114e-008" unit_id="400004"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2630 4200 0" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_close" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_007" position="-2630 4200 0" rotation="0 0 1 -4.37114e-008" unit_id="400005"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2260 4448 0" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_003" position="-2260 4448 0" rotation="0 0 -0.382683 -0.92388" unit_id="400006"/>
+			<unit_data _prev_pos="-2259.75 4450.61 0" _prev_rot="0 0 0.92388 -0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1960.25 250.61 0" local_rot="-0 0 -0.92388 0.382683" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_003" position="-2259.75 4450.61 0" rotation="0 0 0.92388 -0.382683" unit_id="400006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1658.71 4450.61 0" _prev_rot="0 0 0.92388 -0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_close" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_001" position="-1658.71 4450.61 0" rotation="0 0 0.92388 -0.382683" unit_id="400007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1057.67 4450.61 0" _prev_rot="0 0 0.92388 -0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3162.33 250.61 0" local_rot="-0 0 -0.92388 0.382683" mesh_variation="" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_002" position="-1057.67 4450.61 0" rotation="0 0 0.92388 -0.382683" unit_id="400008"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-455 4585 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3765 385 0.001" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" name_id="sfm_int_window_white_002" position="-455 4585 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="400009"/>
@@ -52,7 +68,19 @@
 			<unit_data _prev_pos="-2180 4585 400.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2040 385 400.001" local_rot="0 0 0.707107 0.707107" name="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" name_id="sfm_int_window_white_005" position="-2180 4585 400.001" rotation="0 0 -0.707107 -0.707107" unit_id="400013"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4400 2290 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_close" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_008" position="-4400 2290 0" rotation="0 0 -0.707107 -0.707107" unit_id="400014"/>
+			<unit_data _prev_pos="-4370 2290 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_door_close" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_008" position="-4370 2290 0" rotation="0 0 -0.707107 -0.707107" unit_id="400014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2115 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_004" position="-1775 2115 400" rotation="0 0 -0.707107 -0.707107" unit_id="400002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2315 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_003" position="-1775 2315 400" rotation="0 0 -0.707107 -0.707107" unit_id="400003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2115 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_001" position="-1775 2115 0" rotation="0 0 -0.707107 -0.707107" unit_id="400015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2315 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 -400" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_002" position="-1775 2315 0" rotation="0 0 -0.707107 -0.707107" unit_id="400016"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1706.11 2532.18 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_004" position="-1706.11 2532.18 0" rotation="0 0 0.382683 -0.92388" unit_id="400017"/>
@@ -65,6 +93,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1703.54 2071.46 0" _prev_rot="-0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-46.2134 -74.3923 -400" local_rot="0 0 -0.382684 0.92388" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_005" position="-1703.54 2071.46 0" rotation="0 0 -0.382683 -0.92388" unit_id="400020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2115 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_006" position="-1775 2115 800" rotation="0 0 -0.707107 -0.707107" unit_id="400021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1775 2315 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_red/props/red_prop_elevator/red_prop_elevator" name_id="red_prop_elevator_005" position="-1775 2315 800" rotation="0 0 -0.707107 -0.707107" unit_id="400022"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1703.54 2071.46 800" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-46.2134 -74.3923 400" local_rot="0 0 -0.382684 0.92388" name="units/pd2_mcmansion/props/mcm_prop_livingroom_floorplant/mcm_prop_livingroom_floorplant" name_id="mcm_prop_livingroom_floorplant_009" position="-1703.54 2071.46 800" rotation="0 0 -0.382683 -0.92388" unit_id="400023"/>
@@ -1164,13 +1198,13 @@
 			<unit_data _prev_pos="-3815 10 0.000976562" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" name_id="sfm_int_window_white_054" position="-3820 10 0.000976562" rotation="0 0 0.707107 -0.707107" unit_id="400460"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-106 5635 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_004" position="-106 5635 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400499"/>
+			<unit_data _prev_pos="-115 5825 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_004" position="-115 5665 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400499"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-100 4815 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_001" position="-106 4815 -100" rotation="0 0 0.707107 -0.707107" unit_id="400500"/>
+			<unit_data _prev_pos="-115 4835 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-730 0 0" local_rot="0 0 -1 0" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_001" position="-115 4835 -100" rotation="0 0 0.707107 -0.707107" unit_id="400500"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-100 5065 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-250 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_002" position="-106 5065 -100" rotation="0 0 0.707107 -0.707107" unit_id="400501"/>
+			<unit_data _prev_pos="-115 5085 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-480 0 0" local_rot="0 0 -1 0" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_002" position="-115 5085 -100" rotation="0 0 0.707107 -0.707107" unit_id="400501"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2004.87 470 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_001" position="-2000 470 800" rotation="0 0 -0.707107 -0.707107" unit_id="400504"/>
@@ -1197,13 +1231,13 @@
 			<unit_data _prev_pos="-3925 5475 1200" _prev_rot="0 0 1 -0" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_001" position="-3925 5475 1200" rotation="0 0 1 -0" unit_id="400540"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3490 2625 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_big" name_id="str_prop_rooftop_ac_unit_a_big_001" position="-3290 2625 800" rotation="0 0 -0.707107 -0.707107" unit_id="400543"/>
+			<unit_data _prev_pos="-3290 2625 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_big" name_id="str_prop_rooftop_ac_unit_a_big_001" position="-3290 2625 800" rotation="0 0 -0.707107 -0.707107" unit_id="400543"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-670 2830 1200" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_flat" name_id="str_prop_rooftop_ac_unit_a_flat_001" position="-670 2830 1200" rotation="-0 0 -0 -1" unit_id="400544"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1540 745 800.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_002" position="-1540 745 800.001" rotation="0 0 -0.707107 -0.707107" unit_id="400545"/>
+			<unit_data _prev_pos="-1490 745 800.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_rooftop_ac_unit_b/str_prop_rooftop_ac_unit_b_big" name_id="str_prop_rooftop_ac_unit_b_big_002" position="-1490 745 800.001" rotation="0 0 -0.707107 -0.707107" unit_id="400545"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4015 1855 800" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_002" position="-4380 1855 800" rotation="0 0 -0.707107 -0.707107" unit_id="400462"/>
@@ -1239,7 +1273,7 @@
 			<unit_data _prev_pos="-545 2010 1200" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="-7.08124e-006 -81 0" local_rot="0 0 1 4.37114e-008" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_013" position="-545 1775 1200" rotation="0 0 0 -1" unit_id="400556"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1800 4144 849" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_003" position="-1800 4144 849" rotation="-0 0 -0 -1" unit_id="400550"/>
+			<unit_data _prev_pos="-1795 4165 870" _prev_rot="0.0958458 0 0 -0.995396" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_003" position="-1795 4160.23 845.459" rotation="0.0958458 0 0 -0.995396" unit_id="400550"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2130 2050 1170" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" name_id="ind_ext_level_ladder_top_001ladderset7" position="-2130 2050 1170" rotation="-0 0 -0 -1" unit_id="400558"/>
@@ -1264,7 +1298,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1027.48 5802.84 -100" _prev_rot="0 0 0.976296 -0.21644" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="red" name="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" name_id="str_vehicle_car_modernsedan_001" position="-1053.16 5796.39 -100" rotation="0 0 0.976296 -0.21644" unit_id="400573">
+			<unit_data _prev_pos="-842.277 5818.32 -100" _prev_rot="0 0 -0.34202 -0.939693" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="red" name="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" name_id="str_vehicle_car_modernsedan_001" position="-842.277 5818.31 -100" rotation="0 0 -0.366501 -0.930418" unit_id="400573">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -1274,13 +1308,13 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1461.86 5797.32 -104" _prev_rot="0 0 -0.14781 -0.989016" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_modernsedan2/str_vehicle_car_modernsedan2" name_id="str_vehicle_car_modernsedan2_001" position="-1458.86 5790.92 -100" rotation="0 0 -0.147809 -0.989016" unit_id="400574"/>
+			<unit_data _prev_pos="-1314.15 5817.93 -100" _prev_rot="0 0 -0.374607 -0.927184" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_modernsedan2/str_vehicle_car_modernsedan2" name_id="str_vehicle_car_modernsedan2_001" position="-1314.15 5817.93 -100" rotation="0 0 -0.374607 -0.927184" unit_id="400574"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2219.96 5797.99 -100" _prev_rot="0 0 -0.165048 -0.986286" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_001" position="-2240.76 5790.83 -100" rotation="0 0 -0.165048 -0.986286" unit_id="400576"/>
+			<unit_data _prev_pos="-2139.06 5784.55 -100" _prev_rot="0 0 -0.366501 -0.930418" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_001" position="-2183.39 5832.09 -100" rotation="0 0 -0.366501 -0.930418" unit_id="400576"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-106 5885 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_005" position="-106 5885 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400585"/>
+			<unit_data _prev_pos="-115 5915 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_005" position="-115 5915 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400585"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4210 6375 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_006_blockade_far" position="-4210 6375 -100" rotation="0 0 0.707107 -0.707107" unit_id="400586"/>
@@ -1290,6 +1324,24 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-4253.03 5954.3 -90" _prev_rot="-0.473147 0.525483 0.525483 0.473147" continent="art_croqui" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_plywood/gen_prop_plywood" name_id="gen_prop_plywood_001_blockade_far" position="-4253.03 5954.3 -90" rotation="-0.473147 0.525483 0.525483 0.473147" unit_id="400588"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-928.701 6102.13 -100" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" name_id="com_int_basement_garage_parkingline_c_6m_001" position="-928.701 6102.13 -100" rotation="0 0 0.382683 -0.92388" unit_id="400600"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1373.7 6102.13 -100" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-314.663 -314.663 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" name_id="com_int_basement_garage_parkingline_c_6m_002" position="-1373.7 6102.13 -100" rotation="0 0 0.382683 -0.92388" unit_id="400601"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1788.7 6102.13 -100" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-608.112 -608.112 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" name_id="com_int_basement_garage_parkingline_c_6m_003" position="-1788.7 6102.13 -100" rotation="0 0 0.382683 -0.92388" unit_id="400602"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2253.7 6102.13 -100" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-936.916 -936.917 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" name_id="com_int_basement_garage_parkingline_c_6m_004" position="-2253.7 6102.13 -100" rotation="0 0 0.382683 -0.92388" unit_id="400603"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2678.7 6102.13 -100" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1237.44 -1237.44 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" name_id="com_int_basement_garage_parkingline_c_6m_005" position="-2678.7 6102.13 -100" rotation="0 0 0.382683 -0.92388" unit_id="400604"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 5830 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_001" position="525 5830 -100" rotation="0 0 0 -1" unit_id="400605"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-222.625 6167.45 -90" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/com_veg_plant_fanpalm/com_veg_plant_fanpalm_a" name_id="com_veg_plant_fanpalm_a_001" position="-222.625 6167.45 -90" rotation="-0 0 -0.333807 -0.942642" unit_id="400606"/>
@@ -1322,7 +1374,10 @@
 			<unit_data _prev_pos="-3926.46 6161.19 -90" _prev_rot="0 0 0.649448 -0.760406" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vegetation/com_veg_plant_fanpalm/com_veg_plant_fanpalm_a" name_id="com_veg_plant_fanpalm_a_010" position="-3926.46 6161.19 -90" rotation="0 0 0.649448 -0.760406" unit_id="400615"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2000 5100 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_001" position="2000 5100 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400616"/>
+			<unit_data _prev_pos="2000 4945 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="6400 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_001" position="2000 5270 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400616"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 3345 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="4800 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_002" position="2000 3670 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400617"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-422.329 6107.15 -90" _prev_rot="-0 0 -0.25038 -0.968148" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" name_id="sfm_veg_tree_desertfanpalm_large_001" position="-422.329 6107.15 -90" rotation="-0 0 -0.25038 -0.968148" unit_id="400618"/>
@@ -1331,25 +1386,58 @@
 			<unit_data _prev_pos="-2167.52 6151.69 -90" _prev_rot="0 0 -0.207912 -0.978148" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_001" position="-2167.52 6151.69 -90" rotation="0 0 -0.207912 -0.978148" unit_id="400619"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="250 2800 -100" _prev_rot="0 0 -0.843391 -0.5373" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" name_id="sfm_veg_tree_desertfanpalm_large_003" position="250 2800 -100" rotation="0 0 -0.843391 -0.5373" unit_id="400641"/>
+			<unit_data _prev_pos="475 5056 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_002" position="525 5056 -100" rotation="0 0 0 -1" unit_id="400620"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 145 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_003" position="2000 470 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400621"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 1745 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="3200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_004" position="2000 2070 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400622"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="232.973 2808.7 -105" _prev_rot="0 0 -0.843391 -0.5373" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" name_id="sfm_veg_tree_desertfanpalm_large_003" position="241.425 2790.57 -105" rotation="0 0 -0.843391 -0.5373" unit_id="400641"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="230 1807 -100" _prev_rot="0 0 4.47035e-008 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_large" name_id="sfm_veg_tree_desertfanpalm_large_004" position="230 1807 -100" rotation="0 0 4.47035e-008 -1" unit_id="400642"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="180 3400 -105" _prev_rot="0 0 -0.390731 -0.920505" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_002" position="180 3400 -105" rotation="0 0 -0.390731 -0.920505" unit_id="400644"/>
+			<unit_data _prev_pos="180 3355 -90" _prev_rot="0 0 -0.390731 -0.920505" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2089.53 638.832 0" local_rot="0 0 0.861629 0.507538" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_002" position="180 3355 -105" rotation="0 0 -0.390731 -0.920505" unit_id="400644"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="185 1200 -105" _prev_rot="0 0 0.594823 -0.803857" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_003" position="185 1200 -105" rotation="0 0 0.594823 -0.803857" unit_id="400645"/>
+			<unit_data _prev_pos="180 1170 -105" _prev_rot="0 0 0.594823 -0.803857" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_003" position="185 1230 -105" rotation="0 0 0.594823 -0.803857" unit_id="400645"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="180 4100 -105" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_004" position="180 4100 -105" rotation="0 0 0 -1" unit_id="400640"/>
+			<unit_data _prev_pos="180 4063 -90" _prev_rot="0 0 4.47035e-008 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2766.59 845.831 0" local_rot="0 0 0.594823 0.803857" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_004" position="180 4063 -105" rotation="0 0 4.47035e-008 -1" unit_id="400640"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="180 500 -105" _prev_rot="0 0 0.976296 0.21644" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_005" position="180 500 -105" rotation="0 0 0.976296 0.21644" unit_id="400643"/>
+			<unit_data _prev_pos="180 473 -105" _prev_rot="0 0 0.978148 0.207912" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_tree_desertfanpalm/sfm_veg_tree_desertfanpalm_medium" name_id="sfm_veg_tree_desertfanpalm_medium_005" position="180 528 -105" rotation="0 0 0.976296 0.21644" unit_id="400643"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="450 1500 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_005" position="400 1500 -100" rotation="0 0 0 -1" unit_id="400648"/>
+			<unit_data _prev_pos="525 5056 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_003" position="525 3511 -100" rotation="0 0 0 -1" unit_id="400646"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 5830 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 774 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_004" position="525 4285 -100" rotation="0 0 0 -1" unit_id="400647"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 1966 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_005" position="525 1871 -100" rotation="0 0 0 -1" unit_id="400648"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 2740 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 774 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_006" position="525 2645 -100" rotation="0 0 0 -1" unit_id="400649"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 1871 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_007" position="525 301 -100" rotation="0 0 0 -1" unit_id="400650"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="525 2645 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 774 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_008" position="525 1075 -100" rotation="0 0 0 -1" unit_id="400651"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 -520 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1 -30 0" local_rot="0 0 -0.707107 0.707107" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_003" position="-115 -520 -100" rotation="0 0 0.707107 -0.707107" unit_id="400675"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 -280 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_008" position="-115 -280 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400676"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 -1455 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_005" position="2000 -1130 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400678"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="5200 4950 -700" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_007" position="5200 4950 -700" rotation="0 0 -0.707107 -0.707107" unit_id="400688"/>
@@ -1397,16 +1485,16 @@
 			<unit_data _prev_pos="-840 -535 -100" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="4.72083e-005 -270 0" local_rot="0 0 -1 4.37114e-008" name="units/world/street/street_bench/street_bench" name_id="street_bench_002" position="-840 -535 -100" rotation="0 0 1 4.37114e-008" unit_id="400857"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-100 6105 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1290 0 0" local_rot="0 0 1 0" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_013" position="-106 6105 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400498"/>
+			<unit_data _prev_pos="-115 5915 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_013" position="-115 6135 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400498"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-75 6365 -90" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_corner" name_id="rvd_ext_parkinglot_wall_white_2m_corner_001" position="-75 6365 -90" rotation="0 0 1 4.37114e-008" unit_id="400563"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-375 6365 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x2m" name_id="rvd_ext_parkinglot_wall_white_2x2m_001" position="-375 6365 -90" rotation="0 0 -0.707107 -0.707107" unit_id="400564"/>
+			<unit_data _prev_pos="-375 6365 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="5.91278e-005 1200 0" local_rot="0 0 1 0" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x2m" name_id="rvd_ext_parkinglot_wall_white_2x2m_001" position="-375 6365 -90" rotation="0 0 -0.707107 -0.707107" unit_id="400564"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-460 6353.78 -99.9255" _prev_rot="0.061049 -5.33707e-009 8.72597e-008 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="988.62 31.0903 -9.9255" local_rot="-0.061049 5.33707e-009 -8.72597e-008 0.998135" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_002" position="-410 6353.78 -99.9255" rotation="0.061049 -5.33707e-009 8.72597e-008 -0.998135" unit_id="400565"/>
+			<unit_data _prev_pos="-460 6353.78 -99.9255" _prev_rot="0.061049 -5.33707e-009 8.72597e-008 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="11.2203 1115 -9.9255" local_rot="-0.0431682 -0.0431682 0.705788 0.705788" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_002" position="-460 6353.78 -99.9255" rotation="0.061049 -5.33707e-009 8.72597e-008 -0.998135" unit_id="400565"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-375 6365 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="5.91278e-005 1200 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_004" position="-375 6365 -90" rotation="0 0 0.707107 -0.707107" unit_id="400566"/>
@@ -1415,13 +1503,19 @@
 			<unit_data _prev_pos="-775 6365 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0.000202179 800 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_003" position="-775 6365 -90" rotation="0 0 0.707107 -0.707107" unit_id="400567"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1045 6353.78 -99.9255" _prev_rot="0.061049 -5.33707e-009 8.72597e-008 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_003" position="-1270 6353.78 -99.9255" rotation="0.061049 -5.33707e-009 8.72597e-008 -0.998135" unit_id="400568"/>
+			<unit_data _prev_pos="-1170 6353.78 -99.9255" _prev_rot="0.061049 -5.33707e-009 8.72597e-008 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="11.2206 405 -9.9255" local_rot="-0.0431682 -0.0431682 0.705788 0.705788" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_003" position="-1170 6353.78 -99.9255" rotation="0.061049 -5.33707e-009 8.72597e-008 -0.998135" unit_id="400568"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1175 6365 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0.00034523 400 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_001" position="-1175 6365 -90" rotation="0 0 0.707107 -0.707107" unit_id="400569"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-100 5350 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/props/sfm_prop_entrance_gate/sfm_prop_entrance_gate" name_id="sfm_prop_entrance_gate_001" position="-100 5350 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400572"/>
+			<unit_data _prev_pos="-1575 6365 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_002" position="-1575 6365 -90" rotation="0 0 0.707107 -0.707107" unit_id="400570"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1825 6353.78 -99.9255" _prev_rot="0.0610489 -5.33706e-009 8.72597e-008 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="11.2203 -250 -9.9255" local_rot="-0.0431681 -0.0431681 0.705788 0.705788" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_001" position="-1825 6353.78 -99.9255" rotation="0.0610489 -5.33706e-009 8.72597e-008 -0.998135" unit_id="400571"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 5375 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/props/sfm_prop_entrance_gate/sfm_prop_entrance_gate" name_id="sfm_prop_entrance_gate_001" position="-115 5375 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400572"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2370 -729.998 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -1200 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_005" position="-2370 -729.998 -90" rotation="0 0 -0.707107 -0.707107" unit_id="400580"/>
@@ -1469,13 +1563,16 @@
 			<unit_data _prev_pos="-1660 6345 105" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_036" only_visible_in_editor="true" position="-1660 6345 105" rotation="0 0 -0.707107 -0.707107" unit_id="400599"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-75 6665 -90" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_009" position="-75 6665 -90" rotation="0 0 1 -4.37114e-008" unit_id="400625"/>
+			<unit_data _prev_pos="-75 6465 -90" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_009" position="-75 6465 -90" rotation="0 0 1 -4.37114e-008" unit_id="400625"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-75 6725 -90" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_sah/props/sah_prop_garden_gate/sah_prop_garden_gate" name_id="sah_prop_garden_gate_003" position="-75 6723 -90" rotation="-0 0 -0 -1" unit_id="400626"/>
+			<unit_data _prev_pos="-70 6525 -90" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="-5.00002 -60 0" local_rot="0 0 1 4.37114e-008" name="units/pd2_dlc_sah/props/sah_prop_garden_gate/sah_prop_garden_gate" name_id="sah_prop_garden_gate_003" position="-70 6525 -90" rotation="-0 0 -0 -1" unit_id="400626"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-75 6365 -90" _prev_rot="-0 0 -0 -1" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_010" position="-75 6965 -90" rotation="-0 0 -0 -1" unit_id="400623"/>
+			<unit_data _prev_pos="-75 6770 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4.19227e-005 -305 0" local_rot="0 0 1 4.37114e-008" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_010" position="-75 6770 -90" rotation="0 0 0 -1" unit_id="400623"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-75 7170 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-7.68918e-005 -705 0" local_rot="0 0 1 4.37114e-008" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_009" position="-75 7170 -90" rotation="0 0 0 -1" unit_id="400624"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-480 3245 800" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_007" position="-480 3245 800" rotation="0 0 0 -1" unit_id="400471"/>
@@ -1493,22 +1590,22 @@
 			<unit_data _prev_pos="-2630 5405 0" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_001" position="-2630 5405 0" rotation="-0 0 -0 -1" unit_id="400476"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1905 4476 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_003" position="-1905 4476 0" rotation="0 0 0.382683 -0.92388" unit_id="400477"/>
+			<unit_data _prev_pos="-1965 4425.35 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_003" position="-1929.64 4460.71 0" rotation="0 0 0.382683 -0.92388" unit_id="400477"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1305 4476 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_004" position="-1305 4476 0" rotation="0 0 0.382683 -0.92388" unit_id="400630"/>
+			<unit_data _prev_pos="-1374.56 4414.74 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_004" position="-1335.67 4453.63 0" rotation="0 0 0.382683 -0.92388" unit_id="400630"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-705 4476 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_005" position="-705 4476 0" rotation="0 0 0.382683 -0.92388" unit_id="400633"/>
+			<unit_data _prev_pos="-713.42 4439.49 0" _prev_rot="0 0 0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="close_doors" name="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" name_id="sfm_int_door_white_005" position="-731.098 4457.17 0" rotation="0 0 0.382683 -0.92388" unit_id="400633"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-780 4410 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_005" position="-780 4410 0" rotation="0 0 0.92388 0.382683" unit_id="400635"/>
+			<unit_data _prev_pos="-805.7 4386.44 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_005" position="-805.7 4386.44 0" rotation="0 0 0.92388 0.382683" unit_id="400635"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1380 4410 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_004" position="-1380 4410 0" rotation="0 0 0.92388 0.382683" unit_id="400636"/>
+			<unit_data _prev_pos="-1406.74 4386.42 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_004" position="-1410.27 4389.96 0" rotation="0 0 0.92388 0.382683" unit_id="400636"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1980 4410 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_003" position="-1980 4410 0" rotation="0 0 0.92388 0.382683" unit_id="400637"/>
+			<unit_data _prev_pos="-2007.78 4386.44 0" _prev_rot="0 0 0.92388 0.382683" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="shutters_close" name="units/pd2_dlc_friend/props/sfm_prop_bulletproof_shutter/sfm_prop_bulletproof_shutter" name_id="sfm_prop_bulletproof_shutter_003" position="-2011.32 4389.97 0" rotation="0 0 0.92388 0.382683" unit_id="400637"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3085 -730 -35" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_010" only_visible_in_editor="true" position="-2311 -730 -35" rotation="0 0 -0.707107 -0.707107" unit_id="400450"/>
@@ -1526,16 +1623,25 @@
 			<unit_data _prev_pos="-2640 6300 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_011" only_visible_in_editor="true" position="-1965 6300 800" rotation="0 0 -0.707107 -0.707107" unit_id="400502"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3912.5 5915 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_door_protection/gen_prop_door_protection" name_id="gen_prop_door_protection_002" position="-3912.5 5915 -100" rotation="0 0 0.707107 -0.707107" unit_id="400514"/>
+			<unit_data _prev_pos="-2848.38 5951.95 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_001" position="-2848.38 5951.95 -90" rotation="0 0 -0.707107 -0.707107" unit_id="400503"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3330 5750 800" _prev_rot="0 0 0 -1" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="163 1.42499e-005 0" local_rot="0 0 1 4.37114e-008" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_014" position="-3330 5750 800" rotation="0 0 8.74228e-008 -1" unit_id="400515"/>
+			<unit_data _prev_pos="-3005 5945 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_door_protection/gen_prop_door_protection" name_id="gen_prop_door_protection_001" position="-2958 5945 -90" rotation="0 0 0.707107 -0.707107" unit_id="400512"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2848.38 5951.95 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_002" position="-3943.38 5951.95 -90" rotation="0 0 -0.707107 -0.707107" unit_id="400513"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4058 5945 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_door_protection/gen_prop_door_protection" name_id="gen_prop_door_protection_002" position="-4053 5945 -90" rotation="0 0 0.707107 -0.707107" unit_id="400514"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3330 5750 800" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_014" position="-3330 5750 800" rotation="0 0 0 -1" unit_id="400515"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3335 5669 800" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_015" position="-3330 5669 800" rotation="0 0 1 -4.37114e-008" unit_id="400516"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3167 5750 800" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_016" position="-3167 5750 800" rotation="0 0 1 4.37114e-008" unit_id="400528"/>
+			<unit_data _prev_pos="-3167 5750 800" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_016" position="-3167 5750 800" rotation="0 0 1 -4.37114e-008" unit_id="400528"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3175 5670 800" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/acunit/acunit02" name_id="acunit02_017" position="-3170 5670 800" rotation="0 0 0 -1" unit_id="400538"/>
@@ -1550,7 +1656,10 @@
 			<unit_data _prev_pos="-5270 -1900 -90" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_012" position="-5270 -1870 -90" rotation="0 0 1 4.37114e-008" unit_id="400627"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1400 6325 -100" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_002" position="-1400 6325 -100" rotation="-0 0 -0 -1" unit_id="400455"/>
+			<unit_data _prev_pos="-838.619 6322.7 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_002" position="-838.619 6322.69 -90" rotation="-0 0 -0 -1" unit_id="400455"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1523.62 6322.7 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-685 0 0" local_rot="-0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_001" position="-1523.62 6322.69 -90" rotation="0 0 -0 -1" unit_id="400628"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4610 2105 0.001" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/architecture/int/sfm_int_window_white" name_id="sfm_int_window_white_044" position="-4610 2095 0.001" rotation="0 0 1 -4.37114e-008" unit_id="400638"/>
@@ -1910,7 +2019,7 @@
 			<unit_data _prev_pos="-5176.62 1955.69 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_009" position="-5181.62 1955.69 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400740"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-155 5885 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction_no_outlines" name="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" name_id="pta_interactable_electric_box_001" position="-155 5885 -100" rotation="0 0 0.707107 -0.707107" unit_id="400741"/>
+			<unit_data _prev_pos="-395 6320 -90" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction_no_outlines" name="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" name_id="pta_interactable_electric_box_001" position="-395 6320 -90" rotation="0 0 0 -1" unit_id="400741"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5165 40 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2015 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_011" position="-5115 40 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400744"/>
@@ -2004,6 +2113,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="5200 150 -700" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_010" position="5200 -1450 -700" rotation="0 0 -0.707107 -0.707107" unit_id="400687"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-115 -29 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_019" position="-115 -29 -100.1" rotation="0 0 0.707107 -0.707107" unit_id="400689"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-840 -265 -100" _prev_rot="0 0 8.74228e-008 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/street/street_bench/street_bench" name_id="street_bench_004" position="-4100 -264.999 -100" rotation="0 0 8.74228e-008 -1" unit_id="400691"/>
@@ -2274,7 +2386,7 @@
 			<unit_data _prev_pos="-1253.43 4120.1 46" _prev_rot="0 0 0.71934 -0.694658" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-88.429 -9.89502 25.999" local_rot="-0 0 -0.71934 0.694658" name="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" name_id="jfr_prop_crate_a_005" position="-1253.43 4120.1 42.999" rotation="0 0 0.71934 -0.694658" unit_id="401011"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2104.83 4267.56 107" _prev_rot="0 0 -0.398749 -0.91706" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_003" position="-2104.83 4267.56 107" rotation="-0 0 -0.414693 -0.909961" unit_id="400978"/>
+			<unit_data _prev_pos="-2104.83 4267.56 107" _prev_rot="0 0 -0.398749 -0.91706" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flt_prop_wood_crate_110/flt_prop_wood_crate_110" name_id="flt_prop_wood_crate_110_003" position="-2104.83 4267.56 107" rotation="0 0 -0.414693 -0.909961" unit_id="400978"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1810 4195 0" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet" name_id="ind_prop_warehouse_pallet_002" position="-1810 4195 0" rotation="-0 0 -0 -1" unit_id="400979"/>
@@ -2376,6 +2488,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-2542.01 3947.52 48" _prev_rot="-0.052336 0 0 -0.99863" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="63.7691 61.3015 32.999" local_rot="0.0379632 -0.0360257 -0.687412 0.72438" mesh_variation="" name="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_e" name_id="bnk_prop_lobby_painting_e_003" position="-2547 3947.79 48" rotation="-0.052336 0 0 -0.99863" unit_id="401031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2493.31 701.786 -719.999" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/nature/terrain/sfm_water" name_id="sfm_water_001" position="2493.31 701.786 -719.999" rotation="0 0 1 4.37114e-008" unit_id="401033"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-725 3300 0" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/equipment/gen_interactable_door_wooden_a/gen_interactable_door_wooden_a" name_id="gen_interactable_door_wooden_a_003" position="-725 3300 0" rotation="-0 0 -0 -1" unit_id="401039"/>
@@ -3138,7 +3253,7 @@
 			<unit_data _prev_pos="-4251.55 385.073 400.001" _prev_rot="0 0 0.67559 -0.737277" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rsu/props/rsu_prop_crates/rsu_prop_crate_01" name_id="rsu_prop_crate_01_006" position="-4246.57 385.509 400.001" rotation="0 0 0.67559 -0.737277" unit_id="401291"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4249.76 513.708 400.001" _prev_rot="0 0 -0.669131 -0.743145" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rsu/props/rsu_prop_crates/rsu_prop_crate_01" name_id="rsu_prop_crate_01_007" position="-4244.79 513.185 400.001" rotation="0 0 -0.669131 -0.743145" unit_id="401292"/>
+			<unit_data _prev_pos="-4249.76 513.708 400.001" _prev_rot="-0 0 -0.669131 -0.743145" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rsu/props/rsu_prop_crates/rsu_prop_crate_01" name_id="rsu_prop_crate_01_007" position="-4244.79 513.185 400.001" rotation="-0 0 -0.669131 -0.743145" unit_id="401292"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2775 955 0" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_4m" name_id="mus_prop_curator_shelf_4m_002" position="-2605 955 0" rotation="-0 0 -0 -1" unit_id="401293"/>
@@ -3162,7 +3277,7 @@
 			<unit_data _prev_pos="-2330 25 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_counter_2m" name_id="mus_prop_curator_counter_2m_003" position="-2320 25 0" rotation="0 0 -0.707107 -0.707107" unit_id="401299"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2439.29 189.438 3.08161e-005" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" name_id="cas_prop_wine_cardboard_box_001" position="-2439.29 189.438 0" rotation="0 0 -0.207912 -0.978148" unit_id="401300"/>
+			<unit_data _prev_pos="-2439.29 189.438 3.08161e-005" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" name_id="cas_prop_wine_cardboard_box_001" position="-2439.29 189.438 0" rotation="-0 0 -0.207912 -0.978148" unit_id="401300"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1795 690 0" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 493 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/com_prop_jewelry_b_counters/com_prop_jewelry_b_counter_10" name_id="com_prop_jewelry_b_counter_10_001" position="-1795 620 0" rotation="-0 0 -0 -1" unit_id="401303"/>
@@ -3271,6 +3386,33 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-470 2820 0" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_001" position="-470 2820 0" rotation="0 0 -0.707107 -0.707107" unit_id="401036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2120 1905 2900" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="510 860 0" local_rot="0 0 -1 -4.37114e-008" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_003gaudr" position="-2120 1905 2900" rotation="0 0 1 4.37114e-008" unit_id="401337"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2120 1705 2900" _prev_rot="0 0 1 4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="510 660 0" local_rot="0 0 -1 -4.37114e-008" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_004gaudr" position="-2120 1705 2900" rotation="0 0 1 4.37114e-008" unit_id="400045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2120 2805 800" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="1.74846e-005 200 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_005drolo" position="-2120 2805 2600" rotation="0 0 1 -4.37114e-008" unit_id="400046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2120 3005 2600" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_006drolo" position="-2120 3005 2600" rotation="0 0 1 -4.37114e-008" unit_id="400823"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3380 3205 2900" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-750 2160 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_007" position="-3380 3205 2900" rotation="0 0 0.707107 -0.707107" unit_id="400824"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3580 3205 2900" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-950 2160 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_008" position="-3580 3205 2900" rotation="0 0 0.707107 -0.707107" unit_id="401338"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3520 2045 2900" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-890 1000 0" local_rot="0 0 0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_009roofdoorset2" position="-3520 2045 2900" rotation="0 0 -0.707107 -0.707107" unit_id="401339"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2630 1245 2900" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_011roofdoorset1" position="-2630 1245 2900" rotation="0 0 0 -1" unit_id="401341"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2630 1045 2900" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="gen_interactable_door_corridor_012roofdoorset1" position="-2630 1045 2900" rotation="0 0 0 -1" unit_id="401342"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2695 5620 800" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="disable_nocat_5door" position="-2695 5620 800" rotation="0 0 -0.707107 -0.707107" unit_id="401343"/>
@@ -3687,7 +3829,7 @@
 			<unit_data _prev_pos="-3056.94 5510.28 0" _prev_rot="0 0 0.788011 -0.615661" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="12.9502 -39.4302 0" local_rot="0 0 -0.992546 -0.12187" name="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair" name_id="mus_prop_curator_chair_024" position="-3036.94 5510.28 0" rotation="0 0 0.788011 -0.615661" unit_id="401491"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3679.96 5464.11 0.000889919" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/survivalist/cardboard_box/cardboard_box02" name_id="cardboard_box02_001" position="-3679.96 5464.11 0.001" rotation="0 0 -0.669131 -0.743145" unit_id="401492"/>
+			<unit_data _prev_pos="-3679.96 5464.11 0.000889919" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/survivalist/cardboard_box/cardboard_box02" name_id="cardboard_box02_001" position="-3679.96 5464.11 0.001" rotation="-0 0 -0.669131 -0.743145" unit_id="401492"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3190.73 5459.21 0.000889121" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/props/chl_prop_wine_cardboard_box_open/chl_prop_wine_cardboard_box" name_id="chl_prop_wine_cardboard_box_001" position="-3190.73 5554.21 0.000889121" rotation="0 0 0 -1" unit_id="401493"/>
@@ -3789,6 +3931,66 @@
 			<unit_data _prev_pos="-1696.88 3563.2 75.001" _prev_rot="0 0 0.992546 0.12187" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/res_prop_kitchen_chair_cloth/res_prop_kitchen_chair_cloth" name_id="res_prop_kitchen_chair_cloth_006" position="-1695.67 3568.05 75.001" rotation="0 0 0.992546 0.12187" unit_id="401526"/>
 		</table>
 		<table>
+			<unit_data _prev_pos="-3518 5399 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_006" only_visible_in_editor="true" position="-3518 5399 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401527"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2923 5399 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -595 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_005" only_visible_in_editor="true" position="-2923 5399 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401528"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2653 4775 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-624 -865 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_003" only_visible_in_editor="true" position="-2653 4775 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401529"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3053 4775 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-624 -465 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_004" only_visible_in_editor="true" position="-3053 4775 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401530"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3395 4775 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-624 -123 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_002" only_visible_in_editor="true" position="-3395 4775 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401531"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3795 4775 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-624 277 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_001" only_visible_in_editor="true" position="-3795 4775 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401532"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3823 5204 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_007" only_visible_in_editor="true" position="-3823 5204 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401533"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2624 5204 0.001" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_008" only_visible_in_editor="true" position="-2624 5204 0.001" rotation="0 0 -0.707107 -0.707107" unit_id="401534"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 5245 0.001" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_010" only_visible_in_editor="true" position="-3825 5245 0.001" rotation="-0 0 -0 -1" unit_id="401536"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 5245 0.001" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_009" only_visible_in_editor="true" position="-3050 5245 0.001" rotation="0 0 0 -1" unit_id="401535"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3330 5245 0.001" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_011" only_visible_in_editor="true" position="-3330 5400 0.001" rotation="0 0 0 -1" unit_id="401537"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3330 5400 0.001" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_012" only_visible_in_editor="true" position="-3543 5400 0.001" rotation="0 0 0 -1" unit_id="401538"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4198 5274 -59.999" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_014" only_visible_in_editor="true" position="-4198 5274 -109.999" rotation="0 0 -0.707107 -0.707107" unit_id="401540"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4741 5274 -109.999" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_015" only_visible_in_editor="true" position="-4741 5354 -109.999" rotation="0 0 -0.707107 -0.707107" unit_id="401541"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2234 5681 -119.999" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_016" only_visible_in_editor="true" position="-2234 5771 -119.999" rotation="0 0 -0.707107 -0.707107" unit_id="401542"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2087.18 6367.96 -119.999" _prev_rot="0 0 0.996917 0.078459" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_017" only_visible_in_editor="true" position="-2136.57 6375.78 -119.999" rotation="0 0 0.996917 0.078459" unit_id="401543"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1429 5986 -119.999" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_018" only_visible_in_editor="true" position="-1429 5986 -119.999" rotation="0 0 -0.21644 -0.976296" unit_id="401544"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-799 5731 -119.999" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_019" only_visible_in_editor="true" position="-799 5731 -119.999" rotation="0 0 -0.707107 -0.707107" unit_id="401545"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-779.561 6325.39 -119.999" _prev_rot="0 0 0.999391 0.0348995" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_020" only_visible_in_editor="true" position="-919.22 6335.16 -119.999" rotation="0 0 0.999391 0.0348995" unit_id="401546"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-124 -599 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_021" only_visible_in_editor="true" position="-124 -599 -119.999" rotation="0 0 0 -1" unit_id="401547"/>
+		</table>
+		<table>
 			<unit_data _prev_pos="400 2475 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 200 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole" name_id="str_prop_street_barrier_pole_014" position="400 2290 -100" rotation="0 0 0 -1" unit_id="401549"/>
 		</table>
 		<table>
@@ -3802,6 +4004,51 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="400 1690 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole" name_id="str_prop_street_barrier_pole_027" position="400 2490 -100" rotation="0 0 0 -1" unit_id="401555"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2838 2351 -119.999" _prev_rot="-0.707107 0 0 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_022" only_visible_in_editor="true" position="2798 2351 -119.999" rotation="-0.707107 0 0 -0.707107" unit_id="401548"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2798 6326 -119.999" _prev_rot="-0.707107 0 0 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_023" only_visible_in_editor="true" position="2798 6931 -119.999" rotation="-0.707107 0 0 -0.707107" unit_id="401550"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 1866 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -409 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_024" only_visible_in_editor="true" position="1990 1866 -119.999" rotation="0 0 0 -1" unit_id="401551"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 2275 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_025" only_visible_in_editor="true" position="1990 2275 -119.999" rotation="0 0 0 -1" unit_id="401556"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 3091 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_026" only_visible_in_editor="true" position="1990 3081 -119.999" rotation="0 0 0 -1" unit_id="401557"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 1866 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -409 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_027" only_visible_in_editor="true" position="1990 2682 -119.999" rotation="0 0 0 -1" unit_id="401558"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 3469 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_028" only_visible_in_editor="true" position="1990 3489 -119.999" rotation="0 0 0 -1" unit_id="401559"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 3900 -119.999" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_029" only_visible_in_editor="true" position="1990 3900 -119.999" rotation="0 0 0.707107 -0.707107" unit_id="401560"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 1885 -119.999" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_030" only_visible_in_editor="true" position="1990 1885 -119.999" rotation="0 0 0.707107 -0.707107" unit_id="401561"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 1885 -119.999" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_031" only_visible_in_editor="true" position="2388 1885 -119.999" rotation="0 0 0.707107 -0.707107" unit_id="401562"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1990 3900 -119.999" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_032" only_visible_in_editor="true" position="2380 3900 -119.999" rotation="0 0 0.707107 -0.707107" unit_id="401563"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="385 2297 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_033" only_visible_in_editor="true" position="385 2297 -119.999" rotation="0 0 0 -1" unit_id="401564"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="385 1892 -119.999" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_034" only_visible_in_editor="true" position="385 1892 -119.999" rotation="-0 0 -0 -1" unit_id="401565"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="385 1892 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_035" only_visible_in_editor="true" position="385 1892 -119.999" rotation="0 0 0.878817 0.477159" unit_id="401566"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="385 2297 -119.999" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_036" only_visible_in_editor="true" position="385 2682 -119.999" rotation="-0 0 -0.48481 -0.87462" unit_id="401567"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2330 4060 -90" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_013" position="2890 4060 -90" rotation="0 0 -0.707107 -0.707107" unit_id="401568"/>
@@ -3924,7 +4171,7 @@
 			<unit_data _prev_pos="-2945.43 2166.13 0" _prev_rot="0 0 0.945518 -0.325568" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" name_id="mus_prop_prophet_statue_001" position="-2945.43 2166.13 0" rotation="0 0 0.945518 -0.325568" unit_id="401608"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4011.08 2806.74 5" _prev_rot="0 -0 0.999048 0.0436194" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="64.9997 480 -20" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_dlc_rvd/props/rvd_prop_warehouse_coffin/rvd_prop_warehouse_coffin_wrapped" name_id="rvd_prop_warehouse_coffin_wrapped_004" position="-4011.08 2806.74 5" rotation="0 -0 0.999048 0.0436194" unit_id="401609"/>
+			<unit_data _prev_pos="-4011.08 2806.74 5" _prev_rot="0 0 0.999048 0.0436194" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="64.9997 480 -20" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_dlc_rvd/props/rvd_prop_warehouse_coffin/rvd_prop_warehouse_coffin_wrapped" name_id="rvd_prop_warehouse_coffin_wrapped_004" position="-4011.08 2806.74 5" rotation="0 -0 0.999048 0.0436194" unit_id="401609"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3999.36 2425.61 0" _prev_rot="0 0 0.999391 0.0348995" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-313.655 435.11 -25" local_rot="0 0 -0.71325 -0.700909" name="units/pd2_dlc_rvd/props/rvd_prop_warehouse_coffin/rvd_prop_warehouse_coffin_paper" name_id="rvd_prop_warehouse_coffin_paper_004" position="-3999.36 2425.61 0" rotation="0 0 0.999391 0.0348995" unit_id="401610"/>
@@ -4011,7 +4258,7 @@
 			<unit_data _prev_pos="-1368.14 4403.54 260" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" local_pos="12.4591 -53.3867 260" local_rot="0 0 0.707106 0.707108" name="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_exit_v2" name_id="dah_prop_sign_glass_exit_v2_008" position="-1361.07 4410.61 260" rotation="0 0 -0.382683 -0.92388" unit_id="401640"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1958.58 4414.14 260" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_exit_v2" name_id="dah_prop_sign_glass_exit_v2_009" position="-1938.78 4433.94 260" rotation="0 0 -0.382683 -0.92388" unit_id="401641"/>
+			<unit_data _prev_pos="-1965.65 4407.07 260" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" local_pos="12.4663 -48.3876 260" local_rot="0 0 0.707106 0.707108" name="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_exit_v2" name_id="dah_prop_sign_glass_exit_v2_009" position="-1958.58 4414.14 260" rotation="0 0 -0.382683 -0.92388" unit_id="401641"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4024.74 1857.51 795" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/com_prop_election_table/com_prop_election_table" name_id="com_prop_election_table_004" position="-4024.74 1857.51 800" rotation="0 0 0 -1" unit_id="401642"/>
@@ -4065,7 +4312,7 @@
 			<unit_data _prev_pos="30 549 -95" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_026" position="30 549 -95" rotation="0 0 -0.707107 -0.707107" unit_id="401665"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="30 4089 -95" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_027" position="30 4089 -95" rotation="0 0 -0.707107 -0.707107" unit_id="401666"/>
+			<unit_data _prev_pos="30 3519 -95" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_027" position="30 4089 -95" rotation="0 0 -0.707107 -0.707107" unit_id="401666"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="30 2814 -95" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="-705 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_028" position="30 3384 -95" rotation="0 0 -0.707107 -0.707107" unit_id="401667"/>
@@ -4278,6 +4525,9 @@
 			<unit_data _prev_pos="-3981.55 1332.41 0" _prev_rot="0 0 -0.224951 -0.97437" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/props/sfm_prop_int_sofa/sfm_prop_int_sofa_small" name_id="sfm_prop_int_sofa_small_010" position="-3981.55 1332.41 0" rotation="0 0 -0.284015 -0.95882" unit_id="400202"/>
 		</table>
 		<table>
+			<unit_data _prev_pos="-3320 2045 2900" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="-690 1000 0" local_rot="0 0 0.707107 0.707107" mesh_variation="activate_door" name="units/pd2_mod_auction/equipment/auc_interactable_door_corridor/auc_interactable_door_corridor" name_id="auc_interactable_door_corridor_001roofdoorset2" position="-3320 2045 2900" rotation="0 0 -0.707107 -0.707107" unit_id="401340"/>
+		</table>
+		<table>
 			<unit_data _prev_pos="-3435 715 375" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/com_prop_vent_ceiling/com_prop_vent_ceiling_b" name_id="com_prop_vent_ceiling_b_001" position="-3435 710 375" rotation="-0 0 -0 -1" unit_id="400446"/>
 		</table>
 		<table>
@@ -4473,6 +4723,9 @@
 			<unit_data _prev_pos="-2565 1370 400" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/res_prop_motel_toilet/res_prop_motel_toilet_closed" name_id="res_prop_motel_toilet_closed_002armory_spawn_0" position="-2565 1370 400" rotation="0 0 -0.707107 -0.707107" unit_id="400908"/>
 		</table>
 		<table>
+			<unit_data _prev_pos="525 301 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_009" position="525 -524 -100" rotation="0 0 0 -1" unit_id="400909"/>
+		</table>
+		<table>
 			<unit_data _prev_pos="-1732.78 1789.67 785" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/props/lxy_prop_bedroom_curtains/lxy_prop_bedroom_curtains_opaque" name_id="lxy_prop_bedroom_curtains_opaque_001" position="-1732.78 1789.67 785" rotation="0 0 -0.707107 -0.707107" unit_id="400910"/>
 		</table>
 		<table>
@@ -4497,6 +4750,9 @@
 			<unit_data _prev_pos="2596.38 -717.311 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="2510 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_014" position="2596.38 -717.311 -90" rotation="0 0 0 -1" unit_id="400916"/>
 		</table>
 		<table>
+			<unit_data _prev_pos="86.3809 -717.311 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_015" position="86.3809 -717.311 -90" rotation="0 0 0 -1" unit_id="400917"/>
+		</table>
+		<table>
 			<unit_data _prev_pos="-4195 6300 -90" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x1m_end_broken" name_id="rvd_ext_parkinglot_wall_white_2x1m_end_broken_003_blockade_close" position="-4195 6300 -90" rotation="-0 0 -0 -1" unit_id="400918"/>
 		</table>
 		<table>
@@ -4509,7 +4765,7 @@
 			<unit_data _prev_pos="-2675 6375 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_01" name_id="pillar_fence_01_010_blockade_close" position="-2675 6375 -100" rotation="0 0 0.707107 -0.707107" unit_id="400921"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2675 6325 37" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_002_blockade_close" position="-2675 6330 37" rotation="0 0 0.707107 -0.707107" unit_id="400922"/>
+			<unit_data _prev_pos="-2675 6325 37" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_002_blockade_close" position="-2675 6325 37" rotation="0 0 0.707107 -0.707107" unit_id="400922"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2718.03 5954.3 -90" _prev_rot="-0.473147 0.525483 0.525483 0.473147" continent="art_croqui" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_plywood/gen_prop_plywood" name_id="gen_prop_plywood_003_blockade_close" position="-2718.03 5954.3 -90" rotation="-0.473147 0.525483 0.525483 0.473147" unit_id="400923"/>
@@ -4522,6 +4778,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-2675 5950 -3090" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_082_blockade_close" only_visible_in_editor="true" position="-2675 5950 -3010" rotation="-0 0 -0 -1" unit_id="400926"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5 -698 -119.999" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_013" only_visible_in_editor="true" position="5 -703 -119.999" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="400186"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5 6342 -119.999" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x32m" name_id="dev_vehicle_only_collision_4x32m_037" only_visible_in_editor="true" position="-95 6342 -119.999" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="400187"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="166.38 6382.69 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_016" position="81.3799 6382.69 -90" rotation="0 0 0 -1" unit_id="400277"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1730 6385 -100" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="1061 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole" name_id="str_prop_street_barrier_pole_001" position="1730 6385 -100" rotation="0 0 0 -1" unit_id="400278"/>
@@ -4647,7 +4912,7 @@
 			<unit_data _prev_pos="-3190 6010 -100" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1790 -6665 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_002" position="-3190 6010 -100" rotation="0 0 1 4.37114e-008" unit_id="400960"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-189 4760 -100" _prev_rot="0 0 0.694658 -0.71934" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-33.2808 -163.297 0" local_rot="0 0 -0.694658 0.71934" mesh_variation="" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_001" position="-189 4810 -100" rotation="0 0 0.694658 -0.71934" unit_id="400961"/>
+			<unit_data _prev_pos="-235 4665 -100" _prev_rot="0 0 1 -4.37114e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-4745 -5320 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/str_prop_alley_trash_container/str_prop_alley_trash_container" name_id="str_prop_alley_trash_container_001" position="-234.999 4665 -100" rotation="0 0 1 4.37114e-008" unit_id="400961"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-6523.62 5042.69 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_017" position="-6523.62 5042.69 -90" rotation="0 0 0 -1" unit_id="400962"/>
@@ -4695,6 +4960,9 @@
 			<unit_data _prev_pos="-6523.62 2992.69 -90" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_031" position="-6523.62 7139.69 -90" rotation="0 0 0 -1" unit_id="400976"/>
 		</table>
 		<table>
+			<unit_data _prev_pos="-8310 -2615 -101" _prev_rot="-0 0 -0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_32m" name_id="str_ext_park_ground_grass_32m_001" position="-8310 -2615 -101" rotation="-0 0 -0 -1" unit_id="400991"/>
+		</table>
+		<table>
 			<unit_data _prev_pos="-6990 -2249.58 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green_house" name="units/pd2_mcmansion/architecture/mcm_backdrop_houses/mcm_backdrop_house_01" name_id="mcm_backdrop_house_01_011" position="-6990 -2249.58 -100" rotation="0 0 0.707107 -0.707107" unit_id="401022"/>
 		</table>
 		<table>
@@ -4732,6 +5000,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-8329.96 10195 -101.872" _prev_rot="-0.0436194 1.90666e-009 0.999048 4.36698e-008" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_32m" name_id="str_ext_park_ground_grass_32m_008" position="-9329.96 10195 -101.872" rotation="-0.0436194 -1.90666e-009 0.999048 -4.36698e-008" unit_id="401489"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5110 -2615 -101" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_32m" name_id="str_ext_park_ground_grass_32m_009" position="-5110 -3955 -101" rotation="0 0 0 -1" unit_id="401499"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-5120 6335 -101" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_32m" name_id="str_ext_park_ground_grass_32m_010" position="-5120 6335 -101" rotation="0 0 0 -1" unit_id="401630"/>
@@ -4938,10 +5209,13 @@
 			<unit_data _prev_pos="-2500 4595 775" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" name_id="ind_ext_level_ladder_top_013ladderset11" position="-2500 4595 775" rotation="0 0 0.707107 -0.707107" unit_id="401803"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2500 4595 375" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_mid_028ladderset11" position="-2500 4595 375" rotation="0 0 0.707107 -0.707107" unit_id="401804"/>
+			<unit_data _prev_pos="-2500 4595 475" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_mid_028ladderset11" position="-2500 4595 475" rotation="0 0 0.707107 -0.707107" unit_id="401804"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2500 4595 75" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_mid_029ladderset11" position="-2500 4595 -25" rotation="0 0 0.707107 -0.707107" unit_id="401805"/>
+			<unit_data _prev_pos="-2500 4595 175" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_mid_029ladderset11" position="-2500 4595 175" rotation="0 0 0.707107 -0.707107" unit_id="401805"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2500 4595 -120" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_mid_030ladderset11" position="-2500 4595 -120" rotation="0 0 0.707107 -0.707107" unit_id="401806"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3468.61 5633.71 1170" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" name_id="ind_ext_level_ladder_top_014ladderset4" position="-3468.61 5633.71 1170" rotation="0 0 0.707107 -0.707107" unit_id="401807"/>
@@ -5094,55 +5368,55 @@
 			<unit_data _prev_pos="-10739.6 4212.69 -260" _prev_rot="-0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -2895 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_032" position="-10894.2 4212.69 -270.812" rotation="-0 0.0348995 -0 -0.999391" unit_id="401846"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 4212.69 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-575 0 2.28882e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_033" position="-10337.6 4212.69 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401847"/>
+			<unit_data _prev_pos="-10337.6 4212.69 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-575 0 2.28882e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_033" position="-10337.6 4212.69 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401847"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 4212.69 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_034" position="-9764 4212.69 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401848"/>
+			<unit_data _prev_pos="-9764 4212.69 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_034" position="-9764 4212.69 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401848"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10894.2 7107.69 -270.812" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_035" position="-10894.2 7107.69 -270.812" rotation="0 0.0348995 -0 -0.999391" unit_id="401849"/>
+			<unit_data _prev_pos="-10894.2 7107.69 -270.812" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_035" position="-10894.2 7107.69 -270.812" rotation="0 0.0348995 0 -0.999391" unit_id="401849"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 7107.69 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_036" position="-10337.6 7107.69 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401850"/>
+			<unit_data _prev_pos="-10337.6 7107.69 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_036" position="-10337.6 7107.69 -231.888" rotation="0 0.0348995 0 -0.999391" unit_id="401850"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 7107.69 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_037" position="-9764 7107.69 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401851"/>
+			<unit_data _prev_pos="-9764 7107.69 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_037" position="-9764 7107.69 -191.778" rotation="0 0.0348995 0 -0.999391" unit_id="401851"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10894.2 7107.69 -270.812" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_038" position="-10894.2 9497.69 -270.812" rotation="0 0.0348995 -0 -0.999391" unit_id="401852"/>
+			<unit_data _prev_pos="-10894.2 7107.69 -270.812" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_038" position="-10894.2 9497.69 -270.812" rotation="0 0.0348995 0 -0.999391" unit_id="401852"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 7107.69 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_040" position="-10337.6 9497.69 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401854"/>
+			<unit_data _prev_pos="-10337.6 7107.69 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_040" position="-10337.6 9497.69 -231.888" rotation="0 0.0348995 0 -0.999391" unit_id="401854"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 7107.69 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_042" position="-9764 9497.69 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401856"/>
+			<unit_data _prev_pos="-9764 7107.69 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_042" position="-9764 9497.69 -191.778" rotation="0 0.0348995 0 -0.999391" unit_id="401856"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10894.2 9497.69 -270.812" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_044" position="-10894.2 1159.69 -270.812" rotation="0 0.0348995 -0 -0.999391" unit_id="401858"/>
+			<unit_data _prev_pos="-10894.2 9497.69 -270.812" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_044" position="-10894.2 1159.69 -270.812" rotation="0 0.0348995 0 -0.999391" unit_id="401858"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 9497.69 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_045" position="-10337.6 1159.69 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401859"/>
+			<unit_data _prev_pos="-10337.6 9497.69 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_045" position="-10337.6 1159.69 -231.888" rotation="0 0.0348995 0 -0.999391" unit_id="401859"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 9497.69 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_046" position="-9764 1159.69 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401860"/>
+			<unit_data _prev_pos="-9764 9497.69 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_046" position="-9764 1159.69 -191.778" rotation="0 0.0348995 0 -0.999391" unit_id="401860"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10894.2 -750.311 -270.812" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_048" position="-10894.2 -750.311 -270.812" rotation="0 0.0348995 -0 -0.999391" unit_id="401862"/>
+			<unit_data _prev_pos="-10894.2 -750.311 -270.812" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_048" position="-10894.2 -750.311 -270.812" rotation="0 0.0348995 0 -0.999391" unit_id="401862"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 -750.311 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_049" position="-10337.6 -750.311 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401863"/>
+			<unit_data _prev_pos="-10337.6 -750.311 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_049" position="-10337.6 -750.311 -231.888" rotation="0 0.0348995 0 -0.999391" unit_id="401863"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 -750.311 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_050" position="-9764 -750.311 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401864"/>
+			<unit_data _prev_pos="-9764 -750.311 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_050" position="-9764 -750.311 -191.778" rotation="0 0.0348995 0 -0.999391" unit_id="401864"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10894.2 -750.311 -270.812" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_052" position="-10894.2 -2615.31 -270.812" rotation="0 0.0348995 -0 -0.999391" unit_id="401866"/>
+			<unit_data _prev_pos="-10894.2 -750.311 -270.812" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_052" position="-10894.2 -2615.31 -270.812" rotation="0 0.0348995 0 -0.999391" unit_id="401866"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-10337.6 -750.311 -231.888" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_053" position="-10337.6 -2615.31 -231.888" rotation="0 0.0348995 -0 -0.999391" unit_id="401867"/>
+			<unit_data _prev_pos="-10337.6 -750.311 -231.888" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="558 0 3.05176e-005" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_053" position="-10337.6 -2615.31 -231.888" rotation="0 0.0348995 0 -0.999391" unit_id="401867"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-9764 -750.311 -191.778" _prev_rot="0 0.0348995 -0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_054" position="-9764 -2615.31 -191.778" rotation="0 0.0348995 -0 -0.999391" unit_id="401868"/>
+			<unit_data _prev_pos="-9764 -750.311 -191.778" _prev_rot="0 0.0348995 0 -0.999391" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="1133 0 -7.62939e-006" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_054" position="-9764 -2615.31 -191.778" rotation="0 0.0348995 0 -0.999391" unit_id="401868"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7690 8585 -75" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" local_pos="8000 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_b" name_id="str_ext_road_16x16m_b_011" position="-7740 8585 -75" rotation="0 0 -0.707107 -0.707107" unit_id="401870"/>
@@ -5312,6 +5586,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="528 2700 -650" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_01_4m" name_id="ind_ext_stripes_01_4m_009" position="543 2700 -650" rotation="0 0 0 -1" unit_id="401916"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2071.69 4520 326.969" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" name_id="dev_collision_1x1m_035" only_visible_in_editor="true" position="-2071.69 4520 321.969" rotation="0.5 -0.5 -0.5 -0.5" unit_id="401678"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1491.69 4520 326.969" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="art_croqui" local_pos="0 -580 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" name_id="dev_collision_1x1m_036" only_visible_in_editor="true" position="-1491.69 4520 321.969" rotation="0.5 -0.5 -0.5 -0.5" unit_id="401680"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-926.689 4520 326.969" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="art_croqui" local_pos="0 -1145 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" name_id="dev_collision_1x1m_037" only_visible_in_editor="true" position="-926.689 4520 321.969" rotation="0.5 -0.5 -0.5 -0.5" unit_id="401682"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3480.55 1194.58 1205" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_vision_blocker" name="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" name_id="dev_ai_vis_blocker_005x2x2m_007" only_visible_in_editor="true" position="-3870.55 1194.58 1205" rotation="0 0 -0.707107 -0.707107" unit_id="400577"/>
@@ -5823,7 +6106,7 @@
 			<unit_data _prev_pos="-5110 2264.2 -109.926" _prev_rot="0.061049 0 0 -0.998135" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2m_end" name_id="rvd_ext_parkinglot_wall_white_2m_end_031" position="-5115 2264.2 -109.926" rotation="0.061049 0 0 -0.998135" unit_id="401974"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="600 4100 -120" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="grey" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_002" position="600 4075 -120" rotation="-0 0 -0 -1" unit_id="401975">
+			<unit_data _prev_pos="679.913 3424.86 -109.903" _prev_rot="0 -0.0697565 0 -0.997564" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="grey" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_002" position="679.913 4429.86 -109.903" rotation="0 -0.0697565 0 -0.997564" unit_id="401975">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -5833,88 +6116,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="600 1350 -120" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_002" position="600 1250 -120" rotation="0 0 0 -1" unit_id="401976"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1800 4144 849" _prev_rot="0 0 0 -1" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" name_id="diamondheist_roof_airvent_02_002" position="-2200 4144 849" rotation="0 0 0 -1" unit_id="400575"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="400 1875 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-0.000732422 1600 0" local_rot="0 0 -1 1.78814e-007" name="units/payday2/architecture/str/str_ext_road_24x16m_parking" name_id="str_ext_road_24x16m_parking_001" position="400 1900 -100" rotation="0 0 0.707107 -0.707107" unit_id="400621"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2000 -1325 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-3200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_8x16m_b" name_id="str_ext_road_8x16m_b_001" position="2000 -1300 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400678"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="2000 1900 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_8x16m_b" name_id="str_ext_road_8x16m_b_002" position="2000 1900 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400622"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="399.999 5075 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="3200 1600 0" local_rot="0 0 -1 1.78814e-007" name="units/payday2/architecture/str/str_ext_road_24x16m_parking" name_id="str_ext_road_24x16m_parking_002" position="399.999 5100 -100" rotation="0 0 0.707107 -0.707107" unit_id="400003"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-106 6335 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/pillar_fence/pillar_fence_single_01" name_id="pillar_fence_single_01_001" position="-106 6329 -100" rotation="0 0 -0.707107 -0.707107" unit_id="400022"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-75 6665 -90" _prev_rot="-0 0 -0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x2m" name_id="rvd_ext_parkinglot_wall_white_2x2m_002" position="-75 6665 -90" rotation="-0 0 -0 -1" unit_id="400624"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-75 6565 -90" _prev_rot="0 0 0 -1" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="-0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x2m" name_id="rvd_ext_parkinglot_wall_white_2x2m_004" position="-75 7165 -90" rotation="0 0 -0 -1" unit_id="400045"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 3100 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_001" position="400 3100 -100" rotation="0 0 0 -1" unit_id="400002"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 700 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -2400 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_002" position="400 700 -100" rotation="0 0 0 -1" unit_id="400015"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 -900 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -4000 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_003" position="400 -900 -100" rotation="0 0 0 -1" unit_id="400021"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 -100 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -3200 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_004" position="400 -100 -100" rotation="0 0 0 -1" unit_id="400605"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 3900 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_006" position="400 3900 -100" rotation="0 0 0 -1" unit_id="400617"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="450 4700 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_007" position="400 4700 -100" rotation="0 0 0 -1" unit_id="400620"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="550 5500 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_008" position="550 5700 -100" rotation="0 0 0 -1" unit_id="400646"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="550 6300 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/props/rvd_prop_street_light_plants/rvd_prop_street_light_plants" name_id="rvd_prop_street_light_plants_009" position="550 6500 -100" rotation="0 0 0 -1" unit_id="400647"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="17.0873 2698 -105" _prev_rot="0 0 0.700909 -0.71325" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_033" position="17.0873 2698 -105" rotation="0 0 0.700909 -0.71325" unit_id="400016"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="30.1047 1897 -95" _prev_rot="0 0 -0.700909 -0.71325" continent="art_croqui" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_green/mcm_prop_garden_bush_green_b_var1" name_id="mcm_prop_garden_bush_green_b_var1_034" position="30.1047 1897 -105" rotation="0 0 -0.700909 -0.71325" unit_id="400649"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2997.5 5915 -100" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_door_protection/gen_prop_door_protection" name_id="gen_prop_door_protection_001" position="-2997.5 5915 -100" rotation="0 0 0.707107 -0.707107" unit_id="400503"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1175 6365 -90" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ext_parkinglot_white_walls/rvd_ext_parkinglot_wall_white_2x4m" name_id="rvd_ext_parkinglot_wall_white_2x4m_002" position="-1575 6365 -90" rotation="0 0 0.707107 -0.707107" unit_id="400046"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1660 4448 0" _prev_rot="0 0 -0.382684 -0.923879" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_001" position="-1660 4448 0" rotation="0 0 -0.382683 -0.92388" unit_id="400007"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1060 4448 0" _prev_rot="0 0 -0.382683 -0.92388" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_open" name="units/pd2_dlc_sah/props/sah_prop_garage_door/sah_prop_garage_door" name_id="sah_prop_garage_door_002" position="-1060 4448 0" rotation="0 0 -0.382683 -0.92388" unit_id="400008"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1400 6325 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_001" position="-882 6325 -100" rotation="0 0 0 -1" unit_id="400186"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-882 6325 -100" _prev_rot="0 0 0 -1" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_friend/architecture/ext/sfm_ext_hedges_6m" name_id="sfm_ext_hedges_6m_004" position="-435 6325 -100" rotation="-0 0 -0 -1" unit_id="400187"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2500 4595 275" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect" name_id="ind_ext_level_ladder_mid_connect_001" position="-2500 4595 275" rotation="0 0 0.707107 -0.707107" unit_id="401806"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2500 4595 775" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect" name_id="ind_ext_level_ladder_mid_connect_002" position="-2500 4595 675" rotation="0 0 0.707107 -0.707107" unit_id="400277"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2500 4595 275" _prev_rot="0 0 0.707107 -0.707107" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect" name_id="ind_ext_level_ladder_mid_connect_003" position="-2500 4595 -125" rotation="0 0 0.707107 -0.707107" unit_id="400512"/>
+			<unit_data _prev_pos="678.803 913.758 -109.903" _prev_rot="0 -0.0697565 -0 -0.997564" continent="art_croqui" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="green" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_002" position="688.706 913.758 -111.294" rotation="0 -0.0697565 0 -0.997564" unit_id="401976"/>
 		</table>
 	</statics>
 	<values>

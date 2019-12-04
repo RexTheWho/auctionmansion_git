@@ -1,0 +1,33 @@
+<dynamic_object>
+    <diesel orientation_object="rp_sign_02" materials="units/payday2/props/str_prop_parking_signs/str_prop_parking_sign" />
+	<sequence_manager file="units/payday2/props/str_prop_parking_signs/str_prop_parking_sign_2" />
+	
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+        </body>
+		
+        <body enabled="true" template="static" name="static_light_1" >
+			<object name="c_box_light_1" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="static" name="static_light_2" >
+			<object name="c_box_light_2" collision_type="box" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="static" name="static_light_3" >
+			<object name="c_box_light_3" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+    <graphics>
+		
+		<object name="g_main" 			enabled="true"/>
+		<object name="s_main" enabled="true" shadow_caster="true"/>
+		
+		<object name="g_light_1_cover" enabled="true"/>
+		<object name="g_light_2_cover" enabled="true"/>
+		<object name="g_light_3_cover" enabled="true"/>		
+		
+    </graphics>
+</dynamic_object>

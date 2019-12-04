@@ -1,0 +1,20 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_friend/props/sfm_fbi_usb_stick/sfm_fbi_usb_stick" type="unit">
+		<unit force="true" path="units/pd2_dlc_friend/props/sfm_fbi_usb_stick/sfm_fbi_usb_stick" unload="true"/>
+		<object force="true" path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_short/props/gen_fbi_usb_stick/gen_fbi_usb_stick" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/world/architecture/hospital/props/clipboard01/clipboard01" type="unit">
+		<unit force="true" path="units/world/architecture/hospital/props/clipboard01/clipboard01" unload="true"/>
+		<object force="true" path="units/world/architecture/hospital/props/clipboard01/clipboard01" unload="true"/>
+		<material_config force="true" path="units/world/architecture/hospital/props/clipboard01/clipboard01" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<unit force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<object force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" unload="true"/>
+		<font force="true" path="fonts/font_dunton_writing" unload="true"/>
+	</add>
+</table>

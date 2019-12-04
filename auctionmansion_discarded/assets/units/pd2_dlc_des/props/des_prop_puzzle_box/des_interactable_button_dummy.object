@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box" orientation_object="rp_des_interactable_button_dummy" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_puzzle_box/des_interactable_button_dummy" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="rp_des_interactable_button_dummy" />
+			<object name="c_mesh_mopp" collision_type="mesh_mopp" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_button" enabled="true" />
+	</graphics>
+</dynamic_object>

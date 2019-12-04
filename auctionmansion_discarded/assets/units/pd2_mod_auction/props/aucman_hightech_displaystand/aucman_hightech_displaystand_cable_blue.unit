@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand_cable_blue" />
+	<network sync="spawn"/>
+	<extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hospital_security_cable_blue" />
+			<var name="_interact_object" value="interact"/>
+            <var name="drop_in_sync_tweak_data" value="true" />
+		</extension>
+	</extensions>
+</unit>

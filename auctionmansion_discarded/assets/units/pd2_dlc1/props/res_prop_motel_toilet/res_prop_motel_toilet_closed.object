@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_res_prop_motel_toilet_closed" materials="units/pd2_dlc1/props/res_prop_motel_toilet/res_prop_motel_toilet" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_convex_01" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_tile" material="tile" />
+        <decal_mesh enabled="true" name="dm_plastic" material="plastic" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

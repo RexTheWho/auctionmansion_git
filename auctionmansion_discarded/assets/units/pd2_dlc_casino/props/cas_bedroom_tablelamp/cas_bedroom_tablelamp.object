@@ -1,0 +1,46 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp" orientation_object="rp_cas_bedroom_tablelamp" />
+	<sequence_manager file="units/pd2_dlc_casino/props/cas_bedroom_tablelamp/cas_bedroom_tablelamp" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_cas_bedroom_tablelamp" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_dynamic" enabled="false" template="dynamic">
+			<object name="rp_cas_bedroom_tablelamp" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<effects>
+		<effect_spawner name="indoor_lamp_small" enabled="true" object="e_effect" effect="effects/payday2/particles/flares/indoor_lamp_small" />
+    </effects>
+
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="grp_clean" enabled="true" >
+			<lod_object name="lod_g_clean">
+				<object name="g_clean_lod0" enabled="true" max_distance="1500" />
+				<object name="g_clean_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_dmg" enabled="false" >
+			<lod_object name="lod_g_dmg">
+				<object name="g_dmg_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

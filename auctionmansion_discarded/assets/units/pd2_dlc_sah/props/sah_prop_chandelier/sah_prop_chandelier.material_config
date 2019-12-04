@@ -1,0 +1,31 @@
+<materials version="3">
+    <material render_template="generic" name="lambert1" version="2"/>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" name="mat_crystal" version="2">
+        <diffuse_texture file="units/glass/window_glass/window_glass_blue_df" mip="1"/>
+        <opacity_texture file="units/glass/window_glass/window_op_texture_01_op" mip="1"/>
+        <reflection_texture file="environments/cubemaps/cubemap_mirror" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="1.2799999713898 0 1"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_gold" version="2">
+        <diffuse_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_int_gold_df" mip="1"/>
+        <material_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_int_gold_gsma" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_int_gold_nm" mip="1"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_ring_chains" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_chandelier/chandelier_rings_chains_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_chandelier/chandelier_rings_chains_nm" mip="1"/>
+        <variable type="scalar" name="alpha_ref" value="0.54700002598111"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_light_off" version="2">
+        <diffuse_texture file="units/pd2_mcmansion/props/mcm_prop_kitchen_spotlight_ceiling/mcm_prop_lamp_ceiling_small_glow_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_light_on" version="2">
+        <diffuse_texture file="units/pd2_mcmansion/props/mcm_prop_kitchen_spotlight_ceiling/mcm_prop_lamp_ceiling_small_glow_df"/>
+        <self_illumination_texture file="units/pd2_mcmansion/props/mcm_prop_kitchen_spotlight_ceiling/mcm_prop_lamp_ceiling_small_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="streetlight"/>
+        <variable type="scalar" name="il_bloom" value="9.999000474927"/>
+    </material>
+</materials>

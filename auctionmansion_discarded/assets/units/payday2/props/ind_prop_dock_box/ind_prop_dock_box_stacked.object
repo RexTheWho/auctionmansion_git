@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel materials="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_stacked" orientation_object="rp_ind_prop_dock_box_stacked" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_ind_prop_dock_box_stacked" />
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+            <object collision_type="box" name="c_box_02" padding="-2.5" />
+            <object collision_type="box" name="c_box_03" padding="-2.5" />			
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_dm" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_boxes" />
+        <object enabled="true" shadow_caster="true" name="s_s" />
+    </graphics>
+</dynamic_object>

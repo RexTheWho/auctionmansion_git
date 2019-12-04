@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<!--Root-->
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	
+	<!--Objects-->
+    <object3d name="interact" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="-36" z="50" />
+        <rotation w="0.707107" x="0.707107" y="0" z="0" />
+    </object3d>
+	
+	<!--Import-->
+    <import file="aucman_hightech_displaystand.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+        <rootpoint name="interact">
+            <object name="g_gui_lockpick" />
+        </rootpoint>
+    </import>
+	
+	<!--Move: Graphics-->
+    <object3d name="g_panel" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="-32" z="50" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_panel_opened" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-4" y="-41" z="12" />
+        <rotation w="0.991445" x="-0.130526" y="0" z="0" />
+    </object3d>
+	
+	<!--Move: Collision-->
+    <object3d name="c_box_001" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="80" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_glass" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="100" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

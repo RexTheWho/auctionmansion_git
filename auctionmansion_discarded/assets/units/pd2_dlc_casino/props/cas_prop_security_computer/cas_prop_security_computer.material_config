@@ -1,0 +1,20 @@
+<materials version="3">
+    <material name="mat_computer" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_prop_office_computer_df"/>
+        <bump_normal_texture file="units/payday2/props/stn_prop_office_computer/stn_prop_office_computer_nm"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material name="mat_computer_no_outline" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_prop_office_computer_df"/>
+        <bump_normal_texture file="units/payday2/props/stn_prop_office_computer/stn_prop_office_computer_nm"/>
+    </material>
+    <material name="mat_copy" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_casino/props/cas_prop_security_computer/textures/screen_df"/>
+    </material>
+    <material name="mat_desktop" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_prop_office_computer_directors_screen_df"/>
+        <self_illumination_texture file="units/pd2_dlc_old_hoxton/equipment/stn_interactable_computer_director/stn_prop_office_computer_directors_screen_df"/>
+        <variable value="monitor" type="scalar" name="il_multiplier"/>
+    </material>
+</materials>

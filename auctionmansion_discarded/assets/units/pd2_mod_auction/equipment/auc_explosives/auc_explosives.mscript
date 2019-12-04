@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="auc_explosives.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_c4_plantable">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+    <object3d name="e_sound" mode="edit">
+        <position x="0" y="0" z="3" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_c4" mode="edit">
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="g_c4_glow" mode="edit">
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_c4_box" mode="edit">
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

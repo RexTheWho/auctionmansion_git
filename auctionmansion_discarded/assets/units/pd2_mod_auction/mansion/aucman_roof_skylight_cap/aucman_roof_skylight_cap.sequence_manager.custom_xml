@@ -1,0 +1,20 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'set_solid'" triggable="true">
+			<object	name="'g_solid_mortar'"		enabled="true" />
+			<object	name="'g_solid_tiles'"		enabled="true" />
+			<body	name="'body_solid'"			enabled="true" />
+			<object	name="'g_skylight_mortar'"	enabled="false" />
+			<object	name="'g_skylight_tiles'"	enabled="false" />
+			<body	name="'body_skylight'"		enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'set_skylight'" triggable="true">
+			<object	name="'g_solid_mortar'"		enabled="false" />
+			<object	name="'g_solid_tiles'"		enabled="false" />
+			<body	name="'body_solid'"			enabled="false" />
+			<object	name="'g_skylight_mortar'"	enabled="true" />
+			<object	name="'g_skylight_tiles'"	enabled="true" />
+			<body	name="'body_skylight'"		enabled="true" />
+		</sequence>
+	</unit>
+</table>

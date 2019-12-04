@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a" orientation_object="rp_stn_prop_lobby_plant_a" />
+	<sequence_manager file="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a" />
+	<bodies>
+		<body name="body_static_collision" enabled="true" template="static">
+			<object name="rp_stn_prop_lobby_plant_a" />
+			<object name="c_box_pot" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_leaves" enabled="true" template="mover_blocker">
+			<object name="rp_stn_prop_lobby_plant_a" />
+			<object name="c_box_leaves_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_leaves_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="foliage">
+		<decal_mesh name="dm_stn_prop_lobby_plant_a" enabled="true" material="marble" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_stn_prop_lobby_plant_a_lod0" enabled="true"/>
+		<object name="g_stn_prop_lobby_plant_a_lod1" enabled="false"/>
+		<object name="g_stn_prop_lobby_plant_a_lod2" enabled="false"/>
+	</graphics> 
+</dynamic_object>

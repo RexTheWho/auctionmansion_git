@@ -1,0 +1,23 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" name="mtl_tag_white" version="2">
+        <diffuse_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_white_df"/>
+        <opacity_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_op"/>
+        <variable					type="scalar" name="alpha_ref" value="0.5"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" name="mtl_tag_green" version="2">
+        <diffuse_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_green_df"/>
+        <opacity_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_op"/>
+        <variable					type="scalar" name="alpha_ref" value="0.5"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" name="mtl_tag_red" version="2">
+        <diffuse_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_red_df"/>
+        <opacity_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_op"/>
+        <variable					type="scalar" name="alpha_ref" value="0.5"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" name="mtl_tag_blue" version="2">
+        <diffuse_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_blue_df"/>
+        <opacity_texture			file="units/pd2_mod_auction/props/aucman_auction_tag/aucman_auction_tag_op"/>
+        <variable					type="scalar" name="alpha_ref" value="0.5"/>
+    </material>
+
+</materials>

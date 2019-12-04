@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_prop_office_window_01" />
+	<sequence_manager file="units/pd2_dlc_red/props/red_prop_office_windows/red_prop_office_window_01" />
+	<bodies>
+		<body remove_ray_type="vis_graph ai_vision" name="static_body" enabled="true" template="static">
+			<object name="rp_red_prop_office_window_01"/>
+			<object name="c_box_2" collision_type="box" padding="-2"/>
+			<object name="c_border" collision_type="mesh_mopp" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="upper" enabled="true" template="static">
+			<object name="c_box_1" collision_type="box" padding="-2"/>
+		</body>
+			<body remove_ray_type="vis_graph ai_vision" name="lower" enabled="true" template="static">
+			<object name="c_box_3" collision_type="box" padding="-2"/>
+		</body>
+	</bodies>
+		<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_upper_window" enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_lower_window" enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_border" enabled="true" material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_upper_window" enabled="true" />
+		<object name="g_lower_window" enabled="true" />
+		<object name="g_border" enabled="true"  />
+		<object name="g_upper_window_shattered" enabled="false" />
+		<object name="g_lower_window_shattered" enabled="false" />
+	</graphics>
+	<objects>
+		<align_point name="e_lower_window" enabled="true" parent="rp_red_prop_office_window_01" position="0 0 0" rotation="0 0 0" />
+		<align_point name="e_upper_window" enabled="true" parent="rp_red_prop_office_window_01" position="0 0 0" rotation="0 0 0" />
+	</objects>
+</dynamic_object>

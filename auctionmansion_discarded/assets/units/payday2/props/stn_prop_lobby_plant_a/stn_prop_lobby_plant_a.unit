@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="1">
+	<object file="units/payday2/props/stn_prop_lobby_plant_a/stn_prop_lobby_plant_a" />
+	<network sync="spawn"/>
+	<dependencies>
+		<!-- Dependency Here! -->
+		<depends_on unit="units/payday2/props/stn_prop_lobby_plant_a/spawn_lobby_plant_pot" />
+		<depends_on unit="units/payday2/props/stn_prop_lobby_plant_a/spawn_lobby_plant_leaves" />
+		<depends_on physic_effect="physic_effects/push_sphere" />
+		<depends_on effect="effects/payday2/particles/destruction/dest_plant_matter" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

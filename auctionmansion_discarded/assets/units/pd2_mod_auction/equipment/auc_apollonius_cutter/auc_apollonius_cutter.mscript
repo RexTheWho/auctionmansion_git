@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="a_pivot" mode="edit">
+        <parent name="rp_gen_interactable_circle_cutter" />
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="interaction_location" mode="add">
+        <parent name="rp_gen_interactable_circle_cutter" />
+        <position x="0" y="0" z="35" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_sparks1" mode="add">
+        <parent name="a_pivot" />
+        <position x="75" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_sparks2" mode="add">
+        <parent name="a_pivot" />
+        <position x="-75" y="0" z="0" />
+        <rotation w="0" x="0" y="0" z="1" />
+    </object3d>
+	
+    <object3d name="a_attention" mode="add">
+        <parent name="a_pivot" />
+        <position x="0" y="0" z="50" />
+        <rotation w="0" x="0" y="0" z="1" />
+    </object3d>
+    <object3d name="a_sabotage" mode="add">
+        <parent name="a_pivot" />
+        <position x="-15" y="-90" z="0" />
+        <rotation w="0" x="0" y="0" z="1" />
+    </object3d>
+    
+    <import file="auc_apollonius_cutter.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_gen_interactable_circle_cutter">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+        
+        <rootpoint name="a_pivot">
+            <object name="g_part2" />
+            <object name="g_part2_contour" />
+            <object name="c_box_001" />
+        </rootpoint>
+    </import>
+	
+    <object3d name="timer_gui" mode="edit">
+        <parent name="rp_gen_interactable_circle_cutter" />
+        <position x="44.8" y="0" z="23.3" />
+        <rotation w="-0.122788" x="0.696365" y="0.696364" z="-0.122788" />
+    </object3d>
+</modelscript>

@@ -1,0 +1,49 @@
+<table>
+	<unit>
+		<body name="'body_glass'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_crack'"/>
+			</endurance>
+			<endurance bullet="25" explosion="50" melee="10">
+				<run_sequence name="'int_shatter'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_crack'" triggable="true">
+			<object	name="'g_glass'"		enabled="false"/>
+			<object	name="'g_glass_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_shatter'" triggable="true">
+			<body			name="'body_glass'" enabled="false"/>
+			<decal_mesh		name="'g_glass'"	enabled="false"/>
+			<object			name="'g_glass'"		enabled="false"/>
+			<object			name="'g_glass_crk'"	enabled="false"/>
+			<object			name="'g_glass_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass'"/>
+			<attention giveaway="'glass'" object_name="'e_glass'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<graphic_group	name="'g_group'"		visibility="false"/>
+			<body			name="'body_static'"	enabled="false"/>
+			<body			name="'body_glass'"		enabled="false"/>
+			<decal_mesh		name="'g_glass'"		enabled="false"/>
+			<decal_mesh		name="'c_box_001'"		enabled="false"/>
+			<decal_mesh		name="'c_box_002'"		enabled="false"/>
+			<decal_mesh		name="'c_box_003'"		enabled="false"/>
+			<decal_mesh		name="'c_box_004'"		enabled="false"/>
+			<decal_mesh		name="'c_box_005'"		enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<graphic_group	name="'g_group'"		visibility="true"/>
+			<body			name="'body_static'"	enabled="true"/>
+			<body			name="'body_glass'"		enabled="true"/>
+			<decal_mesh		name="'g_glass'"		enabled="true"/>
+			<decal_mesh		name="'c_box_001'"		enabled="true"/>
+			<decal_mesh		name="'c_box_002'"		enabled="true"/>
+			<decal_mesh		name="'c_box_003'"		enabled="true"/>
+			<decal_mesh		name="'c_box_004'"		enabled="true"/>
+			<decal_mesh		name="'c_box_005'"		enabled="true"/>
+		</sequence>
+	</unit>
+</table>

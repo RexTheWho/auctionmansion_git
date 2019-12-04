@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_spawn_waist" materials="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" />
+    <bodies>
+        <body enabled="true" template="dynamic" collides_with_mover="false">
+        	<object name="rp_spawn_waist" />
+            <object collision_type="convex" name="c_convex_06" material="stone"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_waist" />
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,119 @@
+<table>
+	<unit>
+		<body name="'body_solid'">
+			<endurance explosion="1000" >
+				<run_sequence name="'explode'"/>
+			</endurance>
+		</body>
+		
+		
+		<variables>
+			<var_style value="0"/> <!---->
+			<var_state value="0"/> <!--0 solid, 1 doorway, 2 exploded-->
+		</variables>
+		
+		
+		<filter name="'filter_solid'">
+			<check value="vars.var_state == 0"/>
+		</filter>
+		<filter name="'filter_door'">
+			<check value="vars.var_state == 1"/>
+		</filter>
+		<filter name="'filter_exploded'">
+			<check value="vars.var_state == 2"/>
+		</filter>
+		<filter name="'filter_not_exploded'">
+			<check value="vars.var_state ~= 2"/>
+		</filter>
+		<filter name="'filter_style_1'">
+			<check value="vars.var_style == 0"/>
+		</filter>
+		<filter name="'filter_style_2'">
+			<check value="vars.var_style == 1"/>
+		</filter>
+		<filter name="'filter_style_3'">
+			<check value="vars.var_style == 2"/>
+		</filter>
+		
+		
+		<sequence name="'pick_style'" >
+			<object	name="'g_int_door_1'"	enabled="false" />
+			<object	name="'g_int_door_2'"	enabled="false" />
+			<object	name="'g_int_door_3'"	enabled="false" />
+			<object	name="'g_int_solid_1'"	enabled="false" />
+			<object	name="'g_int_solid_2'"	enabled="false" />
+			<object	name="'g_int_solid_3'"	enabled="false" />
+			<object	name="'g_int_ploded_2'" enabled="false" />
+			<object	name="'g_int_ploded_3'" enabled="false" />
+			<object	name="'g_int_ploded_1'" enabled="false" />
+			
+			<object	name="'g_int_door_1'"	enabled="true" filter="'filter_style_1'"/>
+			<object	name="'g_int_door_2'"	enabled="true" filter="'filter_style_2'"/>
+			<object	name="'g_int_door_3'"	enabled="true" filter="'filter_style_3'"/>
+			<object	name="'g_int_ploded_1'"	enabled="true" filter="'filter_style_1'"/>
+			<object	name="'g_int_ploded_2'"	enabled="true" filter="'filter_style_2'"/>
+			<object	name="'g_int_ploded_3'"	enabled="true" filter="'filter_style_3'"/>
+			<object	name="'g_int_solid_1'"	enabled="true" filter="'filter_style_1'"/>
+			<object	name="'g_int_solid_2'"	enabled="true" filter="'filter_style_2'"/>
+			<object	name="'g_int_solid_3'"	enabled="true" filter="'filter_style_3'"/>
+		</sequence>
+		
+		
+		<!--SHOW SOLID WALL-->
+		<sequence editable_state="true" name="'show_solidwall'" triggable="true">
+			<body			name="'body_exploded'"	enabled="false" />
+			<graphic_group	name="'grp_exploded'"	visibility="false"/>
+			
+			<body			name="'body_door'"		enabled="false" />
+			<graphic_group	name="'grp_door'"		visibility="false"/>
+			
+			<run_sequence	name="'pick_style'"/>
+			<body			name="'body_solid'"		enabled="true" />
+			<graphic_group	name="'grp_solid'"		visibility="true"/>
+			<set_variables var_state="0"/>
+		</sequence>
+		
+		<!--SHOW DOORS-->
+		<sequence editable_state="true" name="'show_doorways'" triggable="true">
+			<body			name="'body_exploded'"	enabled="false" />
+			<graphic_group	name="'grp_exploded'"	visibility="false"/>
+			
+			<body			name="'body_solid'"		enabled="false" />
+			<graphic_group	name="'grp_solid'"		visibility="false"/>
+			
+			
+			<run_sequence	name="'pick_style'"/>
+			<body			name="'body_door'"		enabled="true" />
+			<graphic_group	name="'grp_door'"		visibility="true"/>
+			<set_variables var_state="1"/>
+		</sequence>
+		
+		<!--SHOW EXPLODED-->
+		<sequence editable_state="true" name="'explode'" triggable="true">
+			<body			name="'body_solid'"		enabled="false" />
+			<graphic_group	name="'grp_solid'"		visibility="false"/>
+			
+			<body			name="'body_door'"		enabled="false" />
+			<graphic_group	name="'grp_door'"		visibility="false"/>
+			
+			<run_sequence	name="'pick_style'"/>
+			<body			name="'body_exploded'"	enabled="true" />
+			<graphic_group	name="'grp_exploded'"	visibility="true"/>
+			<set_variables var_state="2"/>
+		</sequence>
+		
+		<!--Set Style 1-->
+		<sequence editable_state="true" name="'set_style_1'" triggable="true">
+			<set_variables var_style="0"/>
+			<run_sequence	name="'pick_style'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_style_2'" triggable="true">
+			<set_variables var_style="1"/>
+			<run_sequence	name="'pick_style'"/>
+		</sequence>
+		<sequence editable_state="true" name="'set_style_3'" triggable="true">
+			<set_variables var_style="2"/>
+			<run_sequence	name="'pick_style'"/>
+		</sequence>
+	</unit>
+</table>

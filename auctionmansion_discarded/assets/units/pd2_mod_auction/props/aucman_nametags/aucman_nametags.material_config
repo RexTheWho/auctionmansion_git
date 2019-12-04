@@ -1,0 +1,9 @@
+<materials version="3" group="clipboard">
+	<material name="mtl_nametag" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture		file="units/pd2_mod_auction/props/aucman_nametags/aucman_nametags_df"/>
+    </material>
+    <material name="mtl_nametag_names" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF" version="2">
+		<diffuse_texture	file="units/pd2_mod_auction/props/aucman_clipboard/aucman_clipboard_names_df"/>
+        <variable			type="scalar" name="alpha_ref" value="0.03"/>
+    </material>
+</materials>

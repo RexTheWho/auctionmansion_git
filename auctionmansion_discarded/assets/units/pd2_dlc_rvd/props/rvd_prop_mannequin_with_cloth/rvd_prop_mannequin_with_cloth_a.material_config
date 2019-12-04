@@ -1,0 +1,14 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_mannequin_black" version="2">
+        <diffuse_texture file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/previs_mannequins_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="rvd_prop_mat_cloth_a" version="2">
+        <diffuse_texture file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/run_prop_mannequin_with_cloth_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/run_prop_mannequin_with_cloth_a_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="rvd_prop_mat_cloth_b" version="2">
+        <diffuse_texture file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/run_prop_mannequin_with_cloth_b_df"/>
+        <bump_normal_texture file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/run_prop_mannequin_with_cloth_b_nm"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+</materials>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="ene_male_auctioneer_1.fbx" type="fbx" create_objects="false">
+        <rootpoint name="root_point">
+            <default/>
+        </rootpoint>
+        <rootpoint name="Head">
+			<object name="g_frame" />
+			<object name="g_glass" />
+        </rootpoint>
+    </import>
+</modelscript>

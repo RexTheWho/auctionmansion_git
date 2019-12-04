@@ -1,0 +1,21 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/rvd_prop_mannequin_with_cloth_a" orientation_object="rp_rvd_prop_mannequin_with_cloth_c" />
+	<sequence_manager file="units/pd2_dlc_rvd/props/rvd_prop_mannequin_with_cloth/rvd_prop_mannequin_with_cloth_a" />
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="dynamic_body" enabled="false" template="dynamic" pushed_by_mover="true">
+			<object name="c_convex" collision_type="convex" padding="-2.5"/>
+			<object name="g_mannequin"/>
+			<object name="g_cloth"/>
+			<object name="s_s"/>
+		</body>
+	</bodies>
+	<graphics>
+	    <object enabled="true" name="g_cloth" />
+		<object enabled="true" name="g_mannequin" />
+        <object enabled="true" name="g_base" />
+        <object enabled="true" shadow_caster="true" name="s_s" />
+	</graphics>
+</dynamic_object>

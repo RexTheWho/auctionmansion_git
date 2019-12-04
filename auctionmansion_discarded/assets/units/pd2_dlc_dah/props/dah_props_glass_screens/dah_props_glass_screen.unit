@@ -1,0 +1,12 @@
+<unit type="dah" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_dah/props/dah_props_glass_screens/dah_props_glass_screen" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/window/dah_glass_break_dark" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="auc" slot="1">
+	<object file="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_plate" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

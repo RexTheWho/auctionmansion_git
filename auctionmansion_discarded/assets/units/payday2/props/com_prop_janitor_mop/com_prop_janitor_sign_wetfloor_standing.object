@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_janitor_sign_wetfloor_standing" materials="units/payday2/props/com_prop_janitor_mop/com_prop_janitor_mop" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+			<object name="rp_com_prop_janitor_sign_wetfloor_standing" />
+            <object collision_type="convex" name="c_convex01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_janitor" />
+    </graphics>
+</dynamic_object>

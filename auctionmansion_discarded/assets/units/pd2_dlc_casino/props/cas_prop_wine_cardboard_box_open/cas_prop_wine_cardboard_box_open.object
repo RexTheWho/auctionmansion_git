@@ -1,0 +1,42 @@
+<dynamic_object>
+    <diesel orientation_object="rp_cas_prop_wine_cardboard_box_open" materials="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box_open" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_01" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_cloth" material="cloth" />
+    </decal_surfaces>
+    <graphics>
+
+        <lod_object name="lod_bottle">
+            <object enabled="true" name="g_bottle1">
+                <material materials="mat_bottle" max_distance="500"/>
+                <material materials="mat_bottle_lod_1"/>
+            </object>
+        </lod_object> 
+        <lod_object name="lod_box">
+            <object enabled="true" name="g_g">
+                <material materials="mat_wine_box01" max_distance="700"/>
+                <material materials="mat_wine_box01_lod_1" max_distance="1000"/>
+                <material materials="mat_wine_box01_lod_2"/>
+            </object>
+        </lod_object> 
+        <lod_object name="lod_holder">
+            <object enabled="true" name="g_holder">
+                <material materials="mat_wine_box01" max_distance="700"/>
+                <material materials="mat_wine_box01_lod_1" max_distance="1000"/>
+                <material materials="mat_wine_box01_lod_2"/>
+            </object>
+        </lod_object> 
+
+        <!-- 
+        <object enabled="true" name="g_holder" />
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_bottle1" />
+        -->
+
+        <object name="s_s" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

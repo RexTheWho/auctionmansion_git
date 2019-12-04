@@ -1,0 +1,18 @@
+<unit type="chw" slot="1">
+	<object file="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on unit="units/pd2_dlc_chew/props/chw_prop_wooden_crate/spawn_chw_prop_wooden_crate_debris" />
+		<depends_on physic_effect="physic_effects/push_sphere"/>
+		<depends_on effect="effects/payday2/particles/explosions/grenade_explosion" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="crate_loot" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

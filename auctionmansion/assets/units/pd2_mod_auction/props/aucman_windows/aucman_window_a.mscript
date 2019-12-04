@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<modelscript>
+	<!--Root-->
+    <object3d name="rp_rootpoint" mode="add">
+        <parent root="true" />
+    </object3d>
+	
+	
+    <object3d name="e_glass" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="150" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+	
+	<!--Import-->
+    <import file="aucman_window_a.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_rootpoint">
+            <default/>
+            <object name="co_culling" />
+        </rootpoint>
+    </import>
+	
+    <object3d name="c_glass" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="150" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_001" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="-50" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_002" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="50" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_003" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="0" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="c_box_004" mode="edit">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="300" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+</modelscript>

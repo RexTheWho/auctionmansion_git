@@ -1,0 +1,138 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/vehicles/sfm_vehicle_car_cadillac/sfm_vehicle_cadillac" orientation_object="rp_sfm_vehicle_cadillac" />
+	<sequence_manager file="units/pd2_dlc_friend/vehicles/sfm_vehicle_car_cadillac/sfm_vehicle_cadillac" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_sfm_vehicle_cadillac" />			
+			<object name="c_mesh_mopp_02" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_03" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_04" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_05" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_06" collision_type="mesh_mopp" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_03" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_04" collision_type="capsule" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+		
+		<body name="glass_front" enabled="true" template="static">
+			<object name="rp_sfm_vehicle_cadillac" />	
+			<object name="c_mesh_mopp_01" collision_type="mesh_mopp" />
+		</body>
+		
+	</bodies>
+	
+	<decal_surfaces >
+		<decal_mesh name="dm_carpet" enabled="true" material="carpet" />
+		<decal_mesh name="dm_cloth_stuffed" enabled="true" material="cloth_stuffed" />
+		<decal_mesh name="dm_cloth_stuffed1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_cloth_stuffed2" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_cloth_stuffed0" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal0" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_rubber0" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_glass_breakable" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable1" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_glass_breakable2" enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_leather" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal2" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal3" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal4" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal5" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal6" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_metal7" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_rubber" enabled="true" material="rubber" />
+		<decal_mesh name="dm_rubber1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_rubber2" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_rubber3" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_wood1" enabled="true" material="thin_layer" />
+		<decal_mesh name="dm_wood2" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="gg_lod_objects" enabled="true">
+			<lod_object name="lod_g_exterior">
+				<object name="g_exterior_lod0" enabled="true" max_distance="1500" />
+				<object name="g_exterior_lod1" enabled="true" max_distance="3000" />
+				<object name="g_exterior_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_interior">
+			<object name="g_interior_lod0" enabled="true" max_distance="1500" />
+			<object name="g_interior_lod1" enabled="true" max_distance="3000" />
+			<object name="g_interior_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_interior_decals">
+				<object name="g_interior_decals_lod0" enabled="true" max_distance="1500" />
+				<object name="g_interior_decals_lod1" enabled="true" max_distance="3000" />
+				<object name="g_interior_decals_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_left_door">
+				<object name="g_left_door_lod0" enabled="true" max_distance="1500" />
+				<object name="g_left_door_lod1" enabled="true" max_distance="3000" />
+				<object name="g_left_door_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_right_door">
+				<object name="g_right_door_lod0" enabled="true" max_distance="1500" />
+				<object name="g_right_door_lod1" enabled="true" max_distance="3000" />
+				<object name="g_right_door_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_trunk">
+				<object name="g_trunk_lod0" enabled="true" max_distance="1500" />
+				<object name="g_trunk_lod1" enabled="true" max_distance="3000" />
+				<object name="g_trunk_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_wheel_f_left">
+				<object name="g_wheel_f_left_lod0" enabled="true" max_distance="1500" />
+				<object name="g_wheel_f_left_lod1" enabled="true" max_distance="3000" />
+				<object name="g_wheel_f_left_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_wheel_f_right">
+				<object name="g_wheel_f_right_lod0" enabled="true" max_distance="1500" />
+				<object name="g_wheel_f_right_lod1" enabled="true" max_distance="3000" />
+				<object name="g_wheel_f_right_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_wheel_r_left">
+				<object name="g_wheel_r_left_lod0" enabled="true" max_distance="1500" />
+				<object name="g_wheel_r_left_lod1" enabled="true" max_distance="3000" />
+				<object name="g_wheel_r_left_lod2" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_wheel_r_right">
+				<object name="g_wheel_r_right_lod0" enabled="true" max_distance="1500" />
+				<object name="g_wheel_r_right_lod1" enabled="true" max_distance="3000" />
+				<object name="g_wheel_r_right_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_s_01" enabled="true" shadow_caster="true" />
+			<object name="s_s_02" enabled="true" shadow_caster="true" />
+			<object name="s_s" enabled="true" shadow_caster="true" />
+			<object name="s_s1" enabled="true" shadow_caster="true" />
+			<object name="s_s2" enabled="true" shadow_caster="true" />
+			<object name="s_s3" enabled="true" shadow_caster="true" />
+			<object name="s_s4" enabled="true" shadow_caster="true" />
+			<object name="s_s5" enabled="true" shadow_caster="true" />
+			<object name="s_s6" enabled="true" shadow_caster="true" />
+		</graphic_group>
+
+		<graphic_group name="main_glass" enabled="true">
+			<lod_object name="lod_g_glass">
+				<object name="g_glass_lod0" enabled="true" max_distance="1500" />
+				<object name="g_glass_lod1" enabled="true" max_distance="3000" />
+				<object name="g_glass_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		
+		
+		
+		<graphic_group name="shattered_glass" enabled="false">
+			<lod_object name="lod_g_shattered_glass" >
+				<object name="g_shattered_glass_lod0" enabled="true" max_distance="1500" />
+				<object name="g_shattered_glass_lod1" enabled="true" max_distance="3000" />
+				<object name="g_shattered_glass_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		
+	</graphics>
+</dynamic_object>

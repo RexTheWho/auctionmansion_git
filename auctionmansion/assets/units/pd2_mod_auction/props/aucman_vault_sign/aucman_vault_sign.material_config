@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mtl_sign" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_auction/props/aucman_vault_sign/aucman_vault_sign_df"/>
+    </material>
+</materials>

@@ -1,0 +1,439 @@
+<table name="auctionmansion">
+	<level ai_group_type="america" id="auctionmansion" max_bags="54">
+		<add file="levels/auctionmansion/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/auctionmansion">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="art_croqui/art_croqui.continent" type="custom_xml"/>
+			<file file="art_croqui/art_croqui.mission" type="generic_xml"/>
+			<file file="temp/temp.continent" type="custom_xml"/>
+			<file file="temp/temp.mission" type="generic_xml"/>
+			<file file="occluders/occluders.continent" type="custom_xml"/>
+			<file file="occluders/occluders.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/test.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/haunted_safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/bain/big/day/day"/>
+			<value_node value="levels/instances/unique/sah/sah_helicopter/world"/>
+			<value_node value="levels/narratives/butcher/friend/world"/>
+			<value_node value="levels/narratives/locke/sah/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world/world"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
+			<value_node value="levels/instances/unique/spa/spa_gangster_group/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/narratives/butcher/friend/world/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_security_gate/world/world"/>
+			<value_node value="levels/instances/unique/dinner/keycard_panel/world/world"/>
+			<value_node value="levels/narratives/bain/rvd/stage2/world"/>
+			<value_node value="levels/narratives/locke/sah/world/world"/>
+			<value_node value="levels/narratives/bain/rvd/stage2/world"/>
+			<value_node value="levels/narratives/bain/cage/temp_art/temp_art"/>
+			<value_node value="levels/narratives/butcher/friend/world/world"/>
+			<value_node value="levels/narratives/classics/dah/props/props"/>
+			<value_node value="levels/narratives/bain/cage/temp_art/temp_art"/>
+			<value_node value="levels/narratives/dentist/mus/world"/>
+			<value_node value="levels/narratives/skm/skm_red2/world/world"/>
+			<value_node value="levels/narratives/skm/skm_red2/world"/>
+			<value_node value="levels/narratives/locke/sah/props/props"/>
+			<value_node value="levels/narratives/locke/sah/art/art"/>
+			<value_node value="levels/instances/unique/chew/chew_ladder_blocker/world/world"/>
+			<value_node value="levels/narratives/bain/diamond_store/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_carshop/world/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage2/world"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/pc_only/pc_only"/>
+			<value_node value="levels/narratives/vlad/jolly/world/world"/>
+			<value_node value="levels/narratives/locke/tag/world"/>
+			<value_node value="levels/instances/unique/hox_estate_gate/world/world"/>
+			<value_node value="levels/narratives/bain/revenge/world/world"/>
+			<value_node value="levels/narratives/butcher/friend/art_patio/art_patio"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/bd_mt/bd_mt"/>
+			<value_node value="levels/narratives/butcher/friend/art_upper_courtyard/art_upper_courtyard"/>
+			<value_node value="levels/narratives/butcher/friend/art_lower_courtyard/art_lower_courtyard"/>
+			<value_node value="levels/narratives/bain/rvd/stage1/art_reg/art_reg"/>
+			<value_node value="levels/narratives/butcher/friend/art_main_yard/art_main_yard"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/road_section/road_section"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+			<value_node value="levels/narratives/safehouse/world/world"/>
+			<value_node value="levels/narratives/locke/des/world"/>
+			<value_node value="levels/narratives/locke/des/props/props"/>
+			<value_node value="levels/narratives/locke/tag/art/art"/>
+			<value_node value="levels/instances/unique/kenaz/reception_cashier/world/world"/>
+			<value_node value="levels/instances/unique/tag/tag_office/world/world"/>
+			<value_node value="levels/narratives/vlad/jolly/veh_collision/veh_collision"/>
+			<value_node value="packages/lvl_friend"/>
+			<value_node value="levels/instances/unique/tag/tag_office/world/world"/>
+			<value_node value="levels/instances/unique/fish/auction_tag/world/world"/>
+			<value_node value="levels/instances/unique/dark/equipment_board/world/world"/>
+			<value_node value="levels/narratives/locke/tag/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<instance id="aucman_doubledoor">
+		<add file="levels/aucman_doubledoor/add.xml"/>
+		<include directory="levels/aucman_doubledoor">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<instance id="aucman_curator_pc">
+		<add file="levels/aucman_curator_pc/add.xml"/>
+		<include directory="levels/aucman_curator_pc">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<instance id="aucman_files">
+		<add file="levels/aucman_files/add.xml"/>
+		<include directory="levels/aucman_files">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<instance id="aucman_usb">
+		<add file="levels/aucman_usb/add.xml"/>
+		<include directory="levels/aucman_usb">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<instance id="aucman_vault">
+		<add file="levels/aucman_vault/add.xml"/>
+		<include directory="levels/aucman_vault">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<level ai_group_type="america" id="dev_test_map" max_bags="54">
+		<add file="levels/dev_test_map/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+		</hooks>
+		<include directory="levels/dev_test_map">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/vlad/jolly/world/world"/>
+			<value_node value="levels/instances/unique/mad/mad_door/world/world"/>
+			<value_node value="levels/narratives/dentist/mus/world/world"/>
+			<value_node value="levels/narratives/dentist/mus/art/art"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+			<value_node value="packages/narr_hox_3"/>
+			<value_node value="levels/instances/unique/pet_shutter/world/world"/>
+			<value_node value="packages/job_kenaz"/>
+			<value_node value="levels/narratives/bain/big/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/hox_estate_panic_room/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="aucman_curator_pc" max_bags="54">
+		<add file="levels/aucman_curator_pc/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/aucman_curator_pc">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="aucman_files" max_bags="54">
+		<add file="levels/aucman_files/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/aucman_files">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="aucman_usb" max_bags="54">
+		<add file="levels/aucman_usb/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/aucman_usb">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="aucman_vault" max_bags="54">
+		<add file="levels/aucman_vault/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/aucman_vault">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="aucman_doubledoor" max_bags="54">
+		<add file="levels/aucman_doubledoor/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="vehicletweakdata.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="missiondoortweakdata.lua" source_file="lib/tweak_data/missiondoortweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/aucman_doubledoor">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/san_traindoors/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AddFiles directory="assets">
+		<unit path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
+		<object path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
+		<model path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
+		<material_config path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
+		<material_config path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg_thq"/>
+		<texture path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg_df"/>
+		<texture path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg_nm"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/biggavel"/>
+		<unit path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg"/>
+		<object path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg"/>
+		<model path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg"/>
+		<material_config path="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg"/>
+	</AddFiles>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<GlobalValue color="Color(1, 0.5, 0)" id="auction_mansion"/>
+	<Localization default="english.txt" directory="loc"/>
+	<Melee based_on="dingdong" global_value="auction_mansion" id="biggavel" texture_bundle_folder="mods" third_unit="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_third_mel_bfg" unit="units/pd2_mod_auction/weapons/wpn_fps_mel_bfg/wpn_fps_mel_bfg"/>
+	<narrative contact="custom" id="narr_auctionmansion">
+		<chain>
+			<table level_id="auctionmansion" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair" orientation_object="rp_mus_prop_curator_chair" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_prop_curator_chair" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<lod_object name="lod_chair">
+			<object name="g_lod0" enabled="true"  max_distance="1500"/>
+			<object name="g_lod1" enabled="true"  max_distance="3000" />
+			<object name="g_lod2" enabled="true" lod="2" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

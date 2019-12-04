@@ -1,0 +1,34 @@
+<table>
+	<unit>
+		<sequence name="'int_seq_anim_button'">
+			<animation_group enabled="true" from="0/30" name="'anim_button'" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<run_sequence name="'int_seq_anim_button'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<body	enabled="false" name="'body_static'"/>
+			<object	enabled="false" name="'g_button'"/>
+			<object	enabled="false" name="'g_g'"/>
+			<run_sequence name="'disable_interaction'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<body	enabled="true" name="'body_static'"/>
+			<object	enabled="true" name="'g_button'"/>
+			<object	enabled="true" name="'g_g'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'show_and_enable'" triggable="true">
+			<run_sequence name="'show'"/>
+			<run_sequence name="'enable_interaction'"/>
+		</sequence>
+		
+	</unit>
+</table>

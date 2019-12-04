@@ -1,0 +1,16 @@
+<materials version="3">
+	<material name="mtr_desk" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+		<diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_props_df"/>
+		<bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_props_nm"/>
+	</material>
+	<material name="mtr_desk_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+		<diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_props_df" mip="5"/>
+		<bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_props_nm" mip="4"/>
+	</material>
+	<material name="mtr_lamp_glow" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_ilumination_df" />
+		<bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_ilumination_nm" />
+		<self_illumination_texture file="units/pd2_indiana/props/mus_prop_curator_desk_props/mus_prop_curator_desk_ilumination_il" />
+		<variable name="il_multiplier" type="scalar" value="identity" />
+	</material>
+</materials> 

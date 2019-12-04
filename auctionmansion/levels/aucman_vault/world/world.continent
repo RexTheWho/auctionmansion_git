@@ -437,6 +437,21 @@
 		<table>
 			<unit_data _prev_pos="-100 150 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/props/aucman_hightech_displaystand/aucman_hightech_displaystand" name_id="aucman_hightech_displaystand_004" position="-100 150 0" rotation="0 0 1 -4.37114e-008" unit_id="100102"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-25 -625 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_beam" name_id="aucman_vault_beam_001" position="-600 -1175 0" rotation="-0 0 -0 -1" unit_id="100103"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 -1175 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_door" name_id="aucman_vault_door_001" position="-400 -1175 0" rotation="0 0 0 -1" unit_id="100104"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-175 -1175 0" _prev_rot="0 0 1 4.37114e-008" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_door_interactable" name_id="aucman_vault_door_interactable_001" position="-300 -1100 0" rotation="0 0 1 4.37114e-008" unit_id="100105"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200 -1175 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_window_b" name_id="aucman_vault_window_b_001" position="-200 -1175 0" rotation="0 0 0 -1" unit_id="100106"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-75 -1175 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_window_c" name_id="aucman_vault_window_c_001" position="-25 -1175 0" rotation="0 0 0 -1" unit_id="100107"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

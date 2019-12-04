@@ -1,0 +1,57 @@
+<materials version="3">
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_sing_glass" version="2">
+        <opacity_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_plexiglass_op"/>
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_plexiglass_df"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="0 6010 0"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0 0.25999999046326 0.47999998927116"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE" name="mat_metal" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_df"/>
+        <material_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_white_glow" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <self_illumination_texture file="units/white_df"/>
+        <variable type="scalar" name="il_multiplier" value="match"/>
+        <variable type="scalar" name="il_bloom" value="1.4820000703912"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_red_glow" version="2">
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_red_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="desklight"/>
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_red_glow_df"/>
+        <variable type="scalar" name="il_bloom" value="2.8890001372201"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_sign_logo" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <variable type="scalar" name="il_multiplier" value="candle"/>
+        <variable type="scalar" name="il_bloom" value="0.68400003248826"/>
+        <variable type="scalar" name="alpha_ref" value="0.27000001282431"/>
+        <opacity_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" name="mat_elevator_glass" version="2">
+        <opacity_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_plexiglass_op"/>
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_plexiglass_df"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="0 288 0"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_night_sky" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="0.03999999910593 1 1"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_sign_logo_color" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <variable type="scalar" name="alpha_ref" value="0.5"/>
+        <opacity_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_op"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <variable type="scalar" name="il_bloom" value="1.7110000812681"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_sign_logo_green" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <variable type="scalar" name="alpha_ref" value="0.5"/>
+        <opacity_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_op"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_sign_glass/dah_prop_sign_glass_il"/>
+        <variable type="scalar" name="il_bloom" value="1.9770000939025"/>
+        <variable type="scalar" name="il_multiplier" value="dimlight"/>
+    </material>
+</materials>

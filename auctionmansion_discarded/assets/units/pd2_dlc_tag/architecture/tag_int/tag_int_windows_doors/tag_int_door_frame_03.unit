@@ -1,0 +1,6 @@
+<unit type="tag" slot="1">
+	<object file="units/pd2_dlc_tag/architecture/tag_int/tag_int_windows_doors/tag_int_door_frame_03" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

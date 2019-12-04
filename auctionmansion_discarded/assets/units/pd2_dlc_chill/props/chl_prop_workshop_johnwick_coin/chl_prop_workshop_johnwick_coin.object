@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chill/props/chl_prop_workshop_johnwick_coin/chl_prop_workshop_johnwick_coin" orientation_object="rp_chl_prop_workshop_johnwick_coin" />
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

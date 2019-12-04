@@ -1,0 +1,117 @@
+<dynamic_object>
+    <diesel orientation_object="rp_mus_prop_prophet_statue" materials="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" />
+    <sequence_manager file="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" />
+	
+	<bodies>
+		<body name="body_static_clean" enabled="true" template="static">
+			<object name="rp_mus_prop_prophet_statue" />
+			<object name="c_convex_static_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_static_02" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_static_base" enabled="true" template="static">
+			<object name="rp_mus_prop_prophet_statue" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_static_03" collision_type="convex" padding="-2.5"/>
+		</body>
+
+		<!-- Static collision bodies -->
+		<body name="body_dmg_01_static" enabled="false" template="static">
+			<object name="e_pos_01" />
+			<object name="c_convex_01" collision_type="convex" />
+		</body>
+		<body name="body_dmg_02_static" enabled="false" template="static">
+			<object name="e_pos_02" />
+			<object name="c_convex_02" collision_type="convex" />
+		</body>
+		<body name="body_dmg_03_static" enabled="false" template="static">
+			<object name="e_pos_03" />
+			<object name="c_convex_03" collision_type="convex" />
+		</body>
+		<body name="body_dmg_04_static" enabled="false" template="static">
+			<object name="e_pos_04" />
+			<object name="c_convex_04" collision_type="convex" />
+		</body>
+		<body name="body_dmg_05_static" enabled="false" template="static">
+			<object name="e_pos_05" />
+			<object name="c_convex_05" collision_type="convex" />
+		</body>
+		<body name="body_dmg_06_static" enabled="false" template="static">
+			<object name="e_pos_06" />
+			<object name="c_convex_06" collision_type="convex" />
+		</body>
+		<body name="body_dmg_07_static" enabled="false" template="static">
+			<object name="e_pos_07" />
+			<object name="c_convex_07" collision_type="convex" />
+		</body>
+		<body name="body_dmg_08_static" enabled="false" template="static">
+			<object name="e_pos_08" />
+			<object name="c_convex_08" collision_type="convex" />
+		</body>
+		<body name="body_dmg_09_static" enabled="false" template="static">
+			<object name="e_pos_09" />
+			<object name="c_convex_09" collision_type="convex" />
+		</body>
+		<body name="body_dmg_10_static" enabled="false" template="static">
+			<object name="e_pos_10" />
+			<object name="c_convex_10" collision_type="convex" />
+		</body>
+
+    </bodies>
+
+	<decal_surfaces default_material="marble">
+        <decal_mesh enabled="true" name="dm_mesh_mopp_01" material="marble" />
+    </decal_surfaces>
+
+    <graphics>
+		<graphic_group name="grp_dmg" enabled="false">
+		
+			<lod_object name="statue_head">
+				<object  name="g_head_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_head_lod1" enabled="true" lod="1"  />
+			</lod_object>
+			
+			<lod_object name="statue_head2">
+				<object  name="g_head_2_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_head_2_lod1" enabled="true" lod="1"  />
+			</lod_object>
+
+			<lod_object name="statue_hand">
+				<object  name="g_hand_left_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_hand_left_lod1" enabled="true" lod="1"  />
+			</lod_object>
+			
+			<lod_object name="statue_right_arm">
+				<object  name="g_arm_right_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_arm_right_lod1" enabled="true" lod="1"  />
+			</lod_object>
+
+			<lod_object name="statue_shoulder_right">
+				<object  name="g_shoulder_right_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_shoulder_right_lod1" enabled="true" lod="1"  />
+			</lod_object>
+
+			<lod_object name="statue_shoulder_left">
+				<object  name="g_shoulder_left_lod0" enabled="true" max_draw_lod="0" max_distance="3500" />
+				<object  name="g_shoulder_left_lod1" enabled="true" lod="1"  />
+			</lod_object>
+			
+			<object enabled="true" name="g_leg_right" />			
+			<object enabled="true" name="g_leg_left" />			
+			<object enabled="true" name="g_waist" />			
+			<object enabled="true" name="g_cape" />
+			<object enabled="true" name="g_dmg_platform" />	
+			
+        </graphic_group>
+		
+		
+		
+		<graphic_group name="grp_statue" enabled="true">
+			<lod_object name="statue_whole">
+				<object  name="g_prophet_lod0" enabled="true" max_distance="3500" />
+				<object  name="g_prophet_lod1" enabled="true" />
+			</lod_object>
+        </graphic_group>
+		
+    </graphics>
+	
+</dynamic_object>

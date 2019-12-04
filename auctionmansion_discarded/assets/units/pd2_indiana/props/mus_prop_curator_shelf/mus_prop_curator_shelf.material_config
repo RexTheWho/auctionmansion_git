@@ -1,0 +1,23 @@
+<materials version="3">
+    <material name="mtr_shelf" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_df"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_nm"/>
+    </material>
+    <material name="mtr_books" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_df"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_nm"/>
+    </material>
+    <material name="mtr_shelf_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_nm" mip="4"/>
+    </material>
+    <material name="mtr_books_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_nm" mip="4"/>
+    </material>
+    <material name="mtr_alpha" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_alpha_df"/>
+        <bump_normal_texture file="units/pd2_indiana/props/mus_prop_curator_shelf/mus_prop_curator_shelf_set_props_alpha_nm"/>
+        <variable value="0.0020000000949949" type="scalar" name="alpha_ref"/>
+    </material>
+</materials>

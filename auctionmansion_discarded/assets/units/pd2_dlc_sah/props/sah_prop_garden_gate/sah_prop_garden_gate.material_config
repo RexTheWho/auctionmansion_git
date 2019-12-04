@@ -1,0 +1,8 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_garden_gate" version="2">
+        <diffuse_texture file="units/pd2_dlc_sah/props/sah_prop_garden_gate/sah_prop_garden_gate_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_garden_gate/sah_prop_garden_gate_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_sah/props/sah_prop_garden_gate/sah_prop_garden_gate_gsma" mip="1"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_metal" type="cubemap"/>
+    </material>
+</materials>

@@ -1,0 +1,11 @@
+<unit type="auc" slot="1">
+	<object file="units/pd2_mod_auction/mansion/aucman_vault_parts/aucman_vault_door_interactable" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

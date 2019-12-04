@@ -1,0 +1,6 @@
+<materials version="3">
+	 <material version="2" name="lxa_prop_livingroom_sofaenglish_mat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/payday2/props/lxa_prop_livingroom_sofaenglish/lxa_prop_livingroom_sofaenglish_df"/>
+        <bump_normal_texture file="units/payday2/props/lxa_prop_livingroom_sofaenglish/lxa_prop_livingroom_sofaenglish_nm"/>
+    </material>
+</materials>

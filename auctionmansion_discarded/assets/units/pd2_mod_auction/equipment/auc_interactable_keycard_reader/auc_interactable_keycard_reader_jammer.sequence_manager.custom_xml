@@ -1,0 +1,11 @@
+<table>
+	<unit>
+		<sequence name=" 'interact' " triggable="true">
+			<graphic_group name="'ecm_icon'" visibility="false"/>
+			<run_sequence name=" 'complete' "/>
+		</sequence>
+		<sequence editable_state="true" name=" 'complete' ">
+			<interaction enabled="false"/>
+		</sequence>
+	</unit>
+</table>

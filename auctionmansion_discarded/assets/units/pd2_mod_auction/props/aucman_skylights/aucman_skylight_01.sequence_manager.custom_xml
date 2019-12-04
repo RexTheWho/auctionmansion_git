@@ -1,0 +1,236 @@
+<table>
+	<unit>
+		
+		<!--Glass-->
+		
+		<body name="'body_glass_01'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_01'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_01'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_01'" triggable="true">
+			<object	name="'g_glass_01'"		enabled="false"/>
+			<object	name="'g_glass_01_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_01' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_01'" triggable="true">
+			<body	name="'body_glass_01'" enabled="false"/>
+			<object	name="'g_glass_01'"		enabled="false"/>
+			<object	name="'g_glass_01_crk'"	enabled="false"/>
+			<object	name="'g_glass_01_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_01' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_01'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_01'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_02'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_02'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_02'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_02'" triggable="true">
+			<object	name="'g_glass_02'"		enabled="false"/>
+			<object	name="'g_glass_02_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_02' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_02'" triggable="true">
+			<body	name="'body_glass_02'" enabled="false"/>
+			<object	name="'g_glass_02'"		enabled="false"/>
+			<object	name="'g_glass_02_crk'"	enabled="false"/>
+			<object	name="'g_glass_02_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_02' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_02'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_02'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_03'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_03'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_03'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_03'" triggable="true">
+			<object	name="'g_glass_03'"		enabled="false"/>
+			<object	name="'g_glass_03_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_03' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_03'" triggable="true">
+			<body	name="'body_glass_03'" enabled="false"/>
+			<object	name="'g_glass_03'"		enabled="false"/>
+			<object	name="'g_glass_03_crk'"	enabled="false"/>
+			<object	name="'g_glass_03_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_03' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_03'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_03'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_04'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_04'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_04'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_04'" triggable="true">
+			<object	name="'g_glass_04'"		enabled="false"/>
+			<object	name="'g_glass_04_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_04' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_04'" triggable="true">
+			<body	name="'body_glass_04'" enabled="false"/>
+			<object	name="'g_glass_04'"		enabled="false"/>
+			<object	name="'g_glass_04_crk'"	enabled="false"/>
+			<object	name="'g_glass_04_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_04' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_04'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_04'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_05'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_05'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_05'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_05'" triggable="true">
+			<object	name="'g_glass_05'"		enabled="false"/>
+			<object	name="'g_glass_05_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_05' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_05'" triggable="true">
+			<body	name="'body_glass_05'" enabled="false"/>
+			<object	name="'g_glass_05'"		enabled="false"/>
+			<object	name="'g_glass_05_crk'"	enabled="false"/>
+			<object	name="'g_glass_05_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_05' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_05'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_05'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_06'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_06'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_06'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_06'" triggable="true">
+			<object	name="'g_glass_06'"		enabled="false"/>
+			<object	name="'g_glass_06_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_06' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_06'" triggable="true">
+			<body	name="'body_glass_06'" enabled="false"/>
+			<object	name="'g_glass_06'"		enabled="false"/>
+			<object	name="'g_glass_06_crk'"	enabled="false"/>
+			<object	name="'g_glass_06_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_06' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_06'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_06'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_07'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_07'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_07'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_07'" triggable="true">
+			<object	name="'g_glass_07'"		enabled="false"/>
+			<object	name="'g_glass_07_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_07' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_07'" triggable="true">
+			<body	name="'body_glass_07'" enabled="false"/>
+			<object	name="'g_glass_07'"		enabled="false"/>
+			<object	name="'g_glass_07_crk'"	enabled="false"/>
+			<object	name="'g_glass_07_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_07' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_07'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_07'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_08'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_08'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_08'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_08'" triggable="true">
+			<object	name="'g_glass_08'"		enabled="false"/>
+			<object	name="'g_glass_08_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_08' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_08'" triggable="true">
+			<body	name="'body_glass_08'" enabled="false"/>
+			<object	name="'g_glass_08'"		enabled="false"/>
+			<object	name="'g_glass_08_crk'"	enabled="false"/>
+			<object	name="'g_glass_08_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_08' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_08'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_08'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_09'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_09'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_09'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_09'" triggable="true">
+			<object	name="'g_glass_09'"		enabled="false"/>
+			<object	name="'g_glass_09_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_09' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_09'" triggable="true">
+			<body	name="'body_glass_09'" enabled="false"/>
+			<object	name="'g_glass_09'"		enabled="false"/>
+			<object	name="'g_glass_09_crk'"	enabled="false"/>
+			<object	name="'g_glass_09_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_09' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_09'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_09'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+		
+		<body name="'body_glass_10'">
+			<endurance bullet="1" explosion="1" melee="1">
+				<run_sequence name="'int_seq_crk_10'"/>
+			</endurance>
+			<endurance bullet="3" explosion="2" melee="2">
+				<run_sequence name="'int_seq_sht_10'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="true" once="true" name="'int_seq_crk_10'" triggable="true">
+			<object	name="'g_glass_10'"		enabled="false"/>
+			<object	name="'g_glass_10_crk'"	enabled="true"/>
+			<sound action="'play'" event="'glass_crack'" object=" 'e_glass_10' "/>
+		</sequence>
+		<sequence editable_state="true" once="true" name="'int_seq_sht_10'" triggable="true">
+			<body	name="'body_glass_10'" enabled="false"/>
+			<object	name="'g_glass_10'"		enabled="false"/>
+			<object	name="'g_glass_10_crk'"	enabled="false"/>
+			<object	name="'g_glass_10_sht'"	enabled="true"/>
+			<effect name="'effects/payday2/particles/window/mallcrasher_window_large'" parent="object( 'e_glass_10' )" position="v()"/>
+			<sound action="'play'" event="'window_large_shatter'" object="'e_glass_10'"/>
+			<attention giveaway="'glass'" object_name="'e_glass_10'" operation="'add'" preset_name="'prop_law_scary'"/>
+		</sequence>
+	</unit>
+</table>

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material version="2" decal_material="sheet_metal" render_template="generic:DIFFUSE_TEXTURE" name="stn_cover_metaldetector">
+        <diffuse_texture file="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector_df"/>
+    </material>
+</materials>

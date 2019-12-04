@@ -1,0 +1,109 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_angels/sfm_prop_lobby_statue_angels" orientation_object="rp_sfm_prop_lobby_statue_angels" />
+	<sequence_manager file="units/pd2_dlc_friend/props/sfm_prop_lobby_statue_angels/sfm_prop_lobby_statue_angels" />
+	<bodies>
+		<body name="body_collision_01" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		
+		<body name="body_collision_02" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_03" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_04" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_05" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_05" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_06" enabled="false" template="dynamic" collides_with_mover="false">		
+			<object name="c_convex_06" collision_type="convex" padding="-2.5" />
+		</body>
+
+
+		<body name="body_collision_01_hitbox" enabled="true" template="static">		
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		
+		<body name="body_collision_02_hitbox" enabled="true" template="static">		
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_03_hitbox" enabled="true" template="static">		
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_04_hitbox" enabled="true" template="static">		
+			<object name="c_convex_04" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_05_hitbox" enabled="true" template="static">		
+			<object name="c_convex_05" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_06_hitbox" enabled="true" template="static">		
+			<object name="c_convex_06" collision_type="convex" padding="-2.5" />
+		</body>
+
+		<body name="body_collision_07" enabled="true" template="static">		
+			<object name="c_mesh_mopp_07" collision_type="mesh_mopp" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces >
+		<decal_mesh name="dm_marble_01" enabled="true" material="marble" />
+		<decal_mesh name="dm_marble_02" enabled="true" material="marble" />
+		<decal_mesh name="dm_marble_03" enabled="true" material="marble" />
+		<decal_mesh name="dm_marble_04" enabled="true" material="marble" />
+		<decal_mesh name="dm_marble_05" enabled="true" material="marble" />
+		<decal_mesh name="dm_marble_06" enabled="true" material="marble" />
+		<decal_mesh name="dm_stone" enabled="true" material="marble" />
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="grp_dmg" enabled="true" >			
+			<lod_object name="lod_g_dmg_01">
+				<object name="g_dmg_01_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_01_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_02">
+				<object name="g_dmg_02_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_02_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_03">
+				<object name="g_dmg_03_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_03_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_04">
+				<object name="g_dmg_04_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_04_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_05">
+				<object name="g_dmg_05_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_05_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_06">
+				<object name="g_dmg_06_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_06_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_g_dmg_07">
+				<object name="g_dmg_07_lod0" enabled="true" max_distance="1500" />
+				<object name="g_dmg_07_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+			
+		<object name="s_s_01" enabled="true" shadow_caster="true" />
+		<object name="s_s_02" enabled="true" shadow_caster="true" />
+		<object name="s_s_03" enabled="true" shadow_caster="true" />
+		<object name="s_s_04" enabled="true" shadow_caster="true" />
+		<object name="s_s_05" enabled="true" shadow_caster="true" />
+		<object name="s_s_06" enabled="true" shadow_caster="true" />
+		<object name="s_stone" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>
